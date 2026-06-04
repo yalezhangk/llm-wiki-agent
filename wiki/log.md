@@ -7,3 +7,95 @@ Format: `## [YYYY-MM-DD] <operation> | <title>`
 Parse recent entries: `grep "^## \[" wiki/log.md | tail -10`
 
 ---
+
+## [2026-06-04] ingest | GHA Gas-insulated Switchgear Catalog 2018
+
+Added source. Key claims: the 2018 GHA catalog is the formal product catalog for gas-insulated switchgear up to 40.5kV, covering IEC single-busbar and double-busbar configurations, GHA Rail and GHA ANSI branches, general ratings of 12/17.5/24/36/38/40.5kV, 40kA short-time current, 100kA peak withstand current, busbar and branch currents up to 2500A with busbar values up to 4000A on request, IAC 40kA/1s, sealed pressure-system gas compartments according to IEC/EN 62271-1, B-link without site gas work, IDIS gas status LEDs and remote group warning, IVIS voltage detection, EcoStruxure-ready protection/metering/condition monitoring, TH110/CL110 monitoring, SF6 recovery, and 90% potential recyclability by weight. It refines the older PPT and flags a 100kA vs 104kA B-link peak-current wording difference.
+
+## [2026-06-04] ingest | GHA Gas Insulated Switchgear Presentation Vers 06 English
+
+Added source. Key claims: GHA is a Schneider Electric gas-insulated medium-voltage switchgear presentation from Regensburg, September 2010, positioned up to 40.5kV with vacuum circuit-breaker, single-busbar and double-busbar arrangements, B-link busbar connection without site gas handling, sealed pressure-system gas compartments with leakage rate <<0.1% p.a., IDIS gas-density indication per compartment, outer-cone cable connections up to 36kV, inner-cone connections up to 40.5kV, fully insulated busbar systems up to 2500A, ILIS internal-arc detection and turn-off around 100ms, IAC AFLR up to 40kA/1s, and seismic qualification options. Legacy PPT extraction fragmented some rating tables, so only clearly extracted values were recorded.
+
+## [2026-06-04] ingest | WIG 高铁智能开关柜 交大运达保护 帕斯菲克视窗
+
+Added source. Key claims: WIG is a high-speed-rail smart switchgear digital-substation integration deck dated 2018.4. It defines digital substations around fully digital information acquisition, transmission, processing, and output; uses an IEC 61850-style process/bay/station-layer architecture; and maps WIG factory-system equipment to gateways, merging intelligent units, protection and control devices, optical switches, auxiliary monitoring backends, protection-control backends, and smart monitoring display terminals. Monitored objects include breaker mechanical characteristics, spring-charging motor, three-position switch motor, arrester status, SF6 density and temperature, live indication, cabinet temperature, automatic heating/dehumidification, and reserved online detection. The deck identifies Chengdu Jiaoda Yunda, Changzhou Pasific, and Shenzhen Shengwei Electronic Technology supplier boundaries, and flags a likely IEC61580 vs IEC61850 typo in the protocol-conversion labels.
+
+## [2026-06-04] ingest | PIX 户内交流金属封闭开关设备 产品目录 V8
+
+Added source. Key claims: the V8 DOCX is a newer PIX Chinese catalog revision dated from the file metadata on 2024-06-12. It expands PIX to a 7.2/12/24kV comprehensive product-family view under GB/T 3906-2020 and IEC 62271-200:2021, gives IAC AFLR internal-arc ratings of 50kA/1s for 7.2/12kV and 40kA/1s for 24kV, keeps the 12kV generator-outlet branch up to 6300A and 63kA, updates cabinet-width and product-size tables, and adds Green Premium, PCCC, carbon-footprint certification, nuclear, marine, WMTS transfer, and Smart PIX digital-operation content tied to EcoStruxure, PMB/PMB Easy, Asset Advisor, wireless temperature monitoring, breaker characteristic monitoring, partial discharge, remaining electrical life, video, arc flash, and environmental monitoring.
+
+## [2026-06-04] ingest | PIX 500 铠装式金属封闭开关设备 产品目录
+
+Added source. Key claims: the file name contains PIX550, but the PDF body is PIX 500. PIX500 is a 500mm-width compact PIX-family 12kV air-insulated armored metal-enclosed switchgear branch using a fixed-connected main circuit, HVX embedded-pole vacuum circuit breaker, and a three-position switch with service/disconnect/earthing positions. It supports rated current up to 1250A and short-time withstand/breaking capability up to 31.5kA, offers front maintenance with a 1m front aisle, claims 30% civil-cost reduction versus traditional XGN substations, avoids SF6, and targets compact substations, tram, infrastructure, and other MV distribution scenarios.
+
+## [2026-06-04] ingest | PIX550 中置式金属封闭开关设备 产品目录
+
+Added source. Key claims: PIX550 is the smallest PIX-family 12kV center-mounted metal-enclosed switchgear branch for 50Hz single-busbar and bus-section systems. It uses a 550mm width, 2250mm height, 1400mm depth, supports rated current up to 1250A and short-time withstand/breaking capability up to 31.5kA, uses an HVX embedded-pole vacuum circuit-breaker truck, provides four compartments, five-prevention interlocks, pressure relief paths, front-maintenance options, wall/back-to-back/face-to-face installation, and can be directly coupled with PIX cabinets of other ratings and widths.
+
+## [2026-06-04] ingest | PIX 户内交流金属封闭开关设备 产品目录
+
+Added source. Key claims: the Chinese PIX catalog defines PIX as armored withdrawable indoor AC metal-enclosed switchgear and expands the PIX record with PIX-12kV, PIX-24kV, PIX-M contactor cubicles, and PIX-Gen generator-outlet breaker cubicles. PIX-12kV covers 630A-4000A and 20kA-50kA, PIX-Gen reaches 5000A/6300A and 63kA, PIX-24kV covers 630A-4000A and 20kA-40kA, and the catalog adds four functional compartments, five-prevention interlocks, pressure relief paths, HVX, VAH, CVX, ESW, MiCOM, primary scheme codes, ordering data, and installation requirements.
+
+## [2026-06-04] ingest | PIX 50kA Catalogue EN
+
+Added source. Key claims: PIX is a Schneider Electric air-insulated switchgear cataloged at 17.5kV, 50kA, and 4000A with HVX embedded pole; it uses LSC2B-PM metal-partitioned compartments, supports IAC AFLR 50kA/1s internal-arc classification, provides feeder, bus section, bus riser, busbar metering/earthing and contactor feeder functional units, and connects Easergy P3/P5, VAMP, TH110, CL110, SMD, HMI, SCADA/Services, cloud apps and mobile alarming into an EcoStruxure-ready operation chain.
+
+## [2026-06-04] ingest | MVnex 中压金属铠装开关柜
+
+Added source. Key claims: MVnex is a 12kV indoor metal-enclosed, withdrawable metal-clad switchgear family with standard, MVnex 550 compact, MVnex 500 ultra-compact, and Smart MVnex variants. The standard product reaches 4000A and 40kA, MVnex 550/500 target compact substations at 1250A and 31.5kA, HVX is the core vacuum circuit-breaker platform, and Smart MVnex combines TH110 temperature monitoring, Easergy P3, VAMP arc protection, active maintenance, and 千里眼.
+
+## [2026-06-04] ingest | GMA Gas-insulated Switchgear Catalog 2017
+
+Added source. Key claims: the English GMA catalog expands the international GMA parameter view to up to 24kV, 2500A, and 31.5kA, highlights compact 450mm feeders up to 800A, IAC AFL 1s as standard with AFLR optional, sealed pressure system behavior, no on-site gas handling, IoT / Smart Grid readiness, remote monitoring, and EcoStruxure-ready protection, metering, and condition-monitoring solutions. It also introduces a version/market-current-rating gap versus the Chinese 2023 GMA catalog.
+
+## [2026-06-04] ingest | GMA Air C4C Digital Implement
+
+Added source. Key claims: the single-slide deck is a digital implementation checklist for GMA Air / GM AirSeT, covering IED protection, metering and condition monitoring, CB electrical monitoring, gas density/temperature/humidity monitoring, RFID/Zigbee, TH110/TH110-R/CL110/SD20 sensor references, cable-side temperature rise monitoring, and partial discharge monitoring.
+
+## [2026-06-04] ingest | GM AirSeT 中压一次气体绝缘开关柜 产品目录 V1.1
+
+Added source. Key claims: GM AirSeT is an environmentally oriented 12kV metal-enclosed gas-insulated primary switchgear product that replaces SF6 with dry air / eco gas, keeps a GMA-like modular and plug-in architecture, supports IP67 sealed gas compartments, IAC AFLR 31.5kA/1s internal-arc performance, 31.5kA short-time withstand current, 2500m high-altitude testing, and avoids extra gas handling at installation, maintenance, and end of life.
+
+## [2026-06-04] ingest | GMA 中压一次气体绝缘开关柜 产品目录 V1.5
+
+Added source. Key claims: GMA is a 12/24kV SF6 gas-insulated, metal-enclosed, type-tested single-busbar primary switchgear product with modular expansion, plug-in installation, sealed pressure-system gas compartments, solid-insulated busbars, IAC 31.5kA/1s internal-arc testing, IP67 gas compartments, and functional units such as CB, BC, BR, DS, DI, PT, and metering cabinets.
+
+## [2026-06-04] ingest | DNF7 户内交流金属封闭开关设备
+
+Added source. Key claims: DNF7 is a 40.5kV indoor AC metal-enclosed switchgear product with LSC2B continuity, PM partitions, IAC AFLR 31.5kA/1s internal-arc classification, HVX-based functional units, and digital operation features including TH110 temperature monitoring, Smart HVX breaker characteristic monitoring, video monitoring, arc protection, remaining electrical-life monitoring, PMBox, PMB Easy, EcoStruxure, and asset-advisor connectivity.
+
+## [2026-06-03] ingest | Smart HVX & PMBox 介绍
+
+Added source. Key claims: the deck connects Smart HVX, PMB Easy, 千里眼, and PMBox in one active-maintenance narrative; it confirms PMB Easy single-unit/station-wide display roles and adds PMBox as an EcoStruxure Power edge-control product for asset management, state monitoring, predictive maintenance, 3D station views, partial-discharge analysis, and historical data queries.
+
+## [2026-06-03] lint | Wiki health check
+
+Ran wiki-lint using local structural checks and agent semantic review. Found four source-page orphans, no broken wikilinks, no missing entity pages, and one reliability-metric wording inconsistency to keep tracking.
+
+## [2026-06-03] ingest | Smart HVX 智能中压断路器 产品简介
+
+Added source. Key claims: Smart HVX builds on HVX and offers basic temperature, standard temperature, and intelligent configurations; PMB Easy serves as the proactive maintenance unit; the brochure emphasizes temperature monitoring, switchgear-state monitoring, and secondary-component monitoring as the core differentiators.
+
+## [2026-06-03] lint | Wiki health check
+
+Ran structural lint successfully and reviewed semantic issues manually because local litellm provider/model configuration is unavailable. Found one orphan concept page and a broader Chinese text encoding readability issue in multiple wiki files.
+
+## [2026-06-03] ingest | Smart HVX 智能中压断路器 方案总览
+
+Added source. Key claims: the one-page overview confirms the three Smart HVX configuration tiers, clarifies local and cloud display paths, and makes the topology around PMB Easy, 千里眼, ZBRN32, Link150, and BMM more explicit.
+
+## [2026-06-03] ingest | HVX 中压真空断路器系列 说明书
+
+Added source. Key claims: the HVX manual clarifies the base breaker platform across 12kV, 24kV, and 40.5kV classes, documents design features such as vacuum interrupters and solid-sealed poles, and adds detailed secondary-device, selection, and ordering information.
+
+## [2026-06-03] ingest | PMB Easy 主动运维智能单元 产品简介
+
+Added source. Key claims: the PMB Easy brochure turns PMB Easy into a standalone device record by clarifying single-unit versus station-wide deployment, supported monitoring objects, topology roles alongside ZBRN32/Link150/BMM, and concrete hardware model and installation parameters.
+
+## [2026-06-03] ingest | PMB Easy 主动运维智能单元 演示稿
+
+Added source. Key claims: the PPT deck largely corroborates the PMB Easy brochure, confirming single-unit versus station-wide deployment, supported monitoring objects, topology roles with ZBRN32/Link150/BMM, and the cabinet-door installation recommendation.
+
+## [2026-06-03] ingest | Smart HVX 产品介绍 V3.4
+
+Added source. Key claims: the V3.4 product deck expands Smart HVX's sales and application narrative with temperature-technology comparisons, reliability commitments, maintenance-efficiency rationale, 千里眼 labor-saving examples, and typical distribution-room topology. It also flags a reliability-metric wording inconsistency for later verification.

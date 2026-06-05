@@ -8,6 +8,14 @@ Parse recent entries: `grep "^## \[" wiki/log.md | tail -10`
 
 ---
 
+## [2026-06-05] graph | Knowledge graph rebuilt with inferred edges
+
+78 nodes, 575 edges (534 EXTRACTED + 41 INFERRED). Semantic inference added by agent analysis of entity-entity, entity-concept, and concept-entity implicit relationships. Communities reduced from 6 to 5; fragile bridge eliminated.
+
+## [2026-06-05] lint | Wiki health check
+
+Ran lint. See lint-report.md for details. Key findings: 27 orphan source pages (low severity), 0 broken links, 0 missing entities, 150 PIX/MVnex spec overlap contradiction, 千里眼.md stale, ILIS.md single-source risk.
+
 ## [2026-06-05] ingest | WSG-WIG 智能开关柜
 
 Added source. Key claims: the 2019.2 Schneider Electric / SAS WSG-WIG smart switchgear deck frames online condition monitoring as part of substation automation and smart switchgear development. It cites NB/T 42044-2014 for 3.6kV-40.5kV intelligent AC metal-enclosed switchgear and controlgear, notes GB/T 2900.20-2016 terminology additions for intelligent switchgear, and states that intelligent components should be integrated with switchgear and tested with high-voltage switchgear under operating or simulated operating states. It records a WIG factory system diagram with gateway, optical switch, auxiliary monitoring backend, smart monitoring display terminal, Chengdu Jiaoda Yunda equipment, Changzhou Pasific equipment, Modbus-RTU, and a likely IEC61580/IEC61850 typo. It expands WSG/WIG monitoring scope to temperature monitoring of busbars and inner/outer cone cable heads, SF6 density and micro-water monitoring, partial discharge by pulse-current and TEV+ultrasonic methods, arc-light monitoring with overcurrent blocking and 5-7ms action claim, arrester resistive-current monitoring, three-position switch video, breaker mechanical characteristics, control-coil and charging-motor monitoring, I2t accumulation, and electrical-life monitoring. Project-plan, supplier, and price details are treated as 2019-stage context rather than current procurement facts.
@@ -136,3 +144,11 @@ Added source. Key claims: the PPT deck largely corroborates the PMB Easy brochur
 ## [2026-06-03] ingest | Smart HVX 产品介绍 V3.4
 
 Added source. Key claims: the V3.4 product deck expands Smart HVX's sales and application narrative with temperature-technology comparisons, reliability commitments, maintenance-efficiency rationale, 千里眼 labor-saving examples, and typical distribution-room topology. It also flags a reliability-metric wording inconsistency for later verification.
+
+## [2026-06-05] graph | Knowledge graph rebuilt
+
+78 nodes, 534 edges (534 extracted, 0 inferred).
+
+## [2026-06-05] report | Graph health report generated
+
+78 nodes analyzed.

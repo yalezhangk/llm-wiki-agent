@@ -1,13 +1,13 @@
 ---
 title: "WIG"
 type: entity
-tags: [product, smart-switchgear, high-speed-rail]
-sources: [wig-high-speed-rail-smart-switchgear-jiaoda-yunda-protection-pasific-window]
-last_updated: 2026-06-04
+tags: [product, smart-switchgear, high-speed-rail, gas-insulated-switchgear]
+sources: [wig-high-speed-rail-smart-switchgear-jiaoda-yunda-protection-pasific-window, wi-g-railway-gas-insulated-switchgear-operation-instructions, wsg-wig-smart-switchgear-2019]
+last_updated: 2026-06-05
 ---
 
 ## Summary
-[[WIG]] 是这份演示稿中的高铁智能开关柜方案对象，重点在 [[数字化变电站]] 架构和多厂家智能设备集成。资料没有给出完整一次设备额定参数，而是围绕保护测控、合并智能单元、在线状态监测、智能监测显示终端、后台系统和通讯规约转换来说明其智能化实现。
+[[WIG]] / WI-G 是 [[施耐德电气]] 面向铁道应用的 [[气体绝缘开关柜]] 和智能开关柜资料对象。已有演示稿重点在 [[数字化变电站]] 架构和多厂家智能设备集成；操作说明书则把 WI-G 补全为 31.5kV 铁道用 [[金属封闭开关设备]] 本体，覆盖额定参数、[[BLink]] 母线连接、[[IDIS]] 绝缘气体监控、[[IVIS]] 电压检测、操作联锁和维护计划。
 
 ## Key Details
 - 应用语境是高铁智能开关柜，演示稿日期页为 2018.4。
@@ -15,13 +15,28 @@ last_updated: 2026-06-04
 - 监测对象包括断路器机械特性、储能电机、三工位开关电机、避雷器、SF6 密度、气室温度、开关柜温度和高压带电状态。
 - 智能监测显示终端通过 MODBUS 协议向计算机监控网络提供遥测、遥信数据。
 - 供应协作边界涉及 [[成都交大运达]]、[[常州帕斯菲克]] 和 [[深圳昇伟电子科技]]。
+- 操作说明书封面标题为“WI-G 铁道用气体绝缘金属封闭开关设备”，英文为 `Gas-Insulated Switchgear for railway application`。
+- 说明书给出 WI-G 系列额定值：额定电压 31.5kV、雷电冲击耐受电压 200kV、短时工频耐受电压 95kV、母线/出线额定工作电流 ≤2500A、短路开断电流 ≤31.5kA、短时耐受电流 ≤31.5kA/4s、频率 50/60Hz。
+- 柜体方案包括内锥型电缆连接断路器柜、母线联络柜、母线电压互感器、母线避雷器和母线接地开关。
+- 断路器柜结构包含带三工位开关的母线室、[[BLink]] 母线连接、带真空灭弧室的断路器室、电流互感器、内锥型电缆连接、电压互感器、VDS、[[IDIS]]、操作面板和低压箱。
+- WI-G 的 SF6 气箱为密封压力系统，正常使用寿命期间和正常操作条件下不需要补充绝缘气体。
+- WI-G 的 [[IDIS]] 表给出额定充气压力 0.06MPa、预报警 0.05MPa、主报警 0.03MPa。
+- 维护计划要求开关柜至少每两年目视检查一次，并建议每年局放检查、每两年二次元件检查；真空室达到最大允许开断次数或断路器/隔离/接地开关达到 10000 次操作循环后更换开关柜。
+- 2019.2 WSG-WIG 智能开关柜演示稿延续 WIG 工厂简易系统框图，补充网关、光交换机、辅助监控后台、智能监测显示终端和多类在线监测项目的开发状态。
 
 ## Related
 - [[数字化变电站]]
 - [[智能监测显示终端]]
 - [[数字化中压运维]]
+- [[气体绝缘开关柜]]
+- [[金属封闭开关设备]]
 - [[气室监测]]
+- [[IDIS]]
+- [[IVIS]]
+- [[BLink]]
+- [[内部电弧防护]]
 - [[温度智能监测]]
+- [[局部放电监测]]
 - [[成都交大运达]]
 - [[常州帕斯菲克]]
 - [[深圳昇伟电子科技]]

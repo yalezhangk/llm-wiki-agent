@@ -2,8 +2,8 @@
 title: "Overview"
 type: synthesis
 tags: []
-sources: [2-smart-hvx-intelligent-medium-voltage-circuit-breaker, 3-smart-hvx-intelligent-medium-voltage-circuit-breaker-solution-overview-single-page, hvx-manual, pmb-easy-brochure, pmb-easy-johnson-v1, smart-hvx-product-introduction-v3-4, smart-hvx-product-pmb-introduction, dnf7-indoor-ac-metal-enclosed-switchgear-2025-4-10, gma-medium-voltage-primary-gas-insulated-switchgear-v1-5, gm-airset-medium-voltage-primary-gas-insulated-switchgear-v1-1, gma-air-c4c-digital-implement-20191204, gma-nrjed311328en-1017, mvnex-medium-voltage-metal-clad-switchgear, pix-50ka-catalogue-en, pix-catalogue-indoor-ac-metal-enclosed-switchgear, pix550-catalogue, pix500-catalogue-armored-metal-enclosed-switchgear, pix-indoor-ac-metal-enclosed-switchgear-v8-breaker-parameter-revision, wig-high-speed-rail-smart-switchgear-jiaoda-yunda-protection-pasific-window, gha-gas-insulated-switchgear-presentation-vers-06-englisch, gha-nrjcat18789en-0318]
-last_updated: 2026-06-04
+sources: [2-smart-hvx-intelligent-medium-voltage-circuit-breaker, 3-smart-hvx-intelligent-medium-voltage-circuit-breaker-solution-overview-single-page, hvx-manual, pmb-easy-brochure, pmb-easy-johnson-v1, smart-hvx-product-introduction-v3-4, smart-hvx-product-pmb-introduction, dnf7-indoor-ac-metal-enclosed-switchgear-2025-4-10, gma-medium-voltage-primary-gas-insulated-switchgear-v1-5, gm-airset-medium-voltage-primary-gas-insulated-switchgear-v1-1, gma-air-c4c-digital-implement-20191204, gma-nrjed311328en-1017, mvnex-medium-voltage-metal-clad-switchgear, pix-50ka-catalogue-en, pix-catalogue-indoor-ac-metal-enclosed-switchgear, pix550-catalogue, pix500-catalogue-armored-metal-enclosed-switchgear, pix-indoor-ac-metal-enclosed-switchgear-v8-breaker-parameter-revision, wig-high-speed-rail-smart-switchgear-jiaoda-yunda-protection-pasific-window, gha-gas-insulated-switchgear-presentation-vers-06-englisch, gha-nrjcat18789en-0318, q320500-ksga-09-2015-wsg-enterprise-standard, qavxm-031-2024-wsg-enterprise-standard, wi-g-railway-gas-insulated-switchgear-operation-instructions, wsg-40-5kv-gas-insulated-switchgear-image, wsg-12-40-5kv-ac-metal-enclosed-gas-insulated-switchgear-catalog-2024, wsg-gas-insulated-metal-enclosed-switchgear-operation-instructions, wsg-2014-06-27-product-presentation, wsg-wig-smart-switchgear-2019]
+last_updated: 2026-06-05
 ---
 
 # Overview
@@ -51,5 +51,21 @@ last_updated: 2026-06-04
 第二十份来源《GHA Gas Insulated Switchgear Presentation Vers 06 English》补充了施耐德另一条 [[气体绝缘开关柜]] 路线。[[GHA]] 被定位为最高 40.5kV、带真空断路器的气体绝缘开关柜，可覆盖单母线和双母线方案；与 [[GMA]] 当前 12/24kV 资料和 [[GMAirSeT]] 环保气体资料相比，GHA 更突出高电压等级、[[BLink]] 无现场气体处理母线连接、[[IDIS]] 气体密度信息系统和 [[ILIS]] 内部故障电弧检测。该资料还补充了外锥/内锥电缆连接、全绝缘母线系统最高 2500A、IAC AFLR 40kA/1s 和抗震选项。由于旧版 PPT 的表格抽取存在碎片化，当前只把能明确抽取的参数写入 wiki，完整选型表仍需后续目录来源复核。
 
 第二十一份来源《GHA Gas-insulated Switchgear Catalog 2018》把上一份旧演示稿中的 [[GHA]] 信息校正为正式目录口径。该目录给出 12/17.5/24/36/38/40.5kV 总额定参数，短时电流 40kA，峰值耐受电流 100kA，母线和支路最高 2500A，母线更高值可按需到 4000A；同时把 IEC 单母线、IEC 双母线、GHA Rail 和 GHA ANSI 分支放在同一产品族内。数字化方面，GHA 被描述为 ready for IoT，并通过 [[EcoStruxure]] ready solutions 连接 Substation Monitoring Device、HMI、Easergy P3/Sepam/MiCOM、VAMP、TH110、CL110、[[IDIS]] 和 [[IVIS]]。需要注意的是，[[BLink]] 峰值电流在旧 PPT 中为 104kA，而 2018 catalog 为 100kA，后续工程引用应优先查具体项目/订货文件。
+
+第二十二份来源《WS-G 交流气体绝缘金属封闭开关设备 企业标准》把气体绝缘柜知识从产品目录扩展到企业标准口径。[[WSG]]/KGN23 被定义为 50Hz、12kV~40.5kV 的户内交流 [[气体绝缘开关柜]] 和 [[金属封闭开关设备]]，适用于单母线、双母线或母线分段系统；标准给出 630A~4000A 主母线电流、25/31.5/40kA 短时耐受、IP65 充气箱、LSC2A、SF6 年漏气率 ≤0.1%、[[气室监测]] 和 [[内部电弧防护]] 等工程约束。它与 [[GHA]] 同样覆盖到 40.5kV 气体绝缘路线，但当前资料性质不同：GHA 页面来自国际产品目录，WS-G 页面来自中国企业标准，因此后续选型应按具体项目、版本和型号体系核对。
+
+第二十三份来源《WS-G 交流气体绝缘金属封闭开关设备 企业标准 2024》把上一份 2015 版 WS-G 标准更新为厦门公司 2024 版口径。新版继续把 [[WSG]] 定义为 12kV~40.5kV 的户内交流 [[气体绝缘开关柜]]，但引用标准更新到 GB/T 3906/IEC 62271-200:2011 和 GB/T 11022/IEC 62271-1:2017，特殊使用海拔提高到 5500m，主母线和馈线额定电流口径变为 630A~3150A，并补充 [[IDIS]] 低气压/最低功能压力阈值、零表压绝缘试验、电缆试验回路电压、背对背电容器组开合试验和高海拔出厂耐压要求。当前应把 2015 与 2024 两版视为版本化资料：2015 版保留 4000A 主母线代码，2024 版最高额定电流代码到 3150A，后续引用参数时需要标注标准号。
+
+第二十四份来源《WI-G 铁道用气体绝缘金属封闭开关设备 操作说明书》把 [[WIG]] 从高铁智能化演示稿进一步落到一次设备操作维护口径。说明书确认 WI-G 是铁道用 31.5kV [[气体绝缘开关柜]]，母线/出线额定电流 ≤2500A，短路开断电流 ≤31.5kA，短时耐受 ≤31.5kA/4s；结构上包含真空灭弧室断路器室、三工位开关母线室、内锥型电缆连接、[[BLink]] 母线连接、[[IDIS]] 绝缘气体监测和 [[IVIS]]/插入式 VDS 电压检测。它还把 WIG 的维护边界说清楚：SF6 密封压力系统正常寿命期无需补气，高压开关元件免维护，但柜体至少两年目视检查一次，并按操作次数和周期进行润滑、局放、二次元件、B-Link/堵头和整柜更换判断。
+
+第二十五份来源《WS-G 40.5kV 气体绝缘开关柜图片页》补充了一个更偏应用宣传的 WS-G 截面图和参数框。图片把 [[WSG]] 放在“海上风电35kV开关设备”语境中，强调 GIS 在耐腐蚀、恶劣环境、供电连续性、操作安全和维护工作量方面的价值；参数给出 40.5kV、95kV 工频耐受、185kV 雷电冲击、40kA/3s、100kA 峰值、4000A 双母线和 IAC 40kA/1s。该来源还把 [[BLink]] 标为母线连接专利技术，并说明带电中压部件位于充气密封气室内，每个气室具备机械或电气检测和独立泄压。由于图片底部被头像遮挡，安装扩展和 4500m 高海拔相关表述只作为待核对线索，不作为完整结论。
+
+第二十六份来源《WS-G 12~40.5kV 交流金属封闭气体绝缘开关柜 产品目录》把前面 WS-G 标准和图片页串成更完整的产品目录口径。目录确认 [[WSG]] 面向公共/工业配电网、基础设施、采矿、冶金、石油化工、燃油燃气、铁路供电、集装箱基地和船舶行业，给出 12~40.5kV、最高 3150A、最高 40kA 开断、单母线/双母线系统和 IAC 40kA/1s。它尤其补强了 [[BLink]]：相邻柜母线可在现场无气体处理条件下安装、扩展、更换和拆卸；同时补充了 [[气室监测]] 压力阈值、VDS 带电显示、外锥/内锥电缆连接、低压箱高度、柜体尺寸重量、主接线方案、发货文件和订货资料要求。当前 WS-G 的主要版本差异仍是 2015 标准与图片页保留 4000A 主母线/双母线口径，而 2024 企业标准和 2024.01 产品目录给出 3150A 常规产品口径。
+
+第二十七份来源《WS-G 气体绝缘金属封闭开关设备 操作说明书》把 [[WSG]] 从标准/目录进一步拉到运行操作层。该说明书编号为 `KSGA0.463.150-03`，封面说明 WS-G 是 up to 40.5kV 的气体绝缘金属封闭开关设备；恢复页给出 12/17.5/24/36/40.5kV、母线和出线柜 ≤2500A、短路开断 ≤31.5kA、短时耐受 ≤31.5kA/4s 的操作手册口径。更重要的是，它补充了 [[IDIS]] 作为每台柜标准配置、[[IVIS]]/VDS 带电检测、首次投运前相位检查、手动操作面板和 [[机械联锁]] 规则：断路器、隔离开关、接地开关、手柄插孔和联锁杆必须按位置关系限制误操作。该源 PDF 本身损坏并截断，当前只恢复前 31 页；目录显示完整说明书还有断路器操作、隔离/接地开关操作、开关柜操作、维护和附录等后续章节，因此本次入库只代表可恢复页面。
+
+第二十八份来源《WS-G 40.5kV及以下气体绝缘开关柜 2014产品介绍》补充了更早的苏州中文演示口径。该材料把 [[WSG]] 放在 12~40.5kV 中压配电应用中，列出石油化工、工业、基建、供电、冶金、海运、交通和风场等行业；历史参数以 2500A 自然冷却、31.5kA/4s 和内部电弧 31.5kA/1s 为主，并把特殊型海拔写为 4000m。它对 [[BLink]]、[[气室监测]]、内锥/外锥电缆连接、可拆卸低压箱和 [[机械联锁]] 的说明与后续目录互相印证，但参数上明显早于 2024 资料。该来源还记录了 2006-2014 年广州地铁、成都地铁、武汉地铁、哈尔滨地铁、兰新二线、神华项目、福建中景石化、九江石化、青海盐湖集团和风电并网移动式变电站等运行实例，说明 WS-G 在轨交、石化、盐湖、煤化工和新能源并网场景中已有应用。
+
+第二十九份来源《WSG-WIG 智能开关柜》把 [[WSG]] 和 [[WIG]] 从一次设备参数进一步推到智能在线监测项目层。该 2019.2 演示稿先梳理状态在线监测在智能变电站中的地位、ABB iVD4/GE iVB/Huadian iVEP 等竞争情况，以及 NB/T 42044-2014、GB/T 2900.20-2016 和 DL/T 403-2016 等智能开关设备标准动态；随后把 WIG 工厂简易系统框图、[[智能监测显示终端]] 和项目清单展开。它对 [[温度智能监测]]、[[气室监测]]、[[局部放电监测]]、弧光监测、避雷器阻性电流、三工位视频、断路器机械特性和电寿命监测给出更工程化的边界：例如 WSG 主母线/内锥/外锥测温安装点，SF6 密度/微水的温度、压力、密度、露点参数，TEV+超声波局放方案，以及弧光加过流闭锁可 5~7ms 动作。需要注意的是，该来源包含供应商、参考价格和开发计划，属于 2019 年项目阶段口径，不能直接替代正式产品目录或当前采购状态；其中 `IEC61580` 仍应视为疑似 `IEC 61850` 笔误。
 
 当前来源之间的主要核对点是可靠性宣传口径：多数资料使用“可靠性提高 1 倍”，但 V3.4 后部页面也出现“可靠性高出 50%”的表达。HVX 说明书中的施耐德公司介绍来自更早时间点，因此企业规模数字与 2020 年样本不同，应按时间差异理解。后续如果再导入更细的二次回路资料、PMB Easy 详细手册或云端运维资料，可以重点比对控制回路、接入数量限制、安装边界和趋势分析输出是否一致。

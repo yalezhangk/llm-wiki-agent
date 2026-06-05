@@ -1,6 +1,6 @@
 # Wiki Index
 
-**快速导航：** <a href="graph1.html" target="_blank">📊 知识图谱</a>
+**快速导航：** <a href="graph.html" target="_blank">📊 知识图谱</a>
 
 This file is maintained by the LLM. Updated on every ingest.
 
@@ -29,11 +29,20 @@ This file is maintained by the LLM. Updated on every ingest.
 - [WIG 高铁智能开关柜 交大运达保护 帕斯菲克视窗](sources/wig-high-speed-rail-smart-switchgear-jiaoda-yunda-protection-pasific-window.md) — 介绍 WIG 高铁智能开关柜的数字化变电站、保护测控和智能监测显示终端方案
 - [GHA Gas Insulated Switchgear Presentation Vers 06 English](sources/gha-gas-insulated-switchgear-presentation-vers-06-englisch.md) — 介绍 40.5kV GHA 气体绝缘开关柜、B-link、IDIS、ILIS 和 IAC/抗震选项
 - [GHA Gas-insulated Switchgear Catalog 2018](sources/gha-nrjcat18789en-0318.md) — 正式目录，补充 GHA IEC/ANSI/Rail、额定参数、EcoStruxure ready、IDIS/IVIS 和连接安装信息
+- [WS-G 交流气体绝缘金属封闭开关设备 企业标准](sources/q320500-ksga-09-2015-wsg-enterprise-standard.md) — 企业标准口径记录 WS-G/KGN23 的适用范围、额定参数、结构、试验和型号编制
+- [WS-G 交流气体绝缘金属封闭开关设备 企业标准 2024](sources/qavxm-031-2024-wsg-enterprise-standard.md) — 2024 版企业标准，更新 WS-G 的引用标准、3150A 参数、IDIS 阈值和高海拔试验口径
+- [WI-G 铁道用气体绝缘金属封闭开关设备 操作说明书](sources/wi-g-railway-gas-insulated-switchgear-operation-instructions.md) — 补充 WI-G 铁道 GIS 的额定参数、B-Link、IDIS/IVIS、操作联锁和维护计划
+- [WS-G 40.5kV 气体绝缘开关柜图片页](sources/wsg-40-5kv-gas-insulated-switchgear-image.md) — 图片页补充 WS-G 在海上风电场景下的 40.5kV、4000A 双母线、B-LINK 和 IAC 参数
+- [WS-G 12~40.5kV 交流金属封闭气体绝缘开关柜 产品目录](sources/wsg-12-40-5kv-ac-metal-enclosed-gas-insulated-switchgear-catalog-2024.md) — 产品目录补充 WS-G 的应用行业、B-link、气室压力、模块方案、尺寸重量和订货资料
+- [WS-G 气体绝缘金属封闭开关设备 操作说明书](sources/wsg-gas-insulated-metal-enclosed-switchgear-operation-instructions.md) — 操作说明书补充 WS-G 的人员资质、操作面板、IDIS/VDS、机械联锁和恢复页参数口径
+- [WS-G 40.5kV及以下气体绝缘开关柜 2014产品介绍](sources/wsg-2014-06-27-product-presentation.md) — 2014 苏州介绍材料补充 WS-G 应用领域、产品结构、B-link、五大特征、接线方案和运行实例
+- [WSG-WIG 智能开关柜](sources/wsg-wig-smart-switchgear-2019.md) — 2019 演示稿补充 WSG/WIG 在线监测项目、智能开关设备标准、WIG 系统框图和温度、气室、局放、弧光、断路器特性监测
 
 ## Entities
 - [施耐德电气](entities/施耐德电气.md) — Smart HVX 与 EcoStruxure 方案所属厂商
+- [WSG](entities/WSG.md) — 施耐德 WS-G/KGN23 交流气体绝缘金属封闭开关设备，已有 2015 与 2024 企业标准口径
 - [GHA](entities/GHA.md) — 施耐德最高 40.5kV、带 B-link 和 IDIS/ILIS 的气体绝缘开关柜
-- [WIG](entities/WIG.md) — 高铁智能开关柜数字化变电站方案对象
+- [WIG](entities/WIG.md) — 铁道用气体绝缘金属封闭开关设备及高铁智能开关柜方案对象
 - [成都交大运达](entities/成都交大运达.md) — WIG 方案中的保护测控相关设备提供方
 - [常州帕斯菲克](entities/常州帕斯菲克.md) — WIG 方案中的视窗/后台相关设备提供方
 - [深圳昇伟电子科技](entities/深圳昇伟电子科技.md) — WIG 方案中的智能监测显示终端设备提供方
@@ -70,6 +79,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [金属铠装开关设备](concepts/金属铠装开关设备.md) — MVnex 所属的移开式金属铠装中压开关柜类别
 - [金属封闭开关设备](concepts/金属封闭开关设备.md) — DNF7 所属的中压开关设备类别
 - [内部电弧防护](concepts/内部电弧防护.md) — 面向内部故障电弧的开关柜人员与设备防护主题
+- [机械联锁](concepts/机械联锁.md) — 通过机构位置、手柄、插孔和联锁杆防止开关柜误操作的安全设计
 - [温度智能监测](concepts/温度智能监测.md) — Smart HVX 三种配置共享的监测基础
 - [配柜智能监测](concepts/配柜智能监测.md) — 面向前倾和机械异常的配柜状态监测
 - [二次元件智能监测](concepts/二次元件智能监测.md) — 面向线圈与储能电机的健康监测

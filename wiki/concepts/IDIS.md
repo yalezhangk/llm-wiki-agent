@@ -2,7 +2,7 @@
 title: "IDIS"
 type: concept
 tags: [gas-monitoring, gas-insulated-switchgear]
-sources: [gha-gas-insulated-switchgear-presentation-vers-06-englisch, gha-nrjcat18789en-0318, qavxm-031-2024-wsg-enterprise-standard, wi-g-railway-gas-insulated-switchgear-operation-instructions, wsg-gas-insulated-metal-enclosed-switchgear-operation-instructions]
+sources: [gha-gas-insulated-switchgear-presentation-vers-06-englisch, gha-nrjcat18789en-0318, qavxm-031-2024-wsg-enterprise-standard, wi-g-railway-gas-insulated-switchgear-operation-instructions, wsg-gas-insulated-metal-enclosed-switchgear-operation-instructions, wsg-12-40-5kv-ac-metal-enclosed-gas-insulated-switchgear-catalog-2018]
 last_updated: 2026-06-05
 ---
 
@@ -27,6 +27,7 @@ last_updated: 2026-06-05
 - The WS-G manual states that IDIS can pass signals to remote-control or I&C systems through communication relays on the rear side.
 - The WS-G manual uses green for ready for operation, yellow for pressure-drop pre-warning, and yellow/red for pressure-drop main warning.
 - WS-G pressure references in the manual are 0.03/0.015/0.01MPa for 12/24kV up to 1250A, 0.05/0.03/0.01MPa for 12/24kV above 1250A, 0.05/0.03/0.01MPa for 36kV, and 0.06/0.05/0.03MPa for 40.5kV.
+- The 2018 WS-G catalog already described IDIS as the front-mounted display for independently monitored gas compartments, with one display able to connect up to three pressure sensors and transmit alarm contacts remotely.
 
 ## Related
 - [[GHA]]

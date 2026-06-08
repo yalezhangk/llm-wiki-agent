@@ -49,7 +49,7 @@ wiki/sources/wsg-wig-smart-switchgear-2019.md
 
 ### Broken Wikilinks（0 处）
 
-✅ 无断链 — 所有 `[[链接]]` 都有对应页面。
+✅ 无断链 — 所有 `\[\[链接\]\]` 示例都未作为真实页面引用。
 
 ### Missing Entity Pages（0 个）
 

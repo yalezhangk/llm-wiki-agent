@@ -101,9 +101,9 @@ def check_index_sync(pages: list[Path]) -> dict:
     index_links = _parse_index_links(index_content)
 
     # Normalize index links to absolute paths for comparison
-    # overview.md is listed under ## Overview, not in the per-type sections.
-    # Exclude it from both sides to avoid false positives.
-    meta_pages = {"overview.md"}
+    # overview.md and generated report pages are not part of the per-type sections.
+    # Exclude them from both sides to avoid false positives.
+    meta_pages = {"overview.md", "health-report.md", "lint-report.md"}
 
     index_paths = set()
     for link in index_links:

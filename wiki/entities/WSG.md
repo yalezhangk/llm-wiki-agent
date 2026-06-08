@@ -2,7 +2,7 @@
 title: "WSG"
 type: entity
 tags: [product, gas-insulated-switchgear, medium-voltage]
-sources: [q320500-ksga-09-2015-wsg-enterprise-standard, qavxm-031-2024-wsg-enterprise-standard, wsg-40-5kv-gas-insulated-switchgear-image, wsg-12-40-5kv-ac-metal-enclosed-gas-insulated-switchgear-catalog-2024, wsg-gas-insulated-metal-enclosed-switchgear-operation-instructions, wsg-2014-06-27-product-presentation, wsg-wig-smart-switchgear-2019]
+sources: [q320500-ksga-09-2015-wsg-enterprise-standard, qavxm-031-2024-wsg-enterprise-standard, wsg-40-5kv-gas-insulated-switchgear-image, wsg-12-40-5kv-ac-metal-enclosed-gas-insulated-switchgear-catalog-2024, wsg-gas-insulated-metal-enclosed-switchgear-operation-instructions, wsg-2014-06-27-product-presentation, wsg-wig-smart-switchgear-2019, wsg-feature-highlights-image, wsg-12-40-5kv-ac-metal-enclosed-gas-insulated-switchgear-catalog-2018]
 last_updated: 2026-06-05
 ---
 
@@ -31,6 +31,8 @@ last_updated: 2026-06-05
 - 产品目录强调 WS-G 柜前即可完成拼接、安装、扩展、拆除和维护，适合空间受限项目或用现有地基升级改造。
 - [[BLink]] 在 WS-G 目录中被描述为相邻柜母线连接方式，现场安装、扩展或更换柜体时不需要气体处理。
 - 产品目录给出外锥/内锥电缆连接、低压箱高度、单母线/双母线柜宽深高、重量、主接线方案、发货文件和订货资料要求。
+- 2018.09 产品目录 `SCDOC1541` 给出更早一版目录口径：额定电流至 2500A、额定开断电流至 31.5kA、安装高度 1000m，并系统说明靠墙安装、柜前维护、B-link、IDIS、DXN8B VDS 和可选 IVIS。
+- 该目录还补充了单母线/双母线尺寸重量、土建基础图，以及外锥仅至 36kV、内锥适用于 35kV 电网等早期电缆连接边界。
 - 操作说明书编号为 `KSGA0.463.150-03`，封面标题为“WS-G 气体绝缘金属封闭开关设备 / Gas-Insulated Switchgear up to 40.5kV”。
 - 操作说明书的恢复页给出 12/17.5/24/36/40.5kV、母线和出线柜电流 ≤2500A、短路开断 ≤31.5kA、短时耐受 ≤31.5kA/4s、50/60Hz 的操作手册版本口径。
 - 操作说明书说明 WS-G 以手动操作为基本设计，可按线路图配置电机、合/分闸线圈、失压分闸线圈、闭锁电磁铁和辅助开关等控制元件。
@@ -40,6 +42,9 @@ last_updated: 2026-06-05
 - 2014 材料的历史参数口径为 12/17.5/24/36/40.5kV、主母线/馈线自然冷却 2500A、31.5kA/4s、内部电弧 31.5kA/1s，并把特殊型海拔列为 4000m。
 - 2014 材料展示了 2006-2014 年中国运行实例，包括地铁、石化、盐湖、煤化工、供电局和风电并网移动式变电站等场景。
 - 2019.2 智能开关柜演示稿把 WSG 放入在线监测项目开发语境，细化了主母线、内锥电缆头、外锥电缆头测温，以及 SF6 密度/微水、局放、弧光、三工位视频和断路器特性监测。
+- WSG 特点图片页补充了 40.5kV 场景下的 15 条卖点摘要，包括三相共箱、单柜移出无需气体处理、2000A 及以下 600/800mm 柜宽、无源气体密度表、电缆安装高度 750mm 和 CT 更换无需拆缆。
+- 该图片页同时给出断路器与隔离/接地三工位开关机械寿命均为 10000 次、额定短路电流开断次数 50 次 / 25kA 或 31.5kA，以及内部电弧能力 25kA / 31.5kA / 40kA 持续 1 秒的卖点口径。
+- 特点图片页把气体年泄漏率写为 <0.01%/年，严于现有标准/目录常见的 <0.1%/年，应视为单页宣传口径。
 
 ## Related
 - [[施耐德电气]]

@@ -2,7 +2,7 @@
 title: "IVIS"
 type: concept
 tags: [voltage-detection, gas-insulated-switchgear, gha, wsg]
-sources: [gha-nrjcat18789en-0318, wi-g-railway-gas-insulated-switchgear-operation-instructions, wsg-gas-insulated-metal-enclosed-switchgear-operation-instructions]
+sources: [gha-nrjcat18789en-0318, wi-g-railway-gas-insulated-switchgear-operation-instructions, wsg-gas-insulated-metal-enclosed-switchgear-operation-instructions, wsg-12-40-5kv-ac-metal-enclosed-gas-insulated-switchgear-catalog-2018]
 last_updated: 2026-06-05
 ---
 
@@ -22,6 +22,7 @@ last_updated: 2026-06-05
 - The WS-G manual describes IVIS as an integrated voltage detection system with a display unit for checking the presence or absence of operating voltage.
 - The WS-G manual states that IVIS needs no external auxiliary power, is sealed in one unit, weather-resistant, maintenance-free, and supports long-term live-state monitoring.
 - The WS-G manual also describes a plug-in VDS according to IEC 61243-5 and requires phase checking before first energization.
+- The 2018 WS-G catalog shows the earlier product-catalog split between standard DXN8B VDS and optional IVIS, indicating that IVIS was a selectable smart voltage-detection upgrade rather than the default catalog configuration.
 
 ## Related
 - [[GHA]]

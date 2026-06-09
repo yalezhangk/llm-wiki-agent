@@ -2,12 +2,12 @@
 title: "WIG"
 type: entity
 tags: [product, smart-switchgear, high-speed-rail, gas-insulated-switchgear]
-sources: [wig-high-speed-rail-smart-switchgear-jiaoda-yunda-protection-pasific-window, wi-g-railway-gas-insulated-switchgear-operation-instructions, wsg-wig-smart-switchgear-2019]
-last_updated: 2026-06-05
+sources: [wi-g-27-5kv-railway-gas-insulated-switchgear-catalog-2018, wig-high-speed-rail-smart-switchgear-jiaoda-yunda-protection-pasific-window, wi-g-railway-gas-insulated-switchgear-operation-instructions, wsg-wig-smart-switchgear-2019]
+last_updated: 2026-06-09
 ---
 
 ## Summary
-[[WIG]] / WI-G 是 [[施耐德电气]] 面向铁道应用的 [[气体绝缘开关柜]] 和智能开关柜资料对象。已有演示稿重点在 [[数字化变电站]] 架构和多厂家智能设备集成；操作说明书则把 WI-G 补全为 31.5kV 铁道用 [[金属封闭开关设备]] 本体，覆盖额定参数、[[BLink]] 母线连接、[[IDIS]] 绝缘气体监控、[[IVIS]] 电压检测、操作联锁和维护计划。
+[[WIG]] / WI-G 是 [[施耐德电气]] 面向铁道应用的 [[气体绝缘开关柜]] 和智能开关柜资料对象。已有演示稿重点在 [[数字化变电站]] 架构和多厂家智能设备集成；`2018.10` 产品目录则把 WI-G 补成 `27.5kV` 牵引供电目录层；操作说明书再把它落到 `31.5kV` 设备本体的运行、联锁和维护口径，覆盖额定参数、[[BLink]] 母线连接、[[IDIS]] 绝缘气体监控、[[IVIS]] 电压检测和维护计划。
 
 ## Key Details
 - 应用语境是高铁智能开关柜，演示稿日期页为 2018.4。
@@ -15,12 +15,15 @@ last_updated: 2026-06-05
 - 监测对象包括断路器机械特性、储能电机、三工位开关电机、避雷器、SF6 密度、气室温度、开关柜温度和高压带电状态。
 - 智能监测显示终端通过 MODBUS 协议向计算机监控网络提供遥测、遥信数据。
 - 供应协作边界涉及 [[成都交大运达]]、[[常州帕斯菲克]] 和 [[深圳昇伟电子科技]]。
+- `2018.10` 产品目录把 WI-G 直接定位为铁路一次供电变配电站使用的 `27.5/2×27.5kV` 单母线气体绝缘金属封闭开关柜，最高电压 `31.5kV`，母线与出线额定工作电流 `≤2500A`，短路开断电流 `≤31.5kA`。
+- 产品目录强调 WI-G 的 [[BLink]] 母线连接、靠墙安装、柜前完成操作维护、前接线内锥电缆系统和 `IAC 31.5kA/1s` 抗内部电弧试验，是现有操作说明书之外更偏工程目录和土建边界的一层资料。
 - 操作说明书封面标题为“WI-G 铁道用气体绝缘金属封闭开关设备”，英文为 `Gas-Insulated Switchgear for railway application`。
 - 说明书给出 WI-G 系列额定值：额定电压 31.5kV、雷电冲击耐受电压 200kV、短时工频耐受电压 95kV、母线/出线额定工作电流 ≤2500A、短路开断电流 ≤31.5kA、短时耐受电流 ≤31.5kA/4s、频率 50/60Hz。
 - 柜体方案包括内锥型电缆连接断路器柜、母线联络柜、母线电压互感器、母线避雷器和母线接地开关。
 - 断路器柜结构包含带三工位开关的母线室、[[BLink]] 母线连接、带真空灭弧室的断路器室、电流互感器、内锥型电缆连接、电压互感器、VDS、[[IDIS]]、操作面板和低压箱。
 - WI-G 的 SF6 气箱为密封压力系统，正常使用寿命期间和正常操作条件下不需要补充绝缘气体。
 - WI-G 的 [[IDIS]] 表给出额定充气压力 0.06MPa、预报警 0.05MPa、主报警 0.03MPa。
+- 产品目录和操作说明书共同说明 WI-G 是同一设备族的不同资料层：前者更突出 `27.5kV` 铁路应用、电缆连接和基础安装；后者更突出 `31.5kV` 设备运行、维护和周期性检查。
 - 维护计划要求开关柜至少每两年目视检查一次，并建议每年局放检查、每两年二次元件检查；真空室达到最大允许开断次数或断路器/隔离/接地开关达到 10000 次操作循环后更换开关柜。
 - 2019.2 WSG-WIG 智能开关柜演示稿延续 WIG 工厂简易系统框图，补充网关、光交换机、辅助监控后台、智能监测显示终端和多类在线监测项目的开发状态。
 

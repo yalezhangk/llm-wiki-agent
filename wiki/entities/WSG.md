@@ -3,7 +3,7 @@ title: "WSG"
 type: entity
 tags: [product, gas-insulated-switchgear, medium-voltage]
 sources: [q320500-ksga-09-2015-wsg-enterprise-standard, qavxm-031-2024-wsg-enterprise-standard, wsg-40-5kv-gas-insulated-switchgear-image, wsg-12-40-5kv-ac-metal-enclosed-gas-insulated-switchgear-catalog-2024, wsg-gas-insulated-metal-enclosed-switchgear-operation-instructions, wsg-2014-06-27-product-presentation, wsg-wig-smart-switchgear-2019, wsg-feature-highlights-image, wsg-12-40-5kv-ac-metal-enclosed-gas-insulated-switchgear-catalog-2018]
-last_updated: 2026-06-05
+last_updated: 2026-06-09
 ---
 
 ## Summary
@@ -33,6 +33,7 @@ last_updated: 2026-06-05
 - 产品目录给出外锥/内锥电缆连接、低压箱高度、单母线/双母线柜宽深高、重量、主接线方案、发货文件和订货资料要求。
 - 2018.09 产品目录 `SCDOC1541` 给出更早一版目录口径：额定电流至 2500A、额定开断电流至 31.5kA、安装高度 1000m，并系统说明靠墙安装、柜前维护、B-link、IDIS、DXN8B VDS 和可选 IVIS。
 - 该目录还补充了单母线/双母线尺寸重量、土建基础图，以及外锥仅至 36kV、内锥适用于 35kV 电网等早期电缆连接边界。
+- `2026-06-09` 补入的 `WS-G 40.5kV气体绝缘开关柜产品目录.pdf` 与现有 `2018.09` 目录源文件为完全相同的重命名副本，进一步确认这条资料链仍应作为单一 `SCDOC1541` 目录层处理，而不是新增一版 `40.5kV` 独立目录。
 - 操作说明书编号为 `KSGA0.463.150-03`，封面标题为“WS-G 气体绝缘金属封闭开关设备 / Gas-Insulated Switchgear up to 40.5kV”。
 - 操作说明书的恢复页给出 12/17.5/24/36/40.5kV、母线和出线柜电流 ≤2500A、短路开断 ≤31.5kA、短时耐受 ≤31.5kA/4s、50/60Hz 的操作手册版本口径。
 - 操作说明书说明 WS-G 以手动操作为基本设计，可按线路图配置电机、合/分闸线圈、失压分闸线圈、闭锁电磁铁和辅助开关等控制元件。

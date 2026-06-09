@@ -16,6 +16,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Smart HVX 产品介绍 V3.4](sources/smart-hvx-product-introduction-v3-4.md) — 以产品介绍形式展开 Smart HVX 的可靠性、运维效率、千里眼降本和测温技术对比
 - [Smart HVX & PMBox 介绍](sources/smart-hvx-product-pmb-introduction.md) — 同时说明 Smart HVX、PMB Easy 和 PMBox 的主动运维定位与架构差异
 - [DNF7 户内交流金属封闭开关设备](sources/dnf7-indoor-ac-metal-enclosed-switchgear-2025-4-10.md) — 介绍 40.5kV DNF7 开关柜、安全防护、功能单元和数字化运维方案
+- [DNF7 Metal-Clad Switchgear Technical Instruction](sources/dnf7-metal-clad-switchgear-technical-instruction-2010.md) — 早期英文技术说明补充 DNF7 的 `36/40.5kV`、`HVX/FP`、双抽出式结构和一次选型口径
+- [DNF7 Chinese Product Catalog 2011](sources/dnf7-chinese-product-catalog-2011.md) — 2011 中文产品目录补充 DNF7 的 `2500A`、`FP/HVX-O`、典型方案、基础安装和更早中国公司口径
+- [DNF7 Chinese Selection Manual 2017](sources/dnf7-chinese-selection-manual-2017.md) — 2017 中文工程选型手册补充 DNF7 的 `KYN28/KYN61`、中文标准、一次方案和土建安装页
+- [DNF7 English Selection Manual 2017](sources/dnf7-english-selection-manual-2017.md) — 2017 英文选型手册沿用较早 DNF7 技术骨架，并更新到 2016/2017 公司介绍与品牌口径
 - [GMA 中压一次气体绝缘开关柜 产品目录 V1.5](sources/gma-medium-voltage-primary-gas-insulated-switchgear-v1-5.md) — 介绍 12/24kV GMA 气体绝缘开关柜、模块化结构和气室监测
 - [GM AirSeT 中压一次气体绝缘开关柜 产品目录 V1.1](sources/gm-airset-medium-voltage-primary-gas-insulated-switchgear-v1-1.md) — 介绍采用干燥空气/环保气体替代 SF6 的 GM AirSeT 开关柜
 - [GMA Air C4C Digital Implement](sources/gma-air-c4c-digital-implement-20191204.md) — 列出 GMA Air 数字化实施所需的 IED、断路器、气室、温升和局放监测对象

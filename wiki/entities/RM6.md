@@ -2,15 +2,28 @@
 title: "RM6"
 type: entity
 tags: [product, switchgear, ring-main-unit, gas-insulated, medium-voltage]
-sources: [rm6-offer-presentation-life-is-on-201801update, rm6-set-medium-voltage-switchgear-catalog-2022, rm6-set-medium-voltage-switchgear-catalog-2025, rm6-s-operation-maintenance-instructions-2021, rm-airset-eco-gas-insulated-ring-main-unit-2020]
-last_updated: 2026-06-08
+sources: [rm6-o-cable-branch-box-brochure-2008, rm6-24kv-medium-voltage-distribution-catalog-2012, rm6-offer-presentation-life-is-on-201801update, rm6-sf6-insulated-ring-main-unit-and-compact-switchgear-catalog-2018, rm6-s-rm6-s-plus-medium-voltage-distribution-gas-insulated-switchgear-catalog-2018, rm6-set-medium-voltage-switchgear-catalog-2022, rm6-set-medium-voltage-switchgear-catalog-2025, rm6-s-operation-maintenance-instructions-2021, rm-airset-eco-gas-insulated-ring-main-unit-2020]
+last_updated: 2026-06-09
 ---
 
 ## Summary
-[[RM6]] 是 [[施耐德电气]] 的 `12~24kV` [[气体绝缘开关柜]] / 环网柜产品系列，面向中压二次配电场景。当前 wiki 中它除了 `2018` 演示稿、`2022.02` [[RM6SeT]] 目录和 `2025.02` [[RM6SeT]] 修订目录之外，还补入了一份更偏运维手册口径的 [[RM6S]] 说明书：这说明 RM6 路线既有面向产品宣传与工程目录的版本链，也有保留较早 `12kV` 平台操作维护边界的现场手册体系。
+[[RM6]] 是 [[施耐德电气]] 的 `12~24kV` [[气体绝缘开关柜]] / 环网柜产品系列，面向中压二次配电场景。当前 wiki 中它已经形成从 `2008` [[RM6O]] 电缆分支箱折页、`2012` 英文正式目录、`2018.05` 中文演示稿、`2018.10` 中文正式目录、`2018.10` [[RM6S]] / [[RM6SPlus]] 子系列目录、`2021` [[RM6S]] 运维手册到 `2022.02`、`2025.02` [[RM6SeT]] 目录的连续资料链，同时还有与之并行但不互相替代的环保气体分支 [[RMAirSeT]]。
 
 ## Key Details
+- `2008.12` 的 [[RM6O]] 折页说明 RM6 模块架构很早就被延伸到 `SF6` 绝缘 [[电缆分支箱]] 场景：支持一进二出、三出或更多出线、双电缆接入、`Flair 22D`、机械联锁和主母线扩展。
+- 这份 `RM6-O` 资料也补进了 RM6 路线更早的工程边界：不锈钢 `SF6` 金属封闭气室、额定压力 `1.2Bar`、设计寿命超过 `30` 年、带电部件免维护，以及后部/下部泄压的土建安装口径。
+- `2012` 英文正式目录已经把 RM6 明确写成 `RM6 24 kV Medium Voltage Distribution`，说明这条线在 `2018` 中文演示稿之前就已具备成熟的正式产品目录层。
+- 这份最早目录已经形成 `I / B / D / Q / IC / BC / O / Mt` 的功能体系，说明 RM6 早期正式口径与后续演示稿、SeT 目录之间存在可追踪的结构连续性。
+- `2012` 目录已把 `PM class`、断路器/负荷开关 `LSC2B`、熔断器组合 `LSC2A`、`A-FL up to 20 kA 1 s on request` 和可选 `AFLR 20 kA 1 s` 写入工程边界。
+- `Automatic transfer systems`、bus tie coupling、source changeover 和 `Easergy T200 I` 在 `2012` 目录中已正式出现，说明 RM6 的自动投切与远方控制能力早于 `2018` 中文演示稿。
+- `2012` 目录还已包含 `VPIS / VDS`、`Flair`、`VIP 40 / VIP 400`、`Fusarc CF`、motorization、key locking 与 `DNV` marine application，说明 RM6 早期就兼具保护、附件和特定场景应用口径。
 - 演示稿称 RM6 在全球 `50` 多个国家已有超过 `1,700,000` 个功能单元应用，并以“20 多年不断发展与调整”强调成熟度。
+- `2018.10` 中文正式目录把 RM6 进一步落成中国市场工程目录层：尾标为 `SCDOC1043-MV`，章节完整覆盖设备特性、附件、电网远程控制、中压电缆头、户外开关站、安装、订购表和方案页。
+- 这份 `2018.10` 目录把 `-40℃ ~ 40℃`、海拔 `≤1000m`、`SF6气室 IP67`、熔断器室 `IP67`、外壳 `IP4X`、`20℃下 SF6充气压力 0.2Bar`、年泄漏率 `0.01%/年` 和气室不锈钢板厚 `2mm` 写成正式工程边界。
+- 功能与柜型口径在 `2018.10` 目录中明确写为 `I / B / D / Q / IC / BC / O / Pt / Mt` 和 `NE / RE / LE / DE`，并通过订购表把 `12kV 20kA/4S`、`12kV 20kA/3S`、`12kV 25kA/1S`、`24kV 20kA/1S`、`24kV 20kA/3S` 等能力落到正式选型层。
+- 与 `2018.05` 演示稿不同，`2018.10` 中文正式目录中的 `ATS` 控制器明确写为 `T200 I`，并给出 `TR < 2 s`、`T1 0s~200s`、`T2 0s~30分钟` 以及自动/半自动模式；因此 `T200C` 更适合视作演示稿中的场景化表述，而非统一替代该目录口径。
+- `2018.10 / SCDOC1739` 的 `RM6-S/RM6-S Plus` 目录说明，RM6 路线在同一时期还存在一条更窄的 `12kV` 子系列：`RM6-S` 保持 `630A` 并通过侧部扩展，`RM6-S Plus` 则升级到 `1250A`、顶部扩展和 `CB / B / G / CBBr / M / PT` 功能体系。
+- 这份子系列目录还把 `RM6-S` 的 [[ALink]] 侧扩、`RM6-S Plus` 的顶部固体母线拼柜、`0.03 MPa @ 20℃`、`AFL 16/20/25/31.5kA 1s` 和远程控制 `0~4` 级正式写入工程口径，说明它不应简单并入通用 `RM6` 演示稿或后续 [[RM6SeT]] 目录。
 - 核心电气口径覆盖 `12kV` 与 `24kV`；`I/B/O` 功能单元额定电流 `630A`，`Q/D` 功能单元额定电流 `200A`。
 - 绝缘水平包括 `12kV` 对地工频 `42kV`、断口 `48kV`、冲击 `95/110kV`，以及 `24kV` 对地工频 `65kV`、断口 `79kV`、冲击 `125/145kV`。
 - 防护等级为 `IP4X`，短时耐受能力为 `12kV 20kA 4s`、`24kV 20kA 3s`，内部燃弧能力为 `20kA 1s`。
@@ -32,10 +45,13 @@ last_updated: 2026-06-08
 - 相比 [[RM6SeT]]，[[RMAirSeT]] 更像 `12kV`、`20kA`、环保气体 + 真空灭弧的平行 RMU 路线，而不是简单改名或完整替代；其数字化配置继续围绕 `Easergy T300`、`PMBOX`、`PD110`、`TH110-R`、`VT/LPVT` 和 `CT/LVCT` 展开。
 ## Related
 - [[施耐德电气]]
+- [[RM6O]]
 - [[RM6S]]
+- [[RM6SPlus]]
 - [[RM6SeT]]
 - [[RMAirSeT]]
 - [[气体绝缘开关柜]]
+- [[电缆分支箱]]
 - [[自动投切]]
 - [[内部电弧防护]]
 - [[数字化中压运维]]

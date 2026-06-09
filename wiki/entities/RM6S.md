@@ -2,14 +2,17 @@
 title: "RM6-S"
 type: entity
 tags: [product, switchgear, ring-main-unit, gas-insulated, medium-voltage]
-sources: [rm6-s-operation-maintenance-instructions-2021]
-last_updated: 2026-06-08
+sources: [rm6-s-rm6-s-plus-medium-voltage-distribution-gas-insulated-switchgear-catalog-2018, rm6-s-operation-maintenance-instructions-2021]
+last_updated: 2026-06-09
 ---
 
 ## Summary
-[[RM6S]] 是 [[施耐德电气]] `RM6` 路线中的一个更早、且更偏 `12kV` 运维说明书口径的 [[气体绝缘开关柜]] / 环网柜对象。当前 wiki 中它主要通过一份 `RM6-S` 操作维护手册进入知识库：核心不是完整产品目录，而是 `OE / I / Q / B / IC` 功能单元操作、[[机械联锁]]、`Flair2XD`、`VPIS-V2`、`T200I`、`VD23`、电缆试验和 `SF6` 压力维护规则。
+[[RM6S]] 是 [[施耐德电气]] `RM6` 路线中的一个更早、且更偏 `12kV` 的 [[气体绝缘开关柜]] / 环网柜对象。当前 wiki 中它已经形成 `2018.10` 正式目录与 `2021` 操作维护手册两层资料链：前者补入 `630A` 级产品目录、侧部扩展和 `ALink`，后者补入 `OE / I / Q / B / IC` 功能单元操作、[[机械联锁]]、`Flair2XD`、`VPIS-V2`、`T200I`、`VD23`、电缆试验和 `SF6` 压力维护规则。
 
 ## Key Details
+- `2018.10 / SCDOC1739` 目录把 `RM6-S/RM6-S Plus` 写成正式产品族，其中 `RM6-S` 保持 `630A` 级别，并通过侧部扩展实现不同柜子之间的拼接。
+- 同一目录说明两台 `RM6-S` 开关柜之间的母线连接由特有 [[ALink]] 装置实现，扩展安装时无需现场气体处理，但需要预留大于 `450mm` 的额外安装空间。
+- 目录中的 `RM6-S` 功能体系集中在 `I / Q / B / O / IC / B/CB / M`，并保留 `O - 0.3s - CO - 180s - CO` 这组快速自动重合闸操作顺序。
 - 封面把 RM6-S 定义为 `12kV SF6 Gas-Insulated Switchboards`。
 - 文档代码体系包括 `SAS0.463.171-00`、`AMTNoT132-02` 和侧边 `2021/2` 修订标记，同时保留 `2010` 版权年份，说明它是沿用较早平台的后续维护版手册。
 - 操作说明书围绕 `OE / I / Q / B / IC` 五类功能单元展开，是 RM6 较早的一套功能代号体系。
@@ -24,7 +27,9 @@ last_updated: 2026-06-08
 ## Related
 - [[施耐德电气]]
 - [[RM6]]
+- [[RM6SPlus]]
 - [[RM6SeT]]
+- [[ALink]]
 - [[气体绝缘开关柜]]
 - [[机械联锁]]
 - [[数字化中压运维]]

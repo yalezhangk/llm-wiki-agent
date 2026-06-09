@@ -52,16 +52,22 @@ This file is maintained by the LLM. Updated on every ingest.
 - [FBX 中压开关柜产品目录](sources/fbx-medium-voltage-switchgear-catalog-2018.md) — 2018 版目录补充 FBX 早期 `A-Link` 扩展、远控等级、联锁逻辑和 `SCDOC1544` 版本链
 - [风能解决方案](sources/wind-energy-solutions-2018.md) — 2018 系统级总册把风机系统、风场连接、并网电站和监控安防整合成施耐德风电方案全景
 - [FLUSARC 40.5 kV SF6 绝缘中压开关柜](sources/flusarc-40-5kv-sf6-insulated-medium-voltage-switchgear-catalog-2016.md) — 2016 正式目录补齐 FLUSARC 的 `40.5kV/630A/20kA`、`IP67`、`30` 年免补气和联锁/安装口径
+- [FOX中压开关柜核心元件产品目录](sources/fox-medium-voltage-switchgear-core-unit-catalog-2016.md) — 2016 正式目录补齐 FOX 的 `12kV/630A/20kA/4s` 气体绝缘核芯单元、`FOX-NE/DE` 和合作伙伴柜体边界
 - [SM6模块化空气绝缘开关柜产品目录 2012](sources/sm6-air-insulated-switchgear-catalog-2012.md) — 2012 英文正式目录补充 SM6 最高 `36 kV`、模块化功能单元、`LSC2A`、`A-FL/A-FLR` 和 `Easergy T200/Sepam/VIP`
 - [SM6中压开关柜24kV产品目录](sources/sm6-24kv-medium-voltage-switchgear-catalog-2017.md) — 2017 中文正式目录补充 `24 kV` 口径、`SCDOC064-MV`、中文柜型谱系、`NSM-C`、`Easergy T200 S/Flair 22D/Amp 21D`
 - [SM6 7.2~24kV 空气绝缘环网柜](sources/sm6-product-introduction-and-digital-content-2019.md) — 2019 演示稿补充 SM6 柜型谱系、`SF6` 开关隔室以及 `Smart SM6` 的 `Easergy T300/TH110/PD110/CL110` 监测层
 - [SMD and Sensors for SM6 training v2](sources/smd-and-sensors-for-sm6-training-v2.md) — 2018 培训稿把 `SMD V3/V4` 路线、`TH110/CL110`、配对配置流程和局放传感器 roadmap 展开
 - [Trihal系列树脂浇注干式变压器产品目录](sources/trihal-series-resin-cast-dry-transformer-catalog.md) — 2016 目录补充 `Trihal`、`SCB/SCBH/SC10` 干式变压器谱系、`E3/C3/F1`、局放、风冷和安装边界
 - [AS12/AS24中压开关产品目录](sources/as12-as24-medium-voltage-switch-catalog.md) — 2010 目录补充施耐德 `12/24kV` 二次空气绝缘柜用开关核心元件路线、`IS/QS/DS/CS/ES`、`SF6 0.4bar`、`Flair 22D`、`Talus 200I` 和 `Sepam`
+- [AS12中压开关 产品简介](sources/as12-medium-voltage-switch-brochure-2016.md) — 2016 两页折页把这条元件路线收束到 `AS12 12kV 630A`，但仍保留 `IS/QS/CS/DS/ES`、`375/500mm` 宽度、`AS12-ES` 和三工位 `SF6 0.4bar` 边界
 - [SC6中压开关元件产品目录](sources/sc6-medium-voltage-switch-component-catalog-2017.md) — 2017 目录说明这条元件路线收敛为 `SC6`、`12kV 630A 20kA/4s` 与 `SIC/SQC`，并保留与 `AS12` 文件名的连续性
 - [CAS 36 Ring Main Unit Catalogue 2008](sources/cas-36-ring-main-unit-catalog-2008.md) — 2008 英文目录补入施耐德早期 `CAS 36` 环网柜叙事，强调连续供电、安全、可升级和监测控制
 - [DVCAS Switchgears for Transformer Substations in Wind Farms](sources/dvcas-wind-farm-secondary-distribution-switchgear-catalog-2007.md) — 2007 英文目录补入施耐德风电场 `36kV` 二次配电开关柜路线，明确 `630A/20kA`、`IP67`、`SF6 0.3bar` 与 `I/D/0/T` 模块体系
+- [RM6-O 电缆分支箱 产品简介](sources/rm6-o-cable-branch-box-brochure-2008.md) — 2008 中文折页补入 `RM6-O` `3~24kV` `SF6` 绝缘电缆分支箱、`630A`、`1.2Bar` 气室、双电缆接入和扩展安装边界
+- [RM6 24 kV Medium Voltage Distribution Catalogue 2012](sources/rm6-24kv-medium-voltage-distribution-catalog-2012.md) — 2012 英文正式目录补入 RM6 的 `PM class / LSC2B`、`Automatic transfer systems`、`Easergy T200 I`、`VPIS/VDS` 和 `DNV` 海事应用口径
+- [RM6 SF6绝缘环网柜和紧凑型开关柜 产品目录](sources/rm6-sf6-insulated-ring-main-unit-and-compact-switchgear-catalog-2018.md) — 2018.10 中文正式目录补入 `SCDOC1043-MV`、`IP67/IP4X`、`0.2Bar`、`2mm` 气室、`T200 I`、订购表和安装工程边界
 - [RM6 12~24kV 气体绝缘环网柜](sources/rm6-offer-presentation-life-is-on-201801update.md) — 2018 演示稿补充 RM6 `12~24kV` 环网柜、`ATS/T200C/Smart RMU`、`Easergy T300` 和 `58` 种标准柜型
+- [RM6-S/RM6-S Plus 中压配电 12 kV 以下气体绝缘开关设备 产品目录](sources/rm6-s-rm6-s-plus-medium-voltage-distribution-gas-insulated-switchgear-catalog-2018.md) — 2018.10 正式目录补入 `RM6-S 630A` 侧扩、`RM6-S Plus 1250A` 顶扩、`A-Link`、`Sepam20/40` 和远程控制 `0~4` 级
 - [RM6 SeT 中压开关柜](sources/rm6-set-medium-voltage-switchgear-catalog-2022.md) — 2022 正式目录补充 RM6 SeT `1~6` 功能共箱、`A-link` 扩展、`IP67/IP43/IK07`、`Easergy P1` 和 `PD110/TH110-R/SMD`
 - [RM6 SeT 中压开关柜 2025](sources/rm6-set-medium-voltage-switchgear-catalog-2025.md) — 2025 修订目录补充 `Cr/Vr/M` 模块显式化和部分 `12kV 25kA/63kA` 口径
 - [RM6-S 操作说明书](sources/rm6-s-operation-maintenance-instructions-2021.md) — `12kV` 运维手册补充 `OE/I/Q/B/IC` 操作、联锁、`Flair2XD/VPIS-V2/VD23/T200I` 和 `SF6` 压力维护
@@ -81,12 +87,15 @@ This file is maintained by the LLM. Updated on every ingest.
 - [CAS36](entities/CAS36.md) — 施耐德 `2008.02` 英文目录中的早期环网柜 / RMU 对象，强调连续供电、安全与监测控制
 - [DVCAS](entities/DVCAS.md) — 施耐德体系内面向风电场集电网与箱变的 `36kV` 早期二次配电开关柜对象
 - [FLUSARC](entities/FLUSARC.md) — 施耐德 `40.5kV` `SF6` 绝缘中压开关柜路线，现有 2016 独立目录与 2018 风电方案两层资料
+- [FOX](entities/FOX.md) — 施耐德面向环网柜集成场景的 `12kV` 气体绝缘中压开关柜核芯单元路线
 - [SMD](entities/SMD.md) — 施耐德站室级监测设备对象，串接 `TH110/CL110`、HMI、`Modbus TCP` 和告警链路
 - [PLSCADA](entities/PLSCADA.md) — 施耐德风场与中心变电站综合自动化/集中监控软件对象
 - [iRIO](entities/iRIO.md) — 施耐德风机侧智能终端对象，可接开关状态、告警和温湿度
 - [Trihal](entities/Trihal.md) — 施耐德树脂浇注干式变压器产品线，覆盖 `SCB/SCBH/SC10` 本地化系列
 - [RM6](entities/RM6.md) — 施耐德 `12~24kV` 气体绝缘环网柜产品线，强调 ATS、Smart RMU 和配网自动化
+- [RM6O](entities/RM6O.md) — 施耐德基于 RM6 模块架构的 `3~24kV` `SF6` 绝缘电缆分支箱分支
 - [RM6-S](entities/RM6S.md) — 施耐德 RM6 路线中更偏 `12kV` 运行维护口径的气体绝缘开关柜对象
+- [RM6-S Plus](entities/RM6SPlus.md) — 施耐德 `RM6-S` 的 `1250A` 顶部扩展升级分支，现有 `2018.10` 正式目录口径
 - [RM6 SeT](entities/RM6SeT.md) — 施耐德 `24kV` 及以下 SeT 系列环网柜，现有 `2022` 与 `2025` 目录版本链
 - [RM AirSeT](entities/RMAirSeT.md) — 施耐德 RM 路线采用环保气体和真空灭弧的 `12kV` 环网柜分支
 - [Premset](entities/Premset.md) — 施耐德 `12kV` 屏蔽式固体绝缘紧凑型模块化真空开关设备产品线
@@ -124,6 +133,7 @@ This file is maintained by the LLM. Updated on every ingest.
 - [数字化变电站](concepts/数字化变电站.md) — 基于 IEC 61850 思路的过程层、间隔层和站控层数字化变电站架构
 - [智能监测显示终端](concepts/智能监测显示终端.md) — WIG 方案中的多功能状态监测与显示装置
 - [测温技术对比](concepts/测温技术对比.md) — 对比 Smart HVX 温度监测与变色片、热电偶、光纤、红外线等方案
+- [电缆分支箱](concepts/电缆分支箱.md) — 用于中压配网多路电缆分支接线的设备类别，当前以 `RM6-O` 的全绝缘全密封实现为代表
 - [空气绝缘开关设备](concepts/空气绝缘开关设备.md) — DNF7、MVnex 和 PIX 所属的空气绝缘中压开关柜路线
 - [干式变压器](concepts/干式变压器.md) — 以树脂浇注、局放控制、风冷增容和安装通风边界为核心的变压器路线
 - [气体绝缘开关柜](concepts/气体绝缘开关柜.md) — GMA 所属的 SF6 气体绝缘中压开关柜类别

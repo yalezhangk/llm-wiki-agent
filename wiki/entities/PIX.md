@@ -2,17 +2,18 @@
 title: "PIX"
 type: entity
 tags: [product, switchgear, air-insulated, medium-voltage]
-sources: [pix-50ka-catalogue-en, pix-catalogue-indoor-ac-metal-enclosed-switchgear, pix550-catalogue, pix500-catalogue-armored-metal-enclosed-switchgear, pix-indoor-ac-metal-enclosed-switchgear-v8-breaker-parameter-revision]
-last_updated: 2026-06-04
+sources: [pix-50ka-catalogue-en, pix-12kv-24kv-air-insulated-switchgear-catalog-2016, pix-catalogue-indoor-ac-metal-enclosed-switchgear, pix550-catalogue, pix500-catalogue-armored-metal-enclosed-switchgear, pix-indoor-ac-metal-enclosed-switchgear-v8-breaker-parameter-revision]
+last_updated: 2026-06-09
 ---
 
 ## Summary
-[[PIX]] 是施耐德电气的高性能中压 [[空气绝缘开关设备]] 和铠装移开式户内交流 [[金属封闭开关设备]]。英文目录将其描述为 17.5kV、50kA、4000A、带 [[HVX]] embedded pole 的空气绝缘开关柜；中文目录则覆盖 PIX-12kV、PIX-24kV、PIX-M 接触器柜、PIX-Gen 发电机出口断路器柜、[[PIX550]]、[[PIX500]] 和 [[SmartPIX]]，补充了中国市场的型号、一次方案、认证、数字化和安装订货口径。
+[[PIX]] 是施耐德电气的高性能中压 [[空气绝缘开关设备]] 和铠装移开式户内交流 [[金属封闭开关设备]]。英文目录将其描述为 `17.5kV`、`50kA`、`4000A`、带 [[HVX]] embedded pole 的空气绝缘开关柜；中文资料则已经形成 `2016 -> 2019 -> V8` 的目录链，覆盖 `PIX-12kV`、`PIX-24kV`、`PIX-M` 接触器柜、`PIX-Gen` 发电机出口断路器柜、[[PIX550]]、[[PIX500]] 和 [[SmartPIX]]，逐步补齐中国市场的型号、一次方案、安装订货、认证和数字化口径。
 
 ## Key Details
 - 产品定位面向公共和工业中压配电，应用包括重工业、油气、采矿/矿物/金属、发电和船舶。
 - 技术参数覆盖 12kV 和 17.5kV，额定短路开断电流 50kA，额定短路持续时间 3s，最大母线额定电流 4000A。
 - 中文目录显示 PIX-12kV 覆盖 7.2kV/12kV，额定电流 630A~4000A；PIX-Gen 可达 5000A/6300A 和 63kA。
+- `PIX 12kV 24kV Air-Insulated Switchgear Catalog 2016` 说明到 `2016` 时，施耐德中国市场已经有 `SCDOC1842` 口径的正式目录：它完整覆盖 `12/24kV`、`PIX-M`、`PIX-Gen`、应用实例和基础安装页，并保留 `2014` 财年公司介绍与更早市场口径。
 - PIX-24kV 额定电流 630A~4000A，额定短路开断电流 20kA~40kA，额定短路峰值耐受电流最高 100kA。
 - V8 目录把主参数表扩展为 7.2/12/24kV：7.2/12kV 内部电弧等级为 AFLR 50kA/1s，24kV 为 AFLR 40kA/1s。
 - V8 目录补充 Green Premium、PCCC 产品认证和中国质量认证中心产品碳足迹认证，并把 PIX 定位为数字化中压配电产品。
@@ -25,6 +26,7 @@ last_updated: 2026-06-04
 - 中文目录中的主要部件包括 [[HVX]] 真空断路器、VAH 高容量户内真空断路器、CVX 真空接触器-熔断器组合电器、ESW 接地开关和 MiCOM 综合继电保护装置。
 - PIX550 是 PIX 旗下尺寸最小的 12kV 中置式金属封闭开关设备，柜宽 550mm，额定电流 ≤1250A，短时耐受/开断能力 ≤31.5kA。
 - PIX500 是 PIX 产品家族的 500mm 小型化分支，采用固定联接主回路、HVX 固封式断路器和三工位开关，额定电流 ≤1250A，短时耐受/开断能力 ≤31.5kA。
+- `2026-06-09` 补入的 `PIX500铠装式金属封闭开关设备_中文样本.pdf` 是现有 PIX500 来源页的正确命名同版副本，元数据日期为 `2016-11-23`，说明此前文件名误写为 `PIX550` 的副本不会改变 `PIX500` 分支的归档判断。
 - Smart PIX 是 PIX 的智能化解决方案，能力包括 PMB/PMB Easy、无线测温、断路器特性监测、配柜监测、一键顺控、局放在线监测、剩余电寿命、视频监测、弧光保护和环境温湿度监测。
 
 ## Related

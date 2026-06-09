@@ -25,7 +25,9 @@ This file is maintained by the LLM. Updated on every ingest.
 - [GMA Air C4C Digital Implement](sources/gma-air-c4c-digital-implement-20191204.md) — 列出 GMA Air 数字化实施所需的 IED、断路器、气室、温升和局放监测对象
 - [GMA Gas-insulated Switchgear Catalog 2017](sources/gma-nrjed311328en-1017.md) — 英文国际版 GMA 目录，补充 up to 24kV、2500A、31.5kA 和 EcoStruxure ready 信息
 - [MVnex 中压金属铠装开关柜](sources/mvnex-medium-voltage-metal-clad-switchgear.md) — 介绍 MVnex 标准型、550、500 和 Smart MVnex 金属铠装开关柜产品族
+- [MVnex 12kV Air-Insulated Switchgear Catalog 2017](sources/mvnex-12kv-air-insulated-switchgear-catalog-2017.md) — 2017 中国正式目录补充 MVnex `4000A/40kA`、`550/500` 分支、`Smart MVnex` 和基础安装页
 - [PIX 50kA Catalogue EN](sources/pix-50ka-catalogue-en.md) — 介绍 17.5kV、50kA、4000A、带 HVX embedded pole 的 PIX 空气绝缘开关柜
+- [PIX 12kV 24kV Air-Insulated Switchgear Catalog 2016](sources/pix-12kv-24kv-air-insulated-switchgear-catalog-2016.md) — 2016 中国正式目录补充 PIX-12kV、PIX-24kV、PIX-M、PIX-Gen、应用实例和安装订货页
 - [PIX 户内交流金属封闭开关设备 产品目录](sources/pix-catalogue-indoor-ac-metal-enclosed-switchgear.md) — 中文目录视角补充 PIX-12kV、PIX-24kV、PIX-M、PIX-Gen、一次方案和安装订货要求
 - [PIX550 中置式金属封闭开关设备 产品目录](sources/pix550-catalogue.md) — 介绍 PIX 旗下 12kV、550mm 柜宽、≤1250A、≤31.5kA 的小型化开关柜分支
 - [PIX 500 铠装式金属封闭开关设备 产品目录](sources/pix500-catalogue-armored-metal-enclosed-switchgear.md) — 正文为 PIX 500，介绍 500mm 柜宽、HVX 固封断路器和三工位开关的小型化分支

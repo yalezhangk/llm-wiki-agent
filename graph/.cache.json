@@ -1,0 +1,2219 @@
+{
+  "C:\\job_docs\\knowledge_base\\mvc_sample\\llm-wiki-agent\\wiki\\sources\\pix-indoor-ac-metal-enclosed-switchgear-v8-breaker-parameter-revision.md": {
+    "hash": "5e2654d9286fbf4a0f5fc1e01547e2b7633b55bc6d3cfe8b7e1bd31c8dd6df7c",
+    "edges": [
+      {
+        "to": "sources/pix-12kv-24kv-air-insulated-switchgear-catalog-2016",
+        "relationship": "predecessor source document for the V8 revision",
+        "confidence": 0.85,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/pix-50ka-catalogue-en",
+        "relationship": "provides complementary 50kA performance specs for PIX",
+        "confidence": 0.75,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/pix-catalogue-indoor-ac-metal-enclosed-switchgear",
+        "relationship": "earlier catalog version updated by V8",
+        "confidence": 0.8,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/pix500-catalogue-armored-metal-enclosed-switchgear",
+        "relationship": "related PIX variant with armored enclosure",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/pix550-catalogue",
+        "relationship": "related PIX variant for 550mm width",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/pmb-easy-brochure",
+        "relationship": "describes PMB Easy monitoring module referenced in SmartPIX",
+        "confidence": 0.8,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/pmb-easy-johnson-v1",
+        "relationship": "alternate reference for PMB Easy module implementation",
+        "confidence": 0.65,
+        "type": "AMBIGUOUS"
+      },
+      {
+        "to": "sources/hvx-manual",
+        "relationship": "provides medium-voltage circuit breaker specifications used in PIX",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/dnf7-chinese-product-catalog-2011",
+        "relationship": "competitor or complementary air-insulated switchgear family",
+        "confidence": 0.6,
+        "type": "AMBIGUOUS"
+      },
+      {
+        "to": "sources/dnf7-chinese-selection-manual-2017",
+        "relationship": "competitor selection manual for similar voltage class",
+        "confidence": 0.6,
+        "type": "AMBIGUOUS"
+      },
+      {
+        "to": "sources/dnf7-indoor-ac-metal-enclosed-switchgear-2025-4-10",
+        "relationship": "later revision of a competing air-insulated switchgear product line",
+        "confidence": 0.6,
+        "type": "AMBIGUOUS"
+      },
+      {
+        "to": "sources/dnf7-metal-clad-switchgear-technical-instruction-2010",
+        "relationship": "competitor technical instruction for metal-clad switchgear",
+        "confidence": 0.55,
+        "type": "AMBIGUOUS"
+      },
+      {
+        "to": "sources/mvnex-12kv-air-insulated-switchgear-catalog-2017",
+        "relationship": "competitive product in the same 12kV air-insulated space",
+        "confidence": 0.65,
+        "type": "AMBIGUOUS"
+      },
+      {
+        "to": "sources/mvnex-medium-voltage-metal-clad-switchgear",
+        "relationship": "alternative metal-clad switchgear offering",
+        "confidence": 0.65,
+        "type": "AMBIGUOUS"
+      },
+      {
+        "to": "sources/premset-12kv-compact-modular-vacuum-switchgear-catalog-2018",
+        "relationship": "competitive compact SF6-free switchgear solution",
+        "confidence": 0.55,
+        "type": "AMBIGUOUS"
+      },
+      {
+        "to": "sources/premset-12kv-compact-modular-vacuum-switchgear-catalog-2020",
+        "relationship": "updated competitive compact switchgear catalog",
+        "confidence": 0.55,
+        "type": "AMBIGUOUS"
+      },
+      {
+        "to": "sources/premset-product-brochure-2012",
+        "relationship": "early competitor brochure for medium-voltage switchgear",
+        "confidence": 0.4,
+        "type": "AMBIGUOUS"
+      }
+    ]
+  },
+  "C:\\job_docs\\knowledge_base\\mvc_sample\\llm-wiki-agent\\wiki\\sources\\pix500-catalogue-armored-metal-enclosed-switchgear.md": {
+    "hash": "5087fa20c25f94c85ace177ace3bf2d896dcfc16d1f97606604e33034a2cde1f",
+    "edges": [
+      {
+        "to": "sources/pix-12kv-24kv-air-insulated-switchgear-catalog-2016",
+        "relationship": "broader PIX product family catalog covering 12kV/24kV variants beyond 500mm width",
+        "confidence": 0.85,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/pix-catalogue-indoor-ac-metal-enclosed-switchgear",
+        "relationship": "related content of PIX series indoor AC metal-enclosed switchgear",
+        "confidence": 0.8,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/pix-50ka-catalogue-en",
+        "relationship": "higher short-circuit rating variant of PIX switchgear, complements PIX500 specifications",
+        "confidence": 0.75,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/mvnex-12kv-air-insulated-switchgear-catalog-2017",
+        "relationship": "competitor/alternative air-insulated medium-voltage switchgear product line",
+        "confidence": 0.7,
+        "type": "AMBIGUOUS"
+      },
+      {
+        "to": "sources/premset-12kv-compact-modular-vacuum-switchgear-catalog-2018",
+        "relationship": "alternative compact switchgear product often compared with PIX500",
+        "confidence": 0.7,
+        "type": "AMBIGUOUS"
+      },
+      {
+        "to": "sources/fbx-medium-voltage-switchgear-catalog-2017",
+        "relationship": "other medium-voltage switchgear product from same manufacturer family",
+        "confidence": 0.7,
+        "type": "AMBIGUOUS"
+      },
+      {
+        "to": "sources/hvx-manual",
+        "relationship": "technical manual for HVX vacuum breaker used in PIX500",
+        "confidence": 0.85,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/3-smart-hvx-intelligent-medium-voltage-circuit-breaker-solution-overview-single-page",
+        "relationship": "intelligent monitoring solution for HVX breaker applicable to PIX500",
+        "confidence": 0.7,
+        "type": "AMBIGUOUS"
+      }
+    ]
+  },
+  "C:\\job_docs\\knowledge_base\\mvc_sample\\llm-wiki-agent\\wiki\\sources\\pix550-catalogue.md": {
+    "hash": "e0496269f5ce94f57cb6869cf46733124128c8f48f68f363b9bab4b24a557f57",
+    "edges": [
+      {
+        "to": "sources/pix-12kv-24kv-air-insulated-switchgear-catalog-2016",
+        "relationship": "PIX550 is a sub-variant within the PIX family detailed in the 12-24kV catalog",
+        "confidence": 0.9,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/pix-50ka-catalogue-en",
+        "relationship": "PIX550 complements the higher-performance 50kA PIX line for lower current ratings",
+        "confidence": 0.85,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/pix-catalogue-indoor-ac-metal-enclosed-switchgear",
+        "relationship": "PIX550 is an extension of the PIX indoor AC metal-enclosed switchgear catalog",
+        "confidence": 0.9,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/pix-indoor-ac-metal-enclosed-switchgear-v8-breaker-parameter-revision",
+        "relationship": "PIX550 uses HVX breakers whose parameters are revised in that document",
+        "confidence": 0.8,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/pix500-catalogue-armored-metal-enclosed-switchgear",
+        "relationship": "PIX550 and PIX500 are both compact variants of PIX with different width/current ratings",
+        "confidence": 0.85,
+        "type": "INFERRED"
+      }
+    ]
+  },
+  "C:\\job_docs\\knowledge_base\\mvc_sample\\llm-wiki-agent\\wiki\\sources\\pmb-easy-brochure.md": {
+    "hash": "a9012fba07f397383025971d247b58a35ac9ba6fa7e721e2d6c62a9c0ed25b80",
+    "edges": [
+      {
+        "to": "sources/2-smart-hvx-intelligent-medium-voltage-circuit-breaker",
+        "relationship": "PMB Easy brochure complements this source by expanding PMBEasy from a supporting unit to an independent product with detailed specifications",
+        "confidence": 0.92,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/3-smart-hvx-intelligent-medium-voltage-circuit-breaker-solution-overview-single-page",
+        "relationship": "Brochure inherits Smart HVX solution context and provides deeper hardware-level detail than the single-page overview",
+        "confidence": 0.91,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/hvx-manual",
+        "relationship": "PMB Easy connects to Smart HVX hardware; HVX manual likely references PMB Easy as an optional edge control device",
+        "confidence": 0.7,
+        "type": "AMBIGUOUS"
+      },
+      {
+        "to": "sources/gma-air-c4c-digital-implement-20191204",
+        "relationship": "PMB Easy edge control architecture may overlap with GMA digital implementations within EcoStruxure framework",
+        "confidence": 0.55,
+        "type": "AMBIGUOUS"
+      },
+      {
+        "to": "sources/gma-medium-voltage-primary-gas-insulated-switchgear-v1-5",
+        "relationship": "PMB Easy's Smart HVX compatibility implies potential deployment alongside GMA switchgear in secondary applications",
+        "confidence": 0.45,
+        "type": "AMBIGUOUS"
+      }
+    ]
+  },
+  "C:\\job_docs\\knowledge_base\\mvc_sample\\llm-wiki-agent\\wiki\\sources\\pmb-easy-johnson-v1.md": {
+    "hash": "acacfcade79d26f664993a29c1e344f30f37f8cc1618bc5c910d68f54dc1b6ae",
+    "edges": [
+      {
+        "to": "overview",
+        "relationship": "This source contributes to the synthesis of predictive maintenance capabilities in the medium-voltage ecosystem",
+        "confidence": 0.75,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/2-smart-hvx-intelligent-medium-voltage-circuit-breaker",
+        "relationship": "PMB Easy is deployed as an intelligent unit for SmartHVX circuit breakers, aligning with this breaker's specification",
+        "confidence": 0.85,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/3-smart-hvx-intelligent-medium-voltage-circuit-breaker-solution-overview-single-page",
+        "relationship": "Solution overview context consistent with PMB Easy's role as an intelligent unit for SmartHVX",
+        "confidence": 0.8,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/hvx-manual",
+        "relationship": "Provides operational context for SmartHVX breakers that PMB Easy monitors",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/pmb-easy-brochure",
+        "relationship": "Directly compared as cross-validation source; slides are a compressed version of the brochure",
+        "confidence": 0.9,
+        "type": "INFERRED"
+      }
+    ]
+  },
+  "C:\\job_docs\\knowledge_base\\mvc_sample\\llm-wiki-agent\\wiki\\sources\\premset-12kv-compact-modular-vacuum-switchgear-catalog-2018.md": {
+    "hash": "4b42f89d679ebc1e917bd6dcaa53dd5f403e1a396718ea57267494abc5edee62",
+    "edges": [
+      {
+        "to": "sources/premset-12kv-compact-modular-vacuum-switchgear-catalog-2020",
+        "relationship": "Later edition of same product catalog, likely superseding or updating the 2018 version",
+        "confidence": 0.95,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/premset-ip41-option-installation-instructions-2017",
+        "relationship": "Complementary installation instructions for the same Premset product line, covering IP41 option",
+        "confidence": 0.85,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/premset-product-brochure-2012",
+        "relationship": "Earlier product brochure for Premset, providing background and different product positioning",
+        "confidence": 0.9,
+        "type": "INFERRED"
+      },
+      {
+        "to": "concepts/Premset",
+        "relationship": "Core product concept referenced and detailed in this catalog",
+        "confidence": 0.99,
+        "type": "INFERRED"
+      },
+      {
+        "to": "concepts/\u5185\u90e8\u7535\u5f27\u6545\u969c",
+        "relationship": "Catalog specifies internal arc classification A-FLR 25kA x 1s, directly referencing internal arc fault testing",
+        "confidence": 0.95,
+        "type": "INFERRED"
+      },
+      {
+        "to": "concepts/\u7edd\u7f18\u8010\u538b",
+        "relationship": "Catalog provides rated lightning impulse withstand voltage of 75kV and 85kV across the open gap",
+        "confidence": 0.9,
+        "type": "INFERRED"
+      },
+      {
+        "to": "concepts/IP\u9632\u62a4\u7b49\u7ea7",
+        "relationship": "Catalog specifies IP3X for enclosure, IP2X between compartments, and IP67 for main circuit and all high-voltage components",
+        "confidence": 0.95,
+        "type": "INFERRED"
+      },
+      {
+        "to": "concepts/IK\u9632\u62a4\u7b49\u7ea7",
+        "relationship": "Catalog lists IK07 mechanical impact resistance for the switchgear enclosure",
+        "confidence": 0.95,
+        "type": "INFERRED"
+      },
+      {
+        "to": "concepts/\u4e94\u9632\u8054\u9501",
+        "relationship": "Catalog mentions five-fold interlocking logic for cable testing without operating the main switch",
+        "confidence": 0.8,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/pix-12kv-24kv-air-insulated-switchgear-catalog-2016",
+        "relationship": "Comparable air-insulated switchgear catalog from same manufacturer (Schneider) at similar voltage class, competing technology",
+        "confidence": 0.75,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gma-12kv-medium-voltage-gas-insulated-switchgear-catalog-2018",
+        "relationship": "Comparable gas-insulated switchgear catalog from same manufacturer (Schneider) at similar voltage class, competing technology",
+        "confidence": 0.8,
+        "type": "INFERRED"
+      }
+    ]
+  },
+  "C:\\job_docs\\knowledge_base\\mvc_sample\\llm-wiki-agent\\wiki\\sources\\premset-12kv-compact-modular-vacuum-switchgear-catalog-2020.md": {
+    "hash": "06dd82300882050555b02295b5838c92e5b65f0b5b1316f0c3bf6d939c255a2c",
+    "edges": [
+      {
+        "to": "sources/premset-12kv-compact-modular-vacuum-switchgear-catalog-2018",
+        "relationship": "directly supersedes the 2018 version of the same Premset product catalog",
+        "confidence": 0.95,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/premset-product-brochure-2012",
+        "relationship": "provides a more detailed and updated 2020 catalog that extends the earlier 2012 product brochure",
+        "confidence": 0.8,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/premset-ip41-option-installation-instructions-2017",
+        "relationship": "cites the 2017 installation instructions as a reference for IP41 option, providing a higher-level product overview",
+        "confidence": 0.75,
+        "type": "INFERRED"
+      }
+    ]
+  },
+  "C:\\job_docs\\knowledge_base\\mvc_sample\\llm-wiki-agent\\wiki\\sources\\premset-ip41-option-installation-instructions-2017.md": {
+    "hash": "46be0b968eb6f6bb076832aa026af455a60a4e75845e1fef80796d6318bca3fe",
+    "edges": [
+      {
+        "to": "sources/premset-12kv-compact-modular-vacuum-switchgear-catalog-2018",
+        "relationship": "references the same Premset product line as a different catalog source",
+        "confidence": 0.9,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/premset-12kv-compact-modular-vacuum-switchgear-catalog-2020",
+        "relationship": "references the same Premset product line as a different catalog source",
+        "confidence": 0.9,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/premset-product-brochure-2012",
+        "relationship": "references the same Premset product line as a different brochure source",
+        "confidence": 0.9,
+        "type": "INFERRED"
+      }
+    ]
+  },
+  "C:\\job_docs\\knowledge_base\\mvc_sample\\llm-wiki-agent\\wiki\\sources\\premset-product-brochure-2012.md": {
+    "hash": "89fd9c9dcf7c15caa62f2d36ee01f5fd2839ceba94620f267fd3430c4f56bb42",
+    "edges": [
+      {
+        "to": "sources/premset-12kv-compact-modular-vacuum-switchgear-catalog-2018",
+        "relationship": "Earlier market brochure complementing later engineering catalog for Premset",
+        "confidence": 0.95,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/premset-12kv-compact-modular-vacuum-switchgear-catalog-2020",
+        "relationship": "Continued product line evolution with updated engineering specifications",
+        "confidence": 0.9,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/premset-ip41-option-installation-instructions-2017",
+        "relationship": "Provides marketing context for IP41 installation option",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      }
+    ]
+  },
+  "C:\\job_docs\\knowledge_base\\mvc_sample\\llm-wiki-agent\\wiki\\sources\\q320500-ksga-09-2015-wsg-enterprise-standard.md": {
+    "hash": "5ba5ed219972fb9d72ecee58b0d25ba54cfb206fef9ff3e394b3f4d065f19b57",
+    "edges": [
+      {
+        "to": "sources/gm-airset-medium-voltage-primary-gas-insulated-switchgear-v1-1",
+        "relationship": "Both are gas-insulated medium-voltage switchgear standards/catalogs, potentially covering overlapping voltage and current ratings",
+        "confidence": 0.8,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gma-12kv-medium-voltage-gas-insulated-switchgear-catalog-2018",
+        "relationship": "GMA is another gas-insulated switchgear product from the same ecosystem, with different voltage/current specs",
+        "confidence": 0.85,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/flusarc-40-5kv-sf6-insulated-medium-voltage-switchgear-catalog-2016",
+        "relationship": "Both cover 40.5kV SF6-insulated switchgear; Flusarc is a competitor or sibling product",
+        "confidence": 0.8,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gha-gas-insulated-switchgear-presentation-vers-06-englisch",
+        "relationship": "GHA is another gas-insulated switchgear product line from the same manufacturer ecosystem",
+        "confidence": 0.75,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/hvx-manual",
+        "relationship": "WSG standard specifies vacuum breakers; HVX is the vacuum circuit breaker used in WSG",
+        "confidence": 0.9,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/cas-36-ring-main-unit-catalog-2008",
+        "relationship": "Both are switchgear products; CAS is a ring main unit, partially overlapping in gas-insulated technology",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/premset-12kv-compact-modular-vacuum-switchgear-catalog-2018",
+        "relationship": "Premset is another medium-voltage switchgear product line, possibly using different insulation technology",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      }
+    ]
+  },
+  "C:\\job_docs\\knowledge_base\\mvc_sample\\llm-wiki-agent\\wiki\\sources\\qavxm-031-2024-wsg-enterprise-standard.md": {
+    "hash": "e6b9b7e9ec33c4e426357eed7d4727ea4e13e7e11cd2ef8107315eacb8b72ec1",
+    "edges": [
+      {
+        "to": "sources/q320500-ksga-09-2015-wsg-enterprise-standard",
+        "relationship": "supersedes previous enterprise standard for WSG",
+        "confidence": 0.9,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/dnf7-chinese-product-catalog-2011",
+        "relationship": "references DNF7 as competing or complementary medium-voltage switchgear product line",
+        "confidence": 0.5,
+        "type": "AMBIGUOUS"
+      },
+      {
+        "to": "sources/flusarc-40-5kv-sf6-insulated-medium-voltage-switchgear-catalog-2016",
+        "relationship": "shares gas-insulated switchgear category and voltage class (40.5 kV)",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/premset-12kv-compact-modular-vacuum-switchgear-catalog-2020",
+        "relationship": "uses similar vacuum interrupters for 12 kV class",
+        "confidence": 0.6,
+        "type": "AMBIGUOUS"
+      },
+      {
+        "to": "sources/gma-medium-voltage-primary-gas-insulated-switchgear-v1-5",
+        "relationship": "competes with GMA as primary gas-insulated switchgear for medium voltage",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/pix-indoor-ac-metal-enclosed-switchgear",
+        "relationship": "references GB/T 3906 and IEC 62271-200 as common governing standards",
+        "confidence": 0.8,
+        "type": "INFERRED"
+      }
+    ]
+  },
+  "C:\\job_docs\\knowledge_base\\mvc_sample\\llm-wiki-agent\\wiki\\sources\\rm-airset-eco-gas-insulated-ring-main-unit-2020.md": {
+    "hash": "0adc8994b2fa7592a3d6a7c5a0b63241671019e12e4518b4ac315fcbf35c8daa",
+    "edges": [
+      {
+        "to": "sources/gm-airset-medium-voltage-primary-gas-insulated-switchgear-v1-1",
+        "relationship": "complementary product line in eco-gas portfolio, GMAirSeT for primary distribution, RMAirSeT for secondary distribution",
+        "confidence": 0.9,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/premset-12kv-compact-modular-vacuum-switchgear-catalog-2020",
+        "relationship": "competitor or alternative product in 12kV secondary distribution with vacuum technology but different insulation",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/cas-36-ring-main-unit-catalog-2008",
+        "relationship": "earlier generation ring main unit product line from different manufacturer, similar application",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/fbx-catalogue-2020",
+        "relationship": "competitor secondary distribution switchgear with similar voltage class and form factor",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/mvnex-12kv-air-insulated-switchgear-catalog-2017",
+        "relationship": "contrasting insulation technology (air vs gas) for similar 12kV secondary distribution applications",
+        "confidence": 0.8,
+        "type": "INFERRED"
+      }
+    ]
+  },
+  "C:\\job_docs\\knowledge_base\\mvc_sample\\llm-wiki-agent\\wiki\\sources\\rm6-24kv-medium-voltage-distribution-catalog-2012.md": {
+    "hash": "2e0bf758d644aad0548578c1cf75841db201496b4ab30815c51c6e2855221119",
+    "edges": [
+      {
+        "to": "premset-product-brochure-2012",
+        "relationship": "contemporaneous catalog from same manufacturer for competing or adjacent product line",
+        "confidence": 0.6,
+        "type": "AMBIGUOUS"
+      },
+      {
+        "to": "dnf7-chinese-product-catalog-2011",
+        "relationship": "similar-era medium-voltage switchgear catalog from same manufacturer",
+        "confidence": 0.6,
+        "type": "AMBIGUOUS"
+      },
+      {
+        "to": "gma-12kv-medium-voltage-gas-insulated-switchgear-catalog-2018",
+        "relationship": "later gas-insulated switchgear catalog from same manufacturer with related technology",
+        "confidence": 0.5,
+        "type": "AMBIGUOUS"
+      },
+      {
+        "to": "fbx-medium-voltage-switchgear-catalog-2017",
+        "relationship": "related ring-main-unit catalog from same manufacturer",
+        "confidence": 0.5,
+        "type": "AMBIGUOUS"
+      },
+      {
+        "to": "as12-as24-medium-voltage-switch-catalog",
+        "relationship": "medium-voltage switch catalog from same manufacturer with compatible switch types",
+        "confidence": 0.5,
+        "type": "AMBIGUOUS"
+      },
+      {
+        "to": "pix-12kv-24kv-air-insulated-switchgear-catalog-2016",
+        "relationship": "alternative air-insulated switchgear catalog from same manufacturer",
+        "confidence": 0.4,
+        "type": "AMBIGUOUS"
+      },
+      {
+        "to": "hvx-manual",
+        "relationship": "manual for intelligent medium-voltage circuit breaker from same manufacturer",
+        "confidence": 0.4,
+        "type": "AMBIGUOUS"
+      }
+    ]
+  },
+  "C:\\job_docs\\knowledge_base\\mvc_sample\\llm-wiki-agent\\wiki\\sources\\rm6-o-cable-branch-box-brochure-2008.md": {
+    "hash": "336999296935b7dc65ddcf67651a177fd628c3ee9a7e3d38daee900ad7272761",
+    "edges": [
+      {
+        "to": "sources/cas-36-ring-main-unit-catalog-2008",
+        "relationship": "comparable SF6-insulated ring main unit product catalog from same era",
+        "confidence": 0.85,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/fbx-medium-voltage-switchgear-catalog-2017",
+        "relationship": "alternative medium-voltage switchgear line for cable distribution applications",
+        "confidence": 0.75,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/premset-12kv-compact-modular-vacuum-switchgear-catalog-2018",
+        "relationship": "competing compact modular switchgear technology using vacuum instead of SF6",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gha-gas-insulated-switchgear-presentation-vers-06-englisch",
+        "relationship": "alternative gas-insulated switchgear family from same manufacturer",
+        "confidence": 0.8,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gma-medium-voltage-primary-gas-insulated-switchgear-v1-5",
+        "relationship": "other gas-insulated medium-voltage switchgear product line",
+        "confidence": 0.75,
+        "type": "INFERRED"
+      }
+    ]
+  },
+  "C:\\job_docs\\knowledge_base\\mvc_sample\\llm-wiki-agent\\wiki\\sources\\rm6-offer-presentation-life-is-on-201801update.md": {
+    "hash": "4156ad60631f10e24f8ce0252b9bd0b655fa43e0760bb5728bb45a95682e071f",
+    "edges": [
+      {
+        "to": "sources/pmb-easy-brochure",
+        "relationship": "PMB Easy series is a complementary compact switchgear product for similar secondary distribution applications",
+        "confidence": 0.85,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/pmb-easy-johnson-v1",
+        "relationship": "PMB Easy Johnson variant is a related product for medium-voltage distribution",
+        "confidence": 0.8,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gma-medium-voltage-primary-gas-insulated-switchgear-v1-5",
+        "relationship": "GMA is a primary gas-insulated switchgear line that overlaps in voltage class and application with RM6",
+        "confidence": 0.75,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gma-12kv-medium-voltage-gas-insulated-switchgear-catalog-2018",
+        "relationship": "GMA catalog details a competing or complementary gas-insulated switchgear for similar voltage range",
+        "confidence": 0.8,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gma-air-c4c-digital-implement-20191204",
+        "relationship": "GMA digital implementation indicates shared digital grid strategies with RM6 via T300 and sensors",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gma-nrjed311328en-1017",
+        "relationship": "GMA catalog provides alternative primary gas-insulated switchgear specification for similar applications",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/premset-12kv-compact-modular-vacuum-switchgear-catalog-2018",
+        "relationship": "Premset is a compact modular vacuum switchgear alternative to RM6's gas-insulated ring-main unit",
+        "confidence": 0.85,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/premset-12kv-compact-modular-vacuum-switchgear-catalog-2020",
+        "relationship": "Premset catalog updates show evolving compact switchgear solutions in same voltage class as RM6",
+        "confidence": 0.85,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/premset-product-brochure-2012",
+        "relationship": "Premset brochure offers historical comparison for vacuum switchgear vs RM6 gas-insulated design",
+        "confidence": 0.75,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/premset-ip41-option-installation-instructions-2017",
+        "relationship": "Premset IP41 installation instructions relate to enclosure protection standards also referenced in RM6",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/fox-medium-voltage-switchgear-core-unit-catalog-2016",
+        "relationship": "Fox core unit is a related medium-voltage switchgear product for similar secondary distribution",
+        "confidence": 0.8,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/flusarc-40-5kv-sf6-insulated-medium-voltage-switchgear-catalog-2016",
+        "relationship": "Flusarc is a higher-voltage SF6-insulated switchgear product line from same family",
+        "confidence": 0.75,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/hvx-manual",
+        "relationship": "HVX circuit breaker manual covers vacuum interrupter technology used in RM6 breaker units",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      }
+    ]
+  },
+  "C:\\job_docs\\knowledge_base\\mvc_sample\\llm-wiki-agent\\wiki\\sources\\rm6-s-operation-maintenance-instructions-2021.md": {
+    "hash": "b2af9d6cf5ab3347ccfb360b230ae5728310d4bcd7cb3dddc0ea09c9776af1ca",
+    "edges": [
+      {
+        "to": "sources/fbx-catalogue-2020",
+        "relationship": "RM6-S shares ring-main-unit SF6-insulated design concepts with FBX catalog",
+        "confidence": 0.8,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/fbx-medium-voltage-switchgear-catalog-2017",
+        "relationship": "RM6-S operation instructions reference mechanical interlocking and gas-insulated technology common to FBX",
+        "confidence": 0.75,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gha-gas-insulated-switchgear-presentation-vers-06-englisch",
+        "relationship": "Both RM6-S and GHA are SF6 gas-insulated medium-voltage switchgear with similar operational boundaries",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gha-nrjcat18789en-0318",
+        "relationship": "RM6-S instruction manual complements GHA gas-insulated switchgear catalog in same product family",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gm-airset-medium-voltage-primary-gas-insulated-switchgear-v1-1",
+        "relationship": "GM AirSet and RM6-S both employ gas-insulated primary switchgear design for medium voltage",
+        "confidence": 0.75,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gma-12kv-medium-voltage-gas-insulated-switchgear-catalog-2018",
+        "relationship": "RM6-S and GMA both belong to 12kV gas-insulated switchgear class with similar operational principles",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/premset-12kv-compact-modular-vacuum-switchgear-catalog-2018",
+        "relationship": "Premset and RM6-S are both medium-voltage switchgear with vacuum interruption technology",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/premset-12kv-compact-modular-vacuum-switchgear-catalog-2020",
+        "relationship": "RM6-S operation manual covers similar operational safety features as Premset vacuum switchgear",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/hvx-manual",
+        "relationship": "Both HVX and RM6-S are operation/maintenance manuals for medium-voltage switchgear devices",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      }
+    ]
+  },
+  "C:\\job_docs\\knowledge_base\\mvc_sample\\llm-wiki-agent\\wiki\\sources\\rm6-s-rm6-s-plus-medium-voltage-distribution-gas-insulated-switchgear-catalog-2018.md": {
+    "hash": "a3f0e6486fd525c77cf3ddd03e30ee3d297cbb6d625a63566365cd1bf6aac78f",
+    "edges": [
+      {
+        "to": "sources/fbx-catalogue-2020",
+        "relationship": "competes with similar SF6 secondary distribution RMU product line",
+        "confidence": 0.75,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/fbx-medium-voltage-switchgear-catalog-2018",
+        "relationship": "competes with similar SF6 secondary distribution RMU product line",
+        "confidence": 0.75,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/fbx-medium-voltage-switchgear-catalog-2017",
+        "relationship": "competes with similar SF6 secondary distribution RMU product line",
+        "confidence": 0.75,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/premset-12kv-compact-modular-vacuum-switchgear-catalog-2018",
+        "relationship": "competes with similar vacuum secondary distribution switchgear product line",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/premset-12kv-compact-modular-vacuum-switchgear-catalog-2020",
+        "relationship": "competes with similar vacuum secondary distribution switchgear product line",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/premset-product-brochure-2012",
+        "relationship": "competes with similar vacuum secondary distribution switchgear product line",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gma-12kv-medium-voltage-gas-insulated-switchgear-catalog-2018",
+        "relationship": "competes with primary GIS product line; RM6-S is secondary GIS",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gha-gas-insulated-switchgear-presentation-vers-06-englisch",
+        "relationship": "competes with primary GIS product line",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gha-nrjcat18789en-0318",
+        "relationship": "competes with primary GIS product line",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/premset-ip41-option-installation-instructions-2017",
+        "relationship": "supplementary installation document for competing product line",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      }
+    ]
+  },
+  "C:\\job_docs\\knowledge_base\\mvc_sample\\llm-wiki-agent\\wiki\\sources\\rm6-set-medium-voltage-switchgear-catalog-2022.md": {
+    "hash": "b85e5788917a74e269132c58a9c3100752d631e571cf40475dca0dadf36009ee",
+    "edges": [
+      {
+        "to": "sources/fbx-catalogue-2020",
+        "relationship": "FBX is part of the same gas-insulated switchgear product family as RM6 SeT, both referenced in the historical evolution diagram.",
+        "confidence": 0.9,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/fbx-medium-voltage-switchgear-catalog-2017",
+        "relationship": "FBX is listed in the same historical evolution of gas-insulated switchgear as RM6 SeT, indicating shared heritage.",
+        "confidence": 0.9,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/fbx-medium-voltage-switchgear-catalog-2018",
+        "relationship": "FBX is part of the same gas-insulated switchgear family and evolution as RM6 SeT, both mentioned in the same catalog.",
+        "confidence": 0.9,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gma-12kv-medium-voltage-gas-insulated-switchgear-catalog-2018",
+        "relationship": "GMA is referenced in the same historical evolution of medium-voltage gas-insulated switchgear as RM6 SeT.",
+        "confidence": 0.85,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gha-gas-insulated-switchgear-presentation-vers-06-englisch",
+        "relationship": "GHA is part of the same product evolution timeline as RM6 SeT, covering medium-voltage gas-insulated switchgear.",
+        "confidence": 0.85,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gha-nrjcat18789en-0318",
+        "relationship": "GHA is listed alongside RM6 SeT in the catalog's historical evolution of gas-insulated switchgear.",
+        "confidence": 0.85,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/flusarc-40-5kv-sf6-insulated-medium-voltage-switchgear-catalog-2016",
+        "relationship": "Flusarc is a similar SF6-insulated medium-voltage switchgear product line that shares application space with RM6 SeT.",
+        "confidence": 0.75,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/premset-12kv-compact-modular-vacuum-switchgear-catalog-2018",
+        "relationship": "Premset is a compact modular vacuum switchgear alternative to the gas-insulated RM6 SeT for medium-voltage secondary distribution.",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/premset-12kv-compact-modular-vacuum-switchgear-catalog-2020",
+        "relationship": "Premset offers a vacuum-based alternative to RM6 SeT for similar medium-voltage ring main unit applications.",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/dnf7-chinese-product-catalog-2011",
+        "relationship": "DNF7 is a different type of indoor switchgear that contrasts with RM6 SeT's gas-insulated, outdoor-rated ring main unit design.",
+        "confidence": 0.6,
+        "type": "AMBIGUOUS"
+      }
+    ]
+  },
+  "C:\\job_docs\\knowledge_base\\mvc_sample\\llm-wiki-agent\\wiki\\sources\\rm6-set-medium-voltage-switchgear-catalog-2025.md": {
+    "hash": "57024c1eb8ea8dafb1f53f026cd59e4c4b1822fd5a832a71c2ca14be3a6fb1f2",
+    "edges": [
+      {
+        "to": "sources/cas-36-ring-main-unit-catalog-2008",
+        "relationship": "RM6 SeT is a successor to the CAS 36 ring main unit line from 2008",
+        "confidence": 0.75,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/premset-12kv-compact-modular-vacuum-switchgear-catalog-2018",
+        "relationship": "RM6 SeT and Premset share the ring main unit functional category and are both medium-voltage switchgear products, but use different insulation gas",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gma-12kv-medium-voltage-gas-insulated-switchgear-catalog-2018",
+        "relationship": "RM6 SeT competes with GMA as an alternative gas-insulated switchgear solution for secondary distribution",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/smart-hvx-intelligent-medium-voltage-circuit-breaker",
+        "relationship": "RM6 SeT and Smart HVX both include digital monitoring capabilities for medium-voltage power distribution",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/pix-12kv-24kv-air-insulated-switchgear-catalog-2016",
+        "relationship": "RM6 SeT (gas-insulated) and PIX (air-insulated) are alternative medium-voltage switchgear architectures for primary and secondary substations",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/dnf7-indoor-ac-metal-enclosed-switchgear-2025-4-10",
+        "relationship": "RM6 SeT and DNF7 are both medium-voltage switchgear types produced by Schneider Electric but serve different insulation and application niches",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      }
+    ]
+  },
+  "C:\\job_docs\\knowledge_base\\mvc_sample\\llm-wiki-agent\\wiki\\sources\\rm6-sf6-insulated-ring-main-unit-and-compact-switchgear-catalog-2018.md": {
+    "hash": "89cebf46d28a179f217c85edcd85e685b87279286e40bda1a30acd60430408af",
+    "edges": [
+      {
+        "to": "sources/fbx-medium-voltage-switchgear-catalog-2017",
+        "relationship": "Similar medium-voltage switchgear catalog from same era",
+        "confidence": 0.85,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/fbx-medium-voltage-switchgear-catalog-2018",
+        "relationship": "Similar medium-voltage switchgear catalog from same era",
+        "confidence": 0.85,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/premset-12kv-compact-modular-vacuum-switchgear-catalog-2018",
+        "relationship": "Competing or complementary compact switchgear solution from same manufacturer",
+        "confidence": 0.8,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/premset-12kv-compact-modular-vacuum-switchgear-catalog-2020",
+        "relationship": "Competing or complementary compact switchgear solution from same manufacturer",
+        "confidence": 0.8,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gma-12kv-medium-voltage-gas-insulated-switchgear-catalog-2018",
+        "relationship": "Schneider Electric gas-insulated switchgear catalog for similar voltage class",
+        "confidence": 0.8,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gma-medium-voltage-primary-gas-insulated-switchgear-v1-5",
+        "relationship": "Schneider Electric gas-insulated switchgear catalog for similar voltage class",
+        "confidence": 0.8,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/flusarc-40-5kv-sf6-insulated-medium-voltage-switchgear-catalog-2016",
+        "relationship": "Higher voltage SF6 insulated switchgear from Schneider Electric",
+        "confidence": 0.75,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/cas-36-ring-main-unit-catalog-2008",
+        "relationship": "Older ring-main-unit catalog from same manufacturer",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/dvcas-wind-farm-secondary-distribution-switchgear-catalog-2007",
+        "relationship": "Secondary distribution switchgear from same manufacturer",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gha-gas-insulated-switchgear-presentation-vers-06-englisch",
+        "relationship": "Gas-insulated switchgear from another manufacturer (Siemens)",
+        "confidence": 0.75,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gha-nrjcat18789en-0318",
+        "relationship": "Gas-insulated switchgear from another manufacturer (Siemens)",
+        "confidence": 0.75,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/fox-medium-voltage-switchgear-core-unit-catalog-2016",
+        "relationship": "Medium-voltage switchgear from ABB, competing offering",
+        "confidence": 0.75,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/mvnex-12kv-air-insulated-switchgear-catalog-2017",
+        "relationship": "Air-insulated alternative to gas-insulated RM6",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/pix-12kv-24kv-air-insulated-switchgear-catalog-2016",
+        "relationship": "Air-insulated alternative to gas-insulated RM6",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/pmb-easy-brochure",
+        "relationship": "Compact medium-voltage switchgear from another manufacturer",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/pmb-easy-johnson-v1",
+        "relationship": "Compact medium-voltage switchgear from another manufacturer",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/as12-as24-medium-voltage-switch-catalog",
+        "relationship": "Medium-voltage switch from another manufacturer (ABB)",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/as12-medium-voltage-switch-brochure-2016",
+        "relationship": "Medium-voltage switch from another manufacturer (ABB)",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      }
+    ]
+  },
+  "C:\\job_docs\\knowledge_base\\mvc_sample\\llm-wiki-agent\\wiki\\sources\\sc6-medium-voltage-switch-component-catalog-2017.md": {
+    "hash": "72826b394d65c7d24bb29125e507702900d36a06f5d2ccbcfba318c7469c27b1",
+    "edges": [
+      {
+        "to": "sources/fbx-catalogue-2020",
+        "relationship": "FBX is another medium-voltage switchgear line by Schneider Electric, but SC6 is a component not a full cabinet, so direct comparison is limited",
+        "confidence": 0.8,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/hvx-manual",
+        "relationship": "HVX is a medium-voltage circuit breaker platform that may be compared or contrasted with SC6 as a switch component",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gha-gas-insulated-switchgear-presentation-vers-06-englisch",
+        "relationship": "GHA is a gas-insulated switchgear product line, while SC6 is an SF6 switch component for air-insulated cabinets",
+        "confidence": 0.75,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gma-12kv-medium-voltage-gas-insulated-switchgear-catalog-2018",
+        "relationship": "GMA is a gas-insulated switchgear, SC6 is an SF6 element for air-insulated cabinets, both from Schneider but different integration contexts",
+        "confidence": 0.75,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/premset-12kv-compact-modular-vacuum-switchgear-catalog-2018",
+        "relationship": "Premset is a compact vacuum switchgear line that competes with SF6-based components like SC6",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/mvnex-12kv-air-insulated-switchgear-catalog-2017",
+        "relationship": "MVnex is an air-insulated switchgear cabinet series that could integrate SC6 as a core switch component",
+        "confidence": 0.8,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/dnf7-chinese-product-catalog-2011",
+        "relationship": "DNF7 is a metal-enclosed switchgear line possibly using SF6 components similar to SC6",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/dvcas-wind-farm-secondary-distribution-switchgear-catalog-2007",
+        "relationship": "DVCAS is a wind farm secondary distribution switchgear; SC6's 12kV 630A specs could be relevant for such applications",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/cas-36-ring-main-unit-catalog-2008",
+        "relationship": "CAS 36 is a ring main unit product line that uses SF6, similar to SC6 but in a different form factor",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      }
+    ]
+  },
+  "C:\\job_docs\\knowledge_base\\mvc_sample\\llm-wiki-agent\\wiki\\sources\\sm6-24kv-medium-voltage-switchgear-catalog-2017.md": {
+    "hash": "30a886bf77f3c0c8b9bc25d0226bfd1550f5922d4bbcaeeb78f35f001f2356a3",
+    "edges": [
+      {
+        "to": "sources/sm6-24kv-medium-voltage-switchgear-catalog-2017",
+        "relationship": "self-reference, excluded",
+        "confidence": 1.0,
+        "type": "INFERRED"
+      },
+      {
+        "to": "concepts/\u7a7a\u6c14\u7edd\u7f18\u5f00\u5173\u8bbe\u5907",
+        "relationship": "explicitly extracted, excluded",
+        "confidence": 1.0,
+        "type": "INFERRED"
+      },
+      {
+        "to": "concepts/\u6570\u5b57\u5316\u4e2d\u538b\u8fd0\u7ef4",
+        "relationship": "explicitly extracted, excluded",
+        "confidence": 1.0,
+        "type": "INFERRED"
+      },
+      {
+        "to": "entities/SM6",
+        "relationship": "explicitly extracted, excluded",
+        "confidence": 1.0,
+        "type": "INFERRED"
+      },
+      {
+        "to": "entities/\u65bd\u8010\u5fb7\u7535\u6c14",
+        "relationship": "explicitly extracted, excluded",
+        "confidence": 1.0,
+        "type": "INFERRED"
+      },
+      {
+        "to": "concepts/\u81ea\u52a8\u6295\u5207",
+        "relationship": "explicitly extracted, excluded",
+        "confidence": 1.0,
+        "type": "INFERRED"
+      },
+      {
+        "to": "concepts/\u5185\u90e8\u7535\u5f27\u9632\u62a4",
+        "relationship": "explicitly extracted, excluded",
+        "confidence": 1.0,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/dnf7-chinese-product-catalog-2011",
+        "relationship": "similar product family under Schneider Electric, both medium-voltage switchgear",
+        "confidence": 0.6,
+        "type": "AMBIGUOUS"
+      },
+      {
+        "to": "sources/dnf7-english-selection-manual-2017",
+        "relationship": "similar product family under Schneider Electric, both medium-voltage switchgear",
+        "confidence": 0.6,
+        "type": "AMBIGUOUS"
+      },
+      {
+        "to": "sources/fbx-medium-voltage-switchgear-catalog-2017",
+        "relationship": "similar product family under Schneider Electric, both medium-voltage switchgear",
+        "confidence": 0.6,
+        "type": "AMBIGUOUS"
+      },
+      {
+        "to": "sources/premset-12kv-compact-modular-vacuum-switchgear-catalog-2018",
+        "relationship": "similar Schneider Electric medium-voltage switchgear product line",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/premset-12kv-compact-modular-vacuum-switchgear-catalog-2020",
+        "relationship": "similar Schneider Electric medium-voltage switchgear product line",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gma-12kv-medium-voltage-gas-insulated-switchgear-catalog-2018",
+        "relationship": "similar medium-voltage switchgear from Schneider Electric",
+        "confidence": 0.6,
+        "type": "AMBIGUOUS"
+      },
+      {
+        "to": "sources/flusarc-40-5kv-sf6-insulated-medium-voltage-switchgear-catalog-2016",
+        "relationship": "similar SF6-insulated switchgear technology from Schneider Electric",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      }
+    ]
+  },
+  "C:\\job_docs\\knowledge_base\\mvc_sample\\llm-wiki-agent\\wiki\\sources\\sm6-air-insulated-switchgear-catalog-2012.md": {
+    "hash": "b15e7860f59d1cbc9baa5bc9c65362bad17b1872f30f30d7c87c6b2df7056dec",
+    "edges": [
+      {
+        "to": "concepts/\u7a7a\u6c14\u7edd\u7f18\u5f00\u5173\u8bbe\u5907",
+        "relationship": "SM6 is explicitly described as 'Air insulated switchgear' in the catalog title and content",
+        "confidence": 1.0,
+        "type": "INFERRED"
+      },
+      {
+        "to": "entities/SM6",
+        "relationship": "This source is the 2012 catalog for SM6 modular switchgear",
+        "confidence": 1.0,
+        "type": "INFERRED"
+      },
+      {
+        "to": "entities/\u65bd\u8010\u5fb7\u7535\u6c14",
+        "relationship": "The catalog is published by Schneider Electric and references their experience",
+        "confidence": 1.0,
+        "type": "INFERRED"
+      },
+      {
+        "to": "concepts/\u5185\u90e8\u7535\u5f27\u9632\u62a4",
+        "relationship": "The catalog provides specific internal arc ratings (A-FL, A-FLR) and discusses arc exhaust options",
+        "confidence": 1.0,
+        "type": "INFERRED"
+      },
+      {
+        "to": "concepts/\u6570\u5b57\u5316\u4e2d\u538b\u8fd0\u7ef4",
+        "relationship": "Lists protection and automation devices such as PowerMeter, Sepam, VIP, and Easergy T200 for network management",
+        "confidence": 0.85,
+        "type": "INFERRED"
+      },
+      {
+        "to": "concepts/IEC 62271-200",
+        "relationship": "Catalog explicitly states compliance with IEC 62271-200 for type testing and LSC2A classification",
+        "confidence": 1.0,
+        "type": "INFERRED"
+      },
+      {
+        "to": "concepts/\u6a21\u5757\u5316\u5f00\u5173\u8bbe\u5907",
+        "relationship": "Catalog title and content emphasize 'Modular units' and a coordinated cabinet system",
+        "confidence": 1.0,
+        "type": "INFERRED"
+      },
+      {
+        "to": "concepts/SF6\u7edd\u7f18\u5f00\u5173\u8bbe\u5907",
+        "relationship": "Although air-insulated overall, the active breaking and earthing components are in an SF6-filled sealed unit",
+        "confidence": 0.95,
+        "type": "INFERRED"
+      },
+      {
+        "to": "concepts/\u4e2d\u538b\u5f00\u5173\u8bbe\u5907",
+        "relationship": "SM6 is rated up to 36 kV, clearly within medium-voltage range",
+        "confidence": 1.0,
+        "type": "INFERRED"
+      },
+      {
+        "to": "concepts/\u771f\u7a7a\u65ad\u8def\u5668",
+        "relationship": "Catalog covers vacuum circuit breaker cubicles up to 24 kV with Evolis vacuum circuit breaker",
+        "confidence": 0.9,
+        "type": "INFERRED"
+      },
+      {
+        "to": "concepts/\u4ea7\u54c1\u76ee\u5f55",
+        "relationship": "This source is identified as a formal product catalog from 2012",
+        "confidence": 1.0,
+        "type": "INFERRED"
+      },
+      {
+        "to": "concepts/\u5b89\u5168\u8054\u9501",
+        "relationship": "Catalog emphasizes interlocking, anti-reflex handle, and front-door operation for safety",
+        "confidence": 0.85,
+        "type": "INFERRED"
+      },
+      {
+        "to": "concepts/\u5e26\u7535\u6307\u793a\u5668",
+        "relationship": "VPIS (Voltage Presence Indication System) is listed in the safety/continuity section",
+        "confidence": 0.9,
+        "type": "INFERRED"
+      },
+      {
+        "to": "concepts/\u9632\u62a4\u7b49\u7ea7",
+        "relationship": "Catalog specifies IP3X for the cabinet and PI insulation barriers",
+        "confidence": 0.9,
+        "type": "INFERRED"
+      },
+      {
+        "to": "concepts/\u5206\u65ad\u6280\u672f",
+        "relationship": "Catalog mentions SF6 or vacuum breaking technology for the switchgear",
+        "confidence": 0.95,
+        "type": "INFERRED"
+      },
+      {
+        "to": "concepts/\u5bff\u547d",
+        "relationship": "Catalog states a '30 years life span' for the SM6 equipment",
+        "confidence": 0.85,
+        "type": "INFERRED"
+      }
+    ]
+  },
+  "C:\\job_docs\\knowledge_base\\mvc_sample\\llm-wiki-agent\\wiki\\sources\\sm6-product-introduction-and-digital-content-2019.md": {
+    "hash": "59911b42f6fcede4ff4910fa569680f20acf1f9e4fd30afc456c2dd9d5221455",
+    "edges": [
+      {
+        "to": "sources/fbx-medium-voltage-switchgear-catalog-2018",
+        "relationship": "FBX\u88ab\u5217\u4e3a\u4e0eSM6\u5e76\u5217\u7684\u73af\u7f51\u67dc\u4ea7\u54c1\u7ebf\uff0c\u4e14\u540c\u5c5e\u4e8e\u65bd\u8010\u5fb7\u4e2d\u538b\u5f00\u5173\u67dc\u5bb6\u65cf",
+        "confidence": 0.9,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/fbx-catalogue-2020",
+        "relationship": "FBX\u88ab\u5217\u4e3a\u4e0eSM6\u5e76\u5217\u7684\u73af\u7f51\u67dc\u4ea7\u54c1\u7ebf\uff0c\u4e14\u540c\u5c5e\u4e8e\u65bd\u8010\u5fb7\u4e2d\u538b\u5f00\u5173\u67dc\u5bb6\u65cf",
+        "confidence": 0.9,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/fbx-medium-voltage-switchgear-catalog-2017",
+        "relationship": "FBX\u88ab\u5217\u4e3a\u4e0eSM6\u5e76\u5217\u7684\u73af\u7f51\u67dc\u4ea7\u54c1\u7ebf\uff0c\u4e14\u540c\u5c5e\u4e8e\u65bd\u8010\u5fb7\u4e2d\u538b\u5f00\u5173\u67dc\u5bb6\u65cf",
+        "confidence": 0.9,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/premset-12kv-compact-modular-vacuum-switchgear-catalog-2018",
+        "relationship": "Premset\u88ab\u5217\u4e3a\u4e0eSM6\u5e76\u5217\u7684\u73af\u7f51\u67dc\u4ea7\u54c1\u7ebf\uff0c\u4e14\u540c\u5c5e\u4e8e\u65bd\u8010\u5fb7\u4e2d\u538b\u5f00\u5173\u67dc\u5bb6\u65cf",
+        "confidence": 0.9,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/premset-12kv-compact-modular-vacuum-switchgear-catalog-2020",
+        "relationship": "Premset\u88ab\u5217\u4e3a\u4e0eSM6\u5e76\u5217\u7684\u73af\u7f51\u67dc\u4ea7\u54c1\u7ebf\uff0c\u4e14\u540c\u5c5e\u4e8e\u65bd\u8010\u5fb7\u4e2d\u538b\u5f00\u5173\u67dc\u5bb6\u65cf",
+        "confidence": 0.9,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/premset-product-brochure-2012",
+        "relationship": "Premset\u88ab\u5217\u4e3a\u4e0eSM6\u5e76\u5217\u7684\u73af\u7f51\u67dc\u4ea7\u54c1\u7ebf\uff0c\u4e14\u540c\u5c5e\u4e8e\u65bd\u8010\u5fb7\u4e2d\u538b\u5f00\u5173\u67dc\u5bb6\u65cf",
+        "confidence": 0.9,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gma-12kv-medium-voltage-gas-insulated-switchgear-catalog-2018",
+        "relationship": "SM6\u5f00\u5173\u95f4\u9694\u91c7\u7528SF6\u7edd\u7f18\uff0c\u4e0eGMA\u7b49\u6c14\u4f53\u7edd\u7f18\u5f00\u5173\u67dc\u5171\u4eab\u6c14\u4f53\u7edd\u7f18\u6280\u672f\u4e3b\u9898",
+        "confidence": 0.75,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gma-medium-voltage-primary-gas-insulated-switchgear-v1-5",
+        "relationship": "SM6\u5f00\u5173\u95f4\u9694\u91c7\u7528SF6\u7edd\u7f18\uff0c\u4e0eGMA\u7b49\u6c14\u4f53\u7edd\u7f18\u5f00\u5173\u67dc\u5171\u4eab\u6c14\u4f53\u7edd\u7f18\u6280\u672f\u4e3b\u9898",
+        "confidence": 0.75,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gm-airset-medium-voltage-primary-gas-insulated-switchgear-v1-1",
+        "relationship": "SM6\u5f00\u5173\u95f4\u9694\u91c7\u7528SF6\u7edd\u7f18\uff0c\u4e0eGM Airset\u7b49\u6c14\u4f53\u7edd\u7f18\u5f00\u5173\u67dc\u5171\u4eab\u6c14\u4f53\u7edd\u7f18\u6280\u672f\u4e3b\u9898",
+        "confidence": 0.75,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/cas-36-ring-main-unit-catalog-2008",
+        "relationship": "SM6\u5c5e\u4e8e\u73af\u7f51\u67dc\uff08RMU\uff09\u54c1\u7c7b\uff0c\u4e0eCAS-36\u7b49\u5176\u4ed6\u73af\u7f51\u67dc\u4ea7\u54c1\u5728\u529f\u80fd\u548c\u5e94\u7528\u573a\u666f\u4e0a\u5177\u6709\u53ef\u6bd4\u6027",
+        "confidence": 0.8,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/dnf7-chinese-product-catalog-2011",
+        "relationship": "SM6\u4f5c\u4e3a\u7a7a\u6c14\u7edd\u7f18\u73af\u7f51\u67dc\uff0c\u4e0eDNF7\u7b49\u4e2d\u538b\u5f00\u5173\u67dc\u5728\u91d1\u5c5e\u5c01\u95ed\u5f00\u5173\u8bbe\u5907\u5206\u7c7b\u4e0b\u5b58\u5728\u5173\u8054",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/dnf7-indoor-ac-metal-enclosed-switchgear-2025-4-10",
+        "relationship": "SM6\u4f5c\u4e3a\u7a7a\u6c14\u7edd\u7f18\u73af\u7f51\u67dc\uff0c\u4e0eDNF7\u7b49\u4e2d\u538b\u5f00\u5173\u67dc\u5728\u91d1\u5c5e\u5c01\u95ed\u5f00\u5173\u8bbe\u5907\u5206\u7c7b\u4e0b\u5b58\u5728\u5173\u8054",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/pix-12kv-24kv-air-insulated-switchgear-catalog-2016",
+        "relationship": "SM6\u662f\u7a7a\u6c14\u7edd\u7f18\u73af\u7f51\u67dc\uff0c\u4e0ePix\u7cfb\u5217\u7a7a\u6c14\u7edd\u7f18\u5f00\u5173\u67dc\u5171\u4eab\u7a7a\u6c14\u7edd\u7f18\u6280\u672f\u8def\u7ebf",
+        "confidence": 0.8,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/mvnex-12kv-air-insulated-switchgear-catalog-2017",
+        "relationship": "SM6\u662f\u7a7a\u6c14\u7edd\u7f18\u73af\u7f51\u67dc\uff0c\u4e0eMVNex\u7cfb\u5217\u7a7a\u6c14\u7edd\u7f18\u5f00\u5173\u67dc\u5171\u4eab\u7a7a\u6c14\u7edd\u7f18\u6280\u672f\u8def\u7ebf",
+        "confidence": 0.8,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/mvnex-medium-voltage-metal-clad-switchgear",
+        "relationship": "SM6\u662f\u7a7a\u6c14\u7edd\u7f18\u73af\u7f51\u67dc\uff0c\u4e0eMVNex\u7cfb\u5217\u7a7a\u6c14\u7edd\u7f18\u5f00\u5173\u67dc\u5171\u4eab\u7a7a\u6c14\u7edd\u7f18\u6280\u672f\u8def\u7ebf",
+        "confidence": 0.8,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/hvx-manual",
+        "relationship": "SM6\u4e2d\u7684SF1/SFset\u65ad\u8def\u5668\u53ef\u4e0eHVX\u771f\u7a7a\u65ad\u8def\u5668\u8fdb\u884c\u6280\u672f\u5bf9\u6bd4",
+        "confidence": 0.75,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/2-smart-hvx-intelligent-medium-voltage-circuit-breaker",
+        "relationship": "SM6\u7684\u6570\u5b57\u5316\u5c42\uff08Smart SM6\uff09\u4e0eSmart HVX\u7684\u667a\u80fd\u5316\u8d8b\u52bf\u4e00\u81f4\uff0c\u5747\u53cd\u6620\u65bd\u8010\u5fb7\u4e2d\u538b\u8bbe\u5907\u6570\u5b57\u5316\u65b9\u5411",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/3-smart-hvx-intelligent-medium-voltage-circuit-breaker-solution-overview-single-page",
+        "relationship": "SM6\u7684\u6570\u5b57\u5316\u5c42\uff08Smart SM6\uff09\u4e0eSmart HVX\u7684\u667a\u80fd\u5316\u8d8b\u52bf\u4e00\u81f4\uff0c\u5747\u53cd\u6620\u65bd\u8010\u5fb7\u4e2d\u538b\u8bbe\u5907\u6570\u5b57\u5316\u65b9\u5411",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      }
+    ]
+  },
+  "C:\\job_docs\\knowledge_base\\mvc_sample\\llm-wiki-agent\\wiki\\sources\\smart-hvx-product-introduction-v3-4.md": {
+    "hash": "532c96445db9203f66d51ae657fc6217c1c47eb444ba33abd9312c8893e70c07",
+    "edges": [
+      {
+        "to": "sources/pmb-easy-brochure",
+        "relationship": "PMBEasy \u4f5c\u4e3a\u672c\u5730\u667a\u80fd\u5355\u5143\u4e0e Smart HVX \u914d\u5957\u4f7f\u7528\uff0c\u63d0\u4f9b\u672c\u5730\u663e\u793a\u548c\u4e3b\u52a8\u8fd0\u7ef4\u529f\u80fd",
+        "confidence": 0.85,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/hvx-manual",
+        "relationship": "Smart HVX \u57fa\u4e8e HVX \u5e73\u53f0\uff0c\u5176\u57fa\u7840\u65ad\u8def\u5668\u6280\u672f\u7ec6\u8282\u53ef\u53c2\u8003 HVX \u624b\u518c",
+        "confidence": 0.8,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/dnf7-indoor-ac-metal-enclosed-switchgear-2025-4-10",
+        "relationship": "Smart HVX \u901a\u5e38\u5b89\u88c5\u4e8e DNF7 \u7b49\u91d1\u5c5e\u5c01\u95ed\u5f00\u5173\u67dc\u5185\uff0c\u5c5e\u4e8e\u5178\u578b\u4e2d\u538b\u5f00\u5173\u67dc\u914d\u5408\u65b9\u6848",
+        "confidence": 0.75,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/dnf7-chinese-product-catalog-2011",
+        "relationship": "DNF7 \u5f00\u5173\u67dc\u662f Smart HVX \u53ef\u80fd\u7684\u914d\u5957\u67dc\u578b\u4e4b\u4e00\uff0c\u4ea7\u54c1\u76ee\u5f55\u6db5\u76d6\u76f8\u5173\u6280\u672f\u53c2\u6570",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/mvnex-12kv-air-insulated-switchgear-catalog-2017",
+        "relationship": "MVnex \u4f5c\u4e3a\u53e6\u4e00\u79cd\u91d1\u5c5e\u5c01\u95ed\u5f00\u5173\u67dc\uff0c\u4e0e Smart HVX \u5b58\u5728\u7ade\u4e89\u6216\u66ff\u4ee3\u5173\u7cfb",
+        "confidence": 0.7,
+        "type": "AMBIGUOUS"
+      },
+      {
+        "to": "sources/pix-12kv-24kv-air-insulated-switchgear-catalog-2016",
+        "relationship": "PIX \u7cfb\u5217\u5f00\u5173\u67dc\u4e0e Smart HVX \u5728\u540c\u7c7b\u5e02\u573a\u4e2d\u5b58\u5728\u5bf9\u6bd4\u5173\u7cfb",
+        "confidence": 0.7,
+        "type": "AMBIGUOUS"
+      }
+    ]
+  },
+  "C:\\job_docs\\knowledge_base\\mvc_sample\\llm-wiki-agent\\wiki\\sources\\smart-hvx-product-pmb-introduction.md": {
+    "hash": "a2ae71549578e8f83ea2d4f45df87450a2f0fc8ad21076312705d452ffd71092",
+    "edges": [
+      {
+        "to": "sources/pmb-easy-brochure",
+        "relationship": "PMBEasy\u7684\u8be6\u7ec6\u4ea7\u54c1\u8d44\u6599\u53ef\u80fd\u5305\u542b\u4e86\u4e0eSmartHVX\u914d\u5408\u7684\u66f4\u591a\u67b6\u6784\u7ec6\u8282",
+        "confidence": 0.85,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/pmb-easy-johnson-v1",
+        "relationship": "\u53e6\u4e00\u4efdPMBEasy\u8d44\u6599\u53ef\u80fd\u8865\u5145\u4e86PMBox\u4e0eSmartHVX\u6574\u5408\u7684\u76f8\u5173\u4fe1\u606f",
+        "confidence": 0.75,
+        "type": "INFERRED"
+      }
+    ]
+  },
+  "C:\\job_docs\\knowledge_base\\mvc_sample\\llm-wiki-agent\\wiki\\sources\\smd-and-sensors-for-sm6-training-v2.md": {
+    "hash": "e0df93de03f47cf89ccbca38094875020c736b741696c4bc41c9c2f2462c001c",
+    "edges": [
+      {
+        "to": "sources/fbx-medium-voltage-switchgear-catalog-2018",
+        "relationship": "SMD sensor deployment likely targeted same MV switchgear product lines as FBX catalog",
+        "confidence": 0.75,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gma-medium-voltage-primary-gas-insulated-switchgear-v1-5",
+        "relationship": "SMD monitoring extends to GMA primary switchgear for condition-based maintenance",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/premset-12kv-compact-modular-vacuum-switchgear-catalog-2018",
+        "relationship": "TH110/CL110 sensors applicable to Premset switchgear for thermal/environmental monitoring",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/pix-12kv-24kv-air-insulated-switchgear-catalog-2016",
+        "relationship": "SMD can be paired with PIX switchgear for real-time threshold and alarm functions",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/hvx-manual",
+        "relationship": "SMD V4 compatibility with Easergy P3/P5 relays implies integration with HVX breaker control",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/mvnex-12kv-air-insulated-switchgear-catalog-2017",
+        "relationship": "SMD digitalization concept aligns with MVnex as target deployment for smart monitoring",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/smd-and-sensors-for-sm6-training-v2",
+        "relationship": "Self-reference for internal cross-check (placeholder edge, not needed)",
+        "confidence": 1.0,
+        "type": "AMBIGUOUS"
+      }
+    ]
+  },
+  "C:\\job_docs\\knowledge_base\\mvc_sample\\llm-wiki-agent\\wiki\\sources\\trihal-series-resin-cast-dry-transformer-catalog.md": {
+    "hash": "b520eeb531c39681ae2fbb607aba61b7b31ba47c83f6a099908d6aab8949901d",
+    "edges": [
+      {
+        "to": "entities/FBX",
+        "relationship": "FBX is a complementary switchgear product that integrates with Trihal transformers in medium-voltage distribution",
+        "confidence": 0.85,
+        "type": "INFERRED"
+      },
+      {
+        "to": "entities/RM6",
+        "relationship": "RM6 ring main unit is often used in conjunction with Trihal dry-type transformers for secondary distribution",
+        "confidence": 0.75,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/cas-36-ring-main-unit-catalog-2008",
+        "relationship": "CAS-36 ring main unit is a possible upstream or downstream switching device for Trihal transformer installations",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/fbx-catalogue-2020",
+        "relationship": "FBX catalog provides switchgear options for connecting to Trihal transformers in medium-voltage networks",
+        "confidence": 0.8,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/flusarc-40-5kv-sf6-insulated-medium-voltage-switchgear-catalog-2016",
+        "relationship": "Flusarc 40.5kV SF6 switchgear is a compatible upstream switchgear for Trihal 35kV class transformers",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/premset-12kv-compact-modular-vacuum-switchgear-catalog-2018",
+        "relationship": "Premset switchgear is a compact solution for primary-side connection to Trihal 10-12kV transformers",
+        "confidence": 0.8,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/premset-12kv-compact-modular-vacuum-switchgear-catalog-2020",
+        "relationship": "Later edition of Premset catalog reinforcing compatibility with Trihal transformers",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/2-smart-hvx-intelligent-medium-voltage-circuit-breaker",
+        "relationship": "Smart HVX circuit breaker can serve as primary protection for Trihal transformers in medium-voltage circuits",
+        "confidence": 0.8,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/pix-12kv-24kv-air-insulated-switchgear-catalog-2016",
+        "relationship": "PIX switchgear is an air-insulated medium-voltage switchgear used with Trihal transformers in substations",
+        "confidence": 0.75,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/mvnex-12kv-air-insulated-switchgear-catalog-2017",
+        "relationship": "MVnex switchgear is a metal-clad solution for medium-voltage distribution with Trihal transformers",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      }
+    ]
+  },
+  "C:\\job_docs\\knowledge_base\\mvc_sample\\llm-wiki-agent\\wiki\\sources\\wi-g-27-5kv-railway-gas-insulated-switchgear-catalog-2018.md": {
+    "hash": "552c1272970978a95e0b988d747431bc86971a474c7c6a2c1ae2455162a46bfa",
+    "edges": [
+      {
+        "to": "sources/fbx-catalogue-2020",
+        "relationship": "Likely shares gas-insulated switchgear technology and modular design principles for medium voltage applications",
+        "confidence": 0.75,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/fbx-medium-voltage-switchgear-catalog-2017",
+        "relationship": "Comparable medium voltage gas-insulated switchgear product line with potential technology overlap",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/fbx-medium-voltage-switchgear-catalog-2018",
+        "relationship": "Comparable medium voltage gas-insulated switchgear product line with potential technology overlap",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gma-12kv-medium-voltage-gas-insulated-switchgear-catalog-2018",
+        "relationship": "Possible shared gas-insulated switchgear platform or component architecture despite different voltage class",
+        "confidence": 0.72,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gma-medium-voltage-primary-gas-insulated-switchgear-v1-5",
+        "relationship": "General similarity in primary gas-insulated switchgear design and gas monitoring concepts",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gma-nrjed311328en-1017",
+        "relationship": "Overlaps in gas-insulated switchgear technology and digital monitoring features",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      }
+    ]
+  },
+  "C:\\job_docs\\knowledge_base\\mvc_sample\\llm-wiki-agent\\wiki\\sources\\wi-g-railway-gas-insulated-switchgear-operation-instructions.md": {
+    "hash": "518a8cb4854828cdc91ae0679b57a41c78be7e3a6dc734fca812a33252199f2c",
+    "edges": [
+      {
+        "to": "sources/gma-medium-voltage-primary-gas-insulated-switchgear-v1-5",
+        "relationship": "Similar gas-insulated switchgear product line with comparable SF6 insulation and vacuum interrupter technology",
+        "confidence": 0.85,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/premset-12kv-compact-modular-vacuum-switchgear-catalog-2018",
+        "relationship": "Competing compact modular vacuum switchgear product for medium-voltage distribution",
+        "confidence": 0.8,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/dnf7-indoor-ac-metal-enclosed-switchgear-2025-4-10",
+        "relationship": "Related metal-enclosed switchgear standard for indoor installation and similar rated parameters",
+        "confidence": 0.8,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/pix-catalogue-indoor-ac-metal-enclosed-switchgear",
+        "relationship": "Alternative indoor metal-enclosed switchgear product using air insulation instead of SF6",
+        "confidence": 0.75,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gma-air-c4c-digital-implement-20191204",
+        "relationship": "Gas-insulated switchgear with alternative gas mixture (C4) for reduced environmental impact",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/smart-hvx-intelligent-medium-voltage-circuit-breaker",
+        "relationship": "Complementary intelligent circuit breaker technology for medium-voltage switchgear",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/fox-medium-voltage-switchgear-core-unit-catalog-2016",
+        "relationship": "Similar core-unit modular medium-voltage switchgear design for railway applications",
+        "confidence": 0.7,
+        "type": "AMBIGUOUS"
+      }
+    ]
+  },
+  "C:\\job_docs\\knowledge_base\\mvc_sample\\llm-wiki-agent\\wiki\\sources\\wig-high-speed-rail-smart-switchgear-jiaoda-yunda-protection-pasific-window.md": {
+    "hash": "a6f305b061284026508df4dd4ae176182fbf703c1859d356bb3d837049f64884",
+    "edges": [
+      {
+        "to": "sources/pix-catalogue-indoor-ac-metal-enclosed-switchgear",
+        "relationship": "contrasts with the PIX/Smart PIX narrative by introducing a multi-vendor, high-speed rail digital substation approach",
+        "confidence": 0.85,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gma-medium-voltage-primary-gas-insulated-switchgear-v1-5",
+        "relationship": "may share similar SF6 monitoring and digital substation features but targets different application scenarios",
+        "confidence": 0.6,
+        "type": "AMBIGUOUS"
+      },
+      {
+        "to": "sources/dnf7-metal-clad-switchgear-technical-instruction-2010",
+        "relationship": "both discuss medium-voltage switchgear but DNF7 is conventional while WIG is smart digital substation",
+        "confidence": 0.75,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/mvnex-12kv-air-insulated-switchgear-catalog-2017",
+        "relationship": "WIG's digital substation approach is an alternative to traditional air-insulated designs like MVNex",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "overview",
+        "relationship": "provides a specific instance of digital substation deployment for high-speed rail, enriching the overview with multi-vendor smart switchgear details",
+        "confidence": 0.9,
+        "type": "INFERRED"
+      }
+    ]
+  },
+  "C:\\job_docs\\knowledge_base\\mvc_sample\\llm-wiki-agent\\wiki\\sources\\wind-energy-solutions-2018.md": {
+    "hash": "49bb0972fc2b2ffd9e65f64055adfa1971130f7525dd515afb88cc56d4fc45ba",
+    "edges": [
+      {
+        "to": "sources/premset-12kv-compact-modular-vacuum-switchgear-catalog-2018",
+        "relationship": "references same product with specific electrical ratings and physical dimensions for wind turbine use",
+        "confidence": 0.95,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/fbx-medium-voltage-switchgear-catalog-2018",
+        "relationship": "lists FBX as an option for pre-assembled wind farm substation switchgear",
+        "confidence": 0.95,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/flusarc-40-5kv-sf6-insulated-medium-voltage-switchgear-catalog-2016",
+        "relationship": "provides detailed specifications for FLUSARC used in 40.5kV wind farm connection",
+        "confidence": 0.95,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/dnf7-chinese-product-catalog-2011",
+        "relationship": "references DNF7 as part of the grid-connection substation equipment lineup",
+        "confidence": 0.9,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/dnf7-chinese-selection-manual-2017",
+        "relationship": "references DNF7 with specific ratings (40.5kV / 3150A / 31.5kA / 4s) used in grid-connection solution",
+        "confidence": 0.9,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/dvcas-wind-farm-secondary-distribution-switchgear-catalog-2007",
+        "relationship": "compares with DVCAS secondary distribution switchgear mentioned as existing product but not featured in this solution overview",
+        "confidence": 0.75,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gha-nrjcat18789en-0318",
+        "relationship": "may be an alternative gas-insulated switchgear for similar high-voltage wind farm applications",
+        "confidence": 0.65,
+        "type": "AMBIGUOUS"
+      },
+      {
+        "to": "sources/mvnex-12kv-air-insulated-switchgear-catalog-2017",
+        "relationship": "competes with or complements Premset in the 12kV wind turbine system segment",
+        "confidence": 0.65,
+        "type": "AMBIGUOUS"
+      },
+      {
+        "to": "sources/pix-12kv-24kv-air-insulated-switchgear-catalog-2016",
+        "relationship": "may be an alternative air-insulated switchgear for wind turbine or substation use",
+        "confidence": 0.6,
+        "type": "AMBIGUOUS"
+      }
+    ]
+  },
+  "C:\\job_docs\\knowledge_base\\mvc_sample\\llm-wiki-agent\\wiki\\sources\\wsg-12-40-5kv-ac-metal-enclosed-gas-insulated-switchgear-catalog-2018.md": {
+    "hash": "ce65f0486b8ae6a9f707ffc240f28b8273ee5cbd1b0c927a0c831ac6418858e3",
+    "edges": [
+      {
+        "to": "sources/gha-gas-insulated-switchgear-presentation-vers-06-englisch",
+        "relationship": "competitor gas-insulated switchgear product line for medium voltage applications",
+        "confidence": 0.8,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gha-nrjcat18789en-0318",
+        "relationship": "competitor gas-insulated switchgear product catalog for medium voltage",
+        "confidence": 0.8,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gma-12kv-medium-voltage-gas-insulated-switchgear-catalog-2018",
+        "relationship": "competitor gas-insulated switchgear product catalog for similar voltage and current ratings",
+        "confidence": 0.8,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gma-medium-voltage-primary-gas-insulated-switchgear-v1-5",
+        "relationship": "competitor primary gas-insulated switchgear technical specification",
+        "confidence": 0.8,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gm-airset-medium-voltage-primary-gas-insulated-switchgear-v1-1",
+        "relationship": "alternative gas-insulated switchgear product with air-insulated busbar option",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/flusarc-40-5kv-sf6-insulated-medium-voltage-switchgear-catalog-2016",
+        "relationship": "competitor SF6-insulated switchgear catalog for 40.5kV voltage class",
+        "confidence": 0.8,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/fox-medium-voltage-switchgear-core-unit-catalog-2016",
+        "relationship": "competitor medium-voltage switchgear core unit catalog",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/premset-12kv-compact-modular-vacuum-switchgear-catalog-2018",
+        "relationship": "competitor compact modular vacuum switchgear for 12kV class",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/premset-12kv-compact-modular-vacuum-switchgear-catalog-2020",
+        "relationship": "competitor compact modular vacuum switchgear for 12kV class (later edition)",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      }
+    ]
+  },
+  "C:\\job_docs\\knowledge_base\\mvc_sample\\llm-wiki-agent\\wiki\\sources\\wsg-12-40-5kv-ac-metal-enclosed-gas-insulated-switchgear-catalog-2024.md": {
+    "hash": "7720e2e8a74d8170ef61036e96c4937bf067cf81f6c4ce401b8bd4e5998d4c7f",
+    "edges": [
+      {
+        "to": "sources/fbx-catalogue-2020",
+        "relationship": "Both are medium-voltage switchgear catalogs with modular design for similar applications",
+        "confidence": 0.75,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gma-medium-voltage-primary-gas-insulated-switchgear-v1-5",
+        "relationship": "Both describe gas-insulated switchgear with SF6 monitoring and similar voltage/current ratings",
+        "confidence": 0.85,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/premset-12kv-compact-modular-vacuum-switchgear-catalog-2018",
+        "relationship": "Both are compact modular vacuum switchgear catalogs for medium-voltage distribution",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/flusarc-40-5kv-sf6-insulated-medium-voltage-switchgear-catalog-2016",
+        "relationship": "Both are 40.5kV SF6-insulated switchgear catalogs with similar voltage class and gas insulation",
+        "confidence": 0.9,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gha-gas-insulated-switchgear-presentation-vers-06-englisch",
+        "relationship": "Both are gas-insulated switchgear documentation covering SF6 technology and modular bus",
+        "confidence": 0.8,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/mvnex-12kv-air-insulated-switchgear-catalog-2017",
+        "relationship": "Both are metal-enclosed switchgear catalogs for medium-voltage applications, though one is air-insulated and the other gas-insulated",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/dnf7-chinese-product-catalog-2011",
+        "relationship": "Both are Chinese product catalogs for metal-enclosed switchgear with similar functional modules",
+        "confidence": 0.75,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/cas-36-ring-main-unit-catalog-2008",
+        "relationship": "Both are medium-voltage switchgear catalogs that include cable connection types and gas insulation",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/q320500-ksga-09-2015-wsg-enterprise-standard",
+        "relationship": "This catalog is a direct product-level supplement to the WSG enterprise standard, providing application and ordering details",
+        "confidence": 0.95,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/dvcas-wind-farm-secondary-distribution-switchgear-catalog-2007",
+        "relationship": "Both mention applicability to specific industries like wind farms (DVCAS) versus general industry (WSG), but both cover secondary distribution",
+        "confidence": 0.65,
+        "type": "AMBIGUOUS"
+      }
+    ]
+  },
+  "C:\\job_docs\\knowledge_base\\mvc_sample\\llm-wiki-agent\\wiki\\sources\\wsg-2014-06-27-product-presentation.md": {
+    "hash": "6235a5a99578ed25b9e148adb93120b853d9f2213004e04827fb557a999e6e66",
+    "edges": [
+      {
+        "to": "sources/dnf7-chinese-product-catalog-2011",
+        "relationship": "DNF7\u53ef\u80fd\u662f\u76f8\u8fd1\u65f6\u671f\u7684\u53e6\u4e00\u79cd\u4e2d\u538b\u5f00\u5173\u67dc\u4ea7\u54c1\uff0c\u4e0eWSG\u5f62\u6210\u4ea7\u54c1\u7ebf\u5bf9\u6bd4",
+        "confidence": 0.75,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/dnf7-chinese-selection-manual-2017",
+        "relationship": "DNF7\u9009\u578b\u624b\u518c\u4e0eWSG\u4ea7\u54c1\u4ecb\u7ecd\u5728\u53c2\u6570\u548c\u5e94\u7528\u9886\u57df\u53ef\u80fd\u5b58\u5728\u76f4\u63a5\u7ade\u4e89\u6216\u4e92\u8865\u5173\u7cfb",
+        "confidence": 0.72,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/mvnex-12kv-air-insulated-switchgear-catalog-2017",
+        "relationship": "MVNEX\u662f\u7a7a\u6c14\u7edd\u7f18\u5f00\u5173\u67dc\uff0c\u4e0eWSG\u6c14\u4f53\u7edd\u7f18\u6280\u672f\u5bf9\u6bd4\uff0c\u540c\u5c5e\u65bd\u8010\u5fb7\u4e2d\u538b\u4ea7\u54c1\u5e8f\u5217",
+        "confidence": 0.8,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/mvnex-medium-voltage-metal-clad-switchgear",
+        "relationship": "MVNEX\u91d1\u5c5e\u94e0\u88c5\u5f00\u5173\u67dc\u4e0eWSG\u6c14\u4f53\u7edd\u7f18\u5f00\u5173\u67dc\u5728\u7ed3\u6784\u548c\u5e94\u7528\u4e0a\u5f62\u6210\u5bf9\u7167",
+        "confidence": 0.78,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/premset-12kv-compact-modular-vacuum-switchgear-catalog-2018",
+        "relationship": "Premset\u662f\u53e6\u4e00\u6b3e\u771f\u7a7a\u5f00\u5173\u67dc\u4ea7\u54c1\uff0c\u4e0eWSG\u5728\u7d27\u51d1\u5316\u8bbe\u8ba1\u548c\u5e94\u7528\u573a\u666f\u4e0a\u53ef\u6bd4\u8f83",
+        "confidence": 0.73,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/premset-12kv-compact-modular-vacuum-switchgear-catalog-2020",
+        "relationship": "Premset\u540e\u671f\u7248\u672c\u4e0eWSG\u4ea7\u54c1\u5728\u6280\u672f\u548c\u5e02\u573a\u5b9a\u4f4d\u4e0a\u53ef\u80fd\u6709\u91cd\u53e0\u6216\u66ff\u4ee3\u5173\u7cfb",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/flusarc-40-5kv-sf6-insulated-medium-voltage-switchgear-catalog-2016",
+        "relationship": "Flusarc\u540c\u4e3a40.5kV SF6\u7edd\u7f18\u5f00\u5173\u67dc\uff0c\u4e0eWSG\u5728\u7535\u538b\u7b49\u7ea7\u548c\u7edd\u7f18\u7c7b\u578b\u4e0a\u76f4\u63a5\u7ade\u4e89",
+        "confidence": 0.85,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gma-12kv-medium-voltage-gas-insulated-switchgear-catalog-2018",
+        "relationship": "GMA\u7cfb\u5217\u6c14\u4f53\u7edd\u7f18\u5f00\u5173\u67dc\u4e0eWSG\u572812kV\u7535\u538b\u7b49\u7ea7\u548c\u6c14\u4f53\u7edd\u7f18\u6280\u672f\u4e0a\u5f62\u6210\u5bf9\u6bd4",
+        "confidence": 0.8,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gma-medium-voltage-primary-gas-insulated-switchgear-v1-5",
+        "relationship": "GMA\u4f5c\u4e3a\u4e00\u6b21\u6c14\u4f53\u7edd\u7f18\u5f00\u5173\u67dc\u7684\u4e3b\u6253\u4ea7\u54c1\uff0c\u4e0eWSG\u5728\u5e94\u7528\u9886\u57df\u548c\u6280\u672f\u7ec6\u8282\u4e0a\u53ef\u5173\u8054",
+        "confidence": 0.78,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gha-gas-insulated-switchgear-presentation-vers-06-englisch",
+        "relationship": "GHA\u6c14\u4f53\u7edd\u7f18\u5f00\u5173\u67dc\u5c55\u793a\u6587\u7a3f\u4e0eWSG\u4ea7\u54c1\u4ecb\u7ecd\u5728\u6c14\u4f53\u7edd\u7f18\u6280\u672f\u548c\u6807\u51c6\u5f15\u7528\u4e0a\u5b58\u5728\u5171\u6027",
+        "confidence": 0.77,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/cas-36-ring-main-unit-catalog-2008",
+        "relationship": "CAS-36\u73af\u7f51\u67dc\u4e0eWSG\u5728\u914d\u7535\u7f51\u7edc\u672b\u7aef\u5e94\u7528\u548c\u4e2d\u538b\u5f00\u5173\u67dc\u8303\u7574\u5185\u53ef\u5173\u8054",
+        "confidence": 0.72,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/fbx-catalogue-2020",
+        "relationship": "FBX\u4ea7\u54c1\u76ee\u5f55\u4e0eWSG\u53ef\u80fd\u540c\u5c5e\u65bd\u8010\u5fb7\u4e2d\u538b\u5f00\u5173\u4ea7\u54c1\u7ec4\u5408\uff0c\u7528\u4e8e\u4e0d\u540c\u5e94\u7528\u573a\u666f",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/pix-12kv-24kv-air-insulated-switchgear-catalog-2016",
+        "relationship": "PIX\u7a7a\u6c14\u7edd\u7f18\u5f00\u5173\u67dc\u4e0eWSG\u6c14\u4f53\u7edd\u7f18\u5f00\u5173\u67dc\u572812kV-24kV\u7535\u538b\u7b49\u7ea7\u5f62\u6210\u6280\u672f\u548c\u5e02\u573a\u5bf9\u6bd4",
+        "confidence": 0.8,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/pix-catalogue-indoor-ac-metal-enclosed-switchgear",
+        "relationship": "PIX\u91d1\u5c5e\u5c01\u95ed\u5f00\u5173\u67dc\u4e0eWSG\u5728\u7ed3\u6784\u548c\u7edd\u7f18\u65b9\u5f0f\u4e0a\u4e0d\u540c\uff0c\u4f46\u5c5e\u540c\u4e00\u4ea7\u54c1\u5bb6\u65cf",
+        "confidence": 0.75,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/q320500-ksga-09-2015-wsg-enterprise-standard",
+        "relationship": "WSG\u4f01\u4e1a\u6807\u51c6\u662f\u5bf9\u540c\u4e00\u4ea7\u54c1WSG\u7684\u6b63\u5f0f\u6280\u672f\u6807\u51c6\u6587\u4ef6\uff0c\u4e0e\u672c\u6750\u6599\u76f4\u63a5\u5bf9\u5e94",
+        "confidence": 0.9,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/dvcas-wind-farm-secondary-distribution-switchgear-catalog-2007",
+        "relationship": "\u98ce\u573a\u4e8c\u6b21\u914d\u7535\u5f00\u5173\u67dc\u4e0eWSG\u5728\u98ce\u7535\u5e94\u7528\u9886\u57df\u6709\u91cd\u53e0\uff0c\u53ef\u6bd4\u8f83\u4ea7\u54c1\u9002\u5e94\u6027",
+        "confidence": 0.73,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/pmb-easy-brochure",
+        "relationship": "PMB Easy\u4ea7\u54c1\u624b\u518c\u4e0eWSG\u5728\u6a21\u5757\u5316\u548c\u6613\u7528\u6027\u8bbe\u8ba1\u4e0a\u53ef\u80fd\u5171\u4eab\u8bbe\u8ba1\u7406\u5ff5",
+        "confidence": 0.68,
+        "type": "AMBIGUOUS"
+      },
+      {
+        "to": "sources/hvx-manual",
+        "relationship": "HVX\u578b\u65ad\u8def\u5668\u53ef\u80fd\u4e0eWSG\u5f00\u5173\u67dc\u914d\u5408\u4f7f\u7528\u4f5c\u4e3a\u6838\u5fc3\u5143\u4ef6",
+        "confidence": 0.72,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/2-smart-hvx-intelligent-medium-voltage-circuit-breaker",
+        "relationship": "Smart HVX\u667a\u80fd\u65ad\u8def\u5668\u4e0eWSG\u5f00\u5173\u67dc\u5728\u6570\u5b57\u5316\u548c\u667a\u80fd\u5316\u8d8b\u52bf\u4e0a\u53ef\u5173\u8054",
+        "confidence": 0.75,
+        "type": "INFERRED"
+      }
+    ]
+  },
+  "C:\\job_docs\\knowledge_base\\mvc_sample\\llm-wiki-agent\\wiki\\sources\\wsg-40-5kv-gas-insulated-switchgear-image.md": {
+    "hash": "d7c42cf40c98ad21b6005d6e46f3f4b24ecd8148d238707c105a4b1836b177e6",
+    "edges": [
+      {
+        "to": "sources/flusarc-40-5kv-sf6-insulated-medium-voltage-switchgear-catalog-2016",
+        "relationship": "Both are 40.5kV gas-insulated switchgear products; Flusarc catalog provides comparative technical context",
+        "confidence": 0.8,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gha-gas-insulated-switchgear-presentation-vers-06-englisch",
+        "relationship": "Both describe gas-insulated switchgear; GHA presentation may share design principles or market positioning",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gm-airset-medium-voltage-primary-gas-insulated-switchgear-v1-1",
+        "relationship": "GM-Airset is another medium-voltage primary gas-insulated switchgear offering alternative technology comparison",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gma-medium-voltage-primary-gas-insulated-switchgear-v1-5",
+        "relationship": "GMA is a medium-voltage primary gas-insulated switchgear series; provides competitive context for WS-G 40.5kV",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/q320500-ksga-09-2015-wsg-enterprise-standard",
+        "relationship": "The WS-G 2015 enterprise standard defines baseline specifications that this image page illustrates",
+        "confidence": 0.9,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/premset-12kv-compact-modular-vacuum-switchgear-catalog-2018",
+        "relationship": "Premset is a compact modular switchgear series that may serve a different voltage class but similar application context",
+        "confidence": 0.6,
+        "type": "AMBIGUOUS"
+      },
+      {
+        "to": "sources/dvcas-wind-farm-secondary-distribution-switchgear-catalog-2007",
+        "relationship": "DVCAS is a wind farm secondary distribution switchgear; directly related to the offshore wind application context of WS-G",
+        "confidence": 0.85,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/fox-medium-voltage-switchgear-core-unit-catalog-2016",
+        "relationship": "FOX medium-voltage switchgear core unit may be used in similar distribution applications; potential comparative product",
+        "confidence": 0.65,
+        "type": "AMBIGUOUS"
+      }
+    ]
+  },
+  "C:\\job_docs\\knowledge_base\\mvc_sample\\llm-wiki-agent\\wiki\\sources\\wsg-feature-highlights-image.md": {
+    "hash": "ba144647a94b6ae26bc622064c1c49a044cdc39e71653f408fd6a020fb893c3c",
+    "edges": [
+      {
+        "to": "sources/q320500-ksga-09-2015-wsg-enterprise-standard",
+        "relationship": "This source provides a stricter leakage rate (0.01%/yr) compared to the 0.1%/yr in the enterprise standard, highlighting a discrepancy",
+        "confidence": 0.9,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/flusarc-40-5kv-sf6-insulated-medium-voltage-switchgear-catalog-2016",
+        "relationship": "Both describe 40.5kV gas-insulated switchgear, with this page offering sales-oriented features vs. catalog technical details",
+        "confidence": 0.8,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gma-12kv-medium-voltage-gas-insulated-switchgear-catalog-2018",
+        "relationship": "Both are gas-insulated switchgear sources; this page focuses on 40.5kV while GMA covers 12kV, sharing common GIS concepts",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gha-gas-insulated-switchgear-presentation-vers-06-englisch",
+        "relationship": "Both present gas-insulated switchgear highlights; GHA may be a different product line, but share similar feature presentation style",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/premset-12kv-compact-modular-vacuum-switchgear-catalog-2018",
+        "relationship": "Premset uses vacuum interrupters and gas insulation, overlapping with this page's mention of vacuum interrupters and sealed tanks",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/pix-12kv-24kv-air-insulated-switchgear-catalog-2016",
+        "relationship": "Both discuss internal arc ratings (25kA-40kA) and compartment design, though one is air-insulated, the other gas-insulated",
+        "confidence": 0.8,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/hvx-manual",
+        "relationship": "HVX is a vacuum circuit breaker brand; this page mentions 'same brand as cabinet' breaker, likely referring to HVX or similar",
+        "confidence": 0.6,
+        "type": "AMBIGUOUS"
+      },
+      {
+        "to": "overview",
+        "relationship": "Contributes detailed feature data for the WS-G product line, feeding into the overall synthesis page",
+        "confidence": 0.9,
+        "type": "INFERRED"
+      }
+    ]
+  },
+  "C:\\job_docs\\knowledge_base\\mvc_sample\\llm-wiki-agent\\wiki\\sources\\wsg-gas-insulated-metal-enclosed-switchgear-operation-instructions.md": {
+    "hash": "077c5767516d860537424c3f7123f47c3bab61035eca82c9bfb16a18ef8197d8",
+    "edges": [
+      {
+        "to": "sources/hvx-manual",
+        "relationship": "references similar operation instructions for intelligent circuit breakers from the same manufacturer",
+        "confidence": 0.65,
+        "type": "AMBIGUOUS"
+      },
+      {
+        "to": "sources/q320500-ksga-09-2015-wsg-enterprise-standard",
+        "relationship": "provides enterprise standard that complements this operation manual for the WSG series",
+        "confidence": 0.75,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gma-12kv-medium-voltage-gas-insulated-switchgear-catalog-2018",
+        "relationship": "describes alternative gas-insulated switchgear product line with similar voltage ratings and monitoring systems",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gma-medium-voltage-primary-gas-insulated-switchgear-v1-5",
+        "relationship": "covers comparable primary gas-insulated switchgear specifications and pressure system details",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/flusarc-40-5kv-sf6-insulated-medium-voltage-switchgear-catalog-2016",
+        "relationship": "describes a 40.5kV SF6-insulated switchgear product with overlapping voltage class and gas monitoring",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gha-gas-insulated-switchgear-presentation-vers-06-englisch",
+        "relationship": "presents GHA gas-insulated switchgear which shares SF6 sealing and density monitoring concepts",
+        "confidence": 0.65,
+        "type": "AMBIGUOUS"
+      },
+      {
+        "to": "sources/premset-12kv-compact-modular-vacuum-switchgear-catalog-2018",
+        "relationship": "describes compact vacuum switchgear alternative with different insulation medium but similar voltage class",
+        "confidence": 0.6,
+        "type": "AMBIGUOUS"
+      },
+      {
+        "to": "sources/pix-catalogue-indoor-ac-metal-enclosed-switchgear",
+        "relationship": "catalogs indoor metal-enclosed switchgear with overlapping standards and safety requirements",
+        "confidence": 0.6,
+        "type": "AMBIGUOUS"
+      }
+    ]
+  },
+  "C:\\job_docs\\knowledge_base\\mvc_sample\\llm-wiki-agent\\wiki\\sources\\wsg-wig-smart-switchgear-2019.md": {
+    "hash": "4288700232693e7e2f3b95b799aa57fe1839f0f8c1ca52e3263e1f0ce81ca9d6",
+    "edges": [
+      {
+        "to": "sources/q320500-ksga-09-2015-wsg-enterprise-standard",
+        "relationship": "enterprise standard for WSG that the smart switchgear presentation references for design principles",
+        "confidence": 0.8,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/dnf7-chinese-product-catalog-2011",
+        "relationship": "DNF7 catalog provides baseline switchgear product parameters that smart monitoring modules are added to",
+        "confidence": 0.75,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/dnf7-chinese-selection-manual-2017",
+        "relationship": "selection manual for DNF7 may list compatible monitoring options referenced in the smart switchgear context",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gm-airset-medium-voltage-primary-gas-insulated-switchgear-v1-1",
+        "relationship": "GM airset shares SF6 monitoring and gas-insulated design with the WSG-WIG smart switchgear monitoring project",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/gma-medium-voltage-primary-gas-insulated-switchgear-v1-5",
+        "relationship": "GMA series has similar gas-insulated compartments and may use same SF6 density/moisture monitoring approach",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/pix-indoor-ac-metal-enclosed-switchgear",
+        "relationship": "PIX switchgear catalog shows alternative air-insulated design where temperature and partial discharge monitoring may be applied",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/mvnex-12kv-air-insulated-switchgear-catalog-2017",
+        "relationship": "MVNEX air-insulated switchgear is another platform where the described monitoring modules (temperature, PD) could be installed",
+        "confidence": 0.7,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/hvx-manual",
+        "relationship": "HVX manual describes vacuum circuit breaker parameters that are monitored in the breaker characteristic online monitoring section",
+        "confidence": 0.75,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/2-smart-hvx-intelligent-medium-voltage-circuit-breaker",
+        "relationship": "the Smart HVX intelligent circuit breaker is the primary device whose characteristics are monitored by the WSG-WIG system",
+        "confidence": 0.85,
+        "type": "INFERRED"
+      },
+      {
+        "to": "sources/3-smart-hvx-intelligent-medium-voltage-circuit-breaker-solution-overview-single-page",
+        "relationship": "solution overview for Smart HVX directly covers the same online monitoring features (temperature, mechanical characteristics) as this presentation",
+        "confidence": 0.85,
+        "type": "INFERRED"
+      }
+    ]
+  }
+}

@@ -8,6 +8,11 @@ Parse recent entries: `grep "^## \[" wiki/log.md | tail -10`
 
 ---
 
+
+## [2026-06-10] graph | Knowledge graph rebuilt
+
+141 nodes, 969 edges (969 extracted, 0 inferred).
+
 ## [2026-06-09] ingest | RM6-S/RM6-S Plus 中压配电 12 kV 以下气体绝缘开关设备 产品目录
 
 Added source. Key claims: this Chinese PDF should be treated as a distinct `2018.10 / SCDOC1739` formal catalog layer for the `RM6-S / RM6-S Plus` family rather than as a duplicate of the already indexed `2021` RM6-S operation manual, the broader `2018.10 / SCDOC1043-MV` RM6 catalog, or the later RM6 SeT catalogs. Its core value is that it splits a narrower `12kV` RM6 branch into two engineering subfamilies: `RM6-S` as the `630A` side-extensible route using `A-Link`, and `RM6-S Plus` as the upgraded `1250A` top-extensible route with `CB / B / G / CBBr / M / PT` units. The catalog formalizes a technical envelope around `20/25/31.5kA`, `0.03 MPa @ 20℃`, `30`-year maintenance-free sealed-pressure-system wording, `AFL 16/20/25/31.5kA 1s`, remote-control levels `0~4`, and protection choices such as `MiCOM P114S / SEG WIC1` for RM6-S and `Sepam20/40` for RM6-S Plus. It also preserves an important source discrepancy: the file name says `24 kV 以下`, but the cover and core body consistently define the family as `12 kV 以下`, so the wiki should privilege the cover/body wording while explicitly recording the mismatch.
@@ -314,3 +319,11 @@ Added source. Key claims: the V3.4 product deck expands Smart HVX's sales and ap
 ## [2026-06-05] report | Graph health report generated
 
 78 nodes analyzed.
+
+## [2026-06-10] graph | Knowledge graph rebuilt
+
+141 nodes, 1666 edges (969 extracted, 697 inferred).
+
+## [2026-06-10] graph | Knowledge graph rebuilt
+
+141 nodes, 1666 edges (969 extracted, 697 inferred).

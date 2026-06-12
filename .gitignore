@@ -27,6 +27,9 @@ share/python-wheels/
 *.egg
 MANIFEST
 
+# token配置
+*llm_config.py
+
 # PyInstaller
 *.manifest
 *.spec

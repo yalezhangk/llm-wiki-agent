@@ -1,8 +1,8 @@
 # Wiki Index
 
-**快速导航：** <a href="graph.html" target="_blank">📊 知识图谱</a>
-
 This file is maintained by the LLM. Updated on every ingest.
+
+**快速导航：** <a href="graph.html" target="_blank">📊 知识图谱</a>
 
 ## Overview
 - [Overview](overview.md) — living synthesis across all sources

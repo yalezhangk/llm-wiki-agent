@@ -28,7 +28,8 @@ import webbrowser
 from pathlib import Path
 from datetime import date
 
-import os
+# ---- LLM 配置（统一管理，参见 tools/llm_config.py） ----
+from tools.llm_config import call_llm_fast
 
 try:
     import networkx as nx
@@ -66,28 +67,6 @@ EDGE_COLORS = {
 
 def read_file(path: Path) -> str:
     return path.read_text(encoding="utf-8") if path.exists() else ""
-
-
-def call_llm(prompt: str, model_env: str, default_model: str, max_tokens: int = 4096) -> str:
-    try:
-        from litellm import completion
-    except ImportError:
-        print("Error: litellm not installed. Run: pip install litellm")
-        import sys
-        sys.exit(1)
-
-    model = os.getenv(model_env, default_model)
-
-    kwargs = {
-        "model": model,
-        "messages": [{"role": "user", "content": prompt}]
-    }
-
-    if max_tokens:
-        kwargs["max_tokens"] = max_tokens
-
-    response = completion(**kwargs)
-    return response.choices[0].message.content
 
 
 def sha256(text: str) -> str:
@@ -308,7 +287,7 @@ Rules:
         page_edges = []
         valid_rels = []
         try:
-            raw = call_llm(prompt, "LLM_MODEL_FAST", "claude-3-5-haiku-latest", max_tokens=1024)
+            raw = call_llm_fast(prompt)  # 使用快速模型（配置见 tools/llm_config.py）
             raw = raw.strip()
 
             match = re.search(r"(\{[\s\S]*\}|\[[\s\S]*\])", raw)

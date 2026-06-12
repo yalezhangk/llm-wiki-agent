@@ -17,7 +17,6 @@ Checks:
 """
 
 import re
-import sys
 import json
 import argparse
 import statistics
@@ -25,7 +24,8 @@ from pathlib import Path
 from collections import defaultdict
 from datetime import date
 
-import os
+# ---- LLM 配置（统一管理，参见 tools/llm_config.py） ----
+from tools.llm_config import call_llm_main
 
 REPO_ROOT = Path(__file__).parent.parent
 WIKI_DIR = REPO_ROOT / "wiki"
@@ -37,22 +37,6 @@ SCHEMA_FILE = REPO_ROOT / "CLAUDE.md"
 
 def read_file(path: Path) -> str:
     return path.read_text(encoding="utf-8") if path.exists() else ""
-
-
-def call_llm(prompt: str, model_env: str, default_model: str, max_tokens: int = 4096) -> str:
-    try:
-        from litellm import completion
-    except ImportError:
-        print("Error: litellm not installed. Run: pip install litellm")
-        sys.exit(1)
-        
-    model = os.getenv(model_env, default_model)
-    response = completion(
-        model=model,
-        messages=[{"role": "user", "content": prompt}],
-        max_tokens=max_tokens
-    )
-    return response.choices[0].message.content
 
 
 def all_wiki_pages() -> list[Path]:
@@ -324,7 +308,7 @@ Return a markdown lint report with these sections:
 
 Be specific — name the exact pages and claims involved.
 """
-    semantic_report = call_llm(prompt, "LLM_MODEL", "claude-3-5-sonnet-latest", max_tokens=3000)
+    semantic_report = call_llm_main(prompt, max_tokens=3000)  # 使用主模型（配置见 tools/llm_config.py）
 
     # Compose full report
     report_lines = [

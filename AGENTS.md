@@ -25,7 +25,7 @@ Or use shorthand triggers:
 raw/          # Immutable source documents — never modify these
 wiki/         # Agent owns this layer entirely
   index.md    # Catalog of all pages — update on every ingest
-  log.md      # Append-only chronological record
+  log.md      # Newest-first chronological record
   overview.md # Living synthesis across all sources
   sources/    # One summary page per source document
   entities/   # People, companies, projects, products
@@ -73,7 +73,7 @@ Steps (in order):
 6. Update/create entity pages for key people, companies, projects mentioned
 7. Update/create concept pages for key ideas and frameworks discussed
 8. Flag any contradictions with existing wiki content
-9. Append to `wiki/log.md`: `## [YYYY-MM-DD] ingest | <Title>`
+9. Prepend to `wiki/log.md`: `## [YYYY-MM-DD] ingest | <Title>` (newest entries first)
 10. **Post-ingest validation** — check for broken `[[wikilinks]]`, verify all new pages are in `index.md`, print a change summary
 
 ### Source Page Format
@@ -259,6 +259,8 @@ If Python/deps unavailable, build manually:
 `## [YYYY-MM-DD] <operation> | <title>`
 
 Operations: `ingest`, `query`, `health`, `lint`, `graph`, `report`
+
+New log entries must be inserted at the top of `wiki/log.md`, directly below the header block and separator. Do not append new entries to the end of the file; newest dates should appear first.
 
 ---
 

@@ -9,6 +9,10 @@ Parse recent entries: `grep "^## \[" wiki/log.md | tail -10`
 ---
 
 
+## [2026-06-23] synthesis | PIX和DNF7有何区别？
+
+Saved chat answer 32 from chat 97c72f8b-5a6a-4824-8406-8b4263c92e86 to syntheses/pix和dnf7有何区别.md.
+
 ## [2026-06-10] graph | Knowledge graph rebuilt
 
 141 nodes, 969 edges (969 extracted, 0 inferred).

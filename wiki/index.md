@@ -154,5 +154,6 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Syntheses
 
+- [PIX和DNF7有何区别？](syntheses/pix和dnf7有何区别.md) - synthesis
 ## Reports
 - [Health Report](health-report.md) — 最近一次保存的结构健康检查结果

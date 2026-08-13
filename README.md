@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-**A coding agent skill.** Drop source documents into `raw/` and tell the agent to ingest them — it reads them, extracts knowledge, and builds a persistent interlinked wiki. Every new source makes the wiki richer. You never write it.
+**A coding agent skill.** Provide source documents to the ingest workflow and tell the agent to ingest them — it reads them, extracts knowledge, and builds a persistent interlinked wiki. Every new source makes the wiki richer. You never write it.
 
 > Most knowledge tools make you search your own notes. This one reads everything you've collected and writes a structured wiki that compounds over time — cross-references already built, contradictions already flagged, synthesis already done.
 
@@ -71,6 +71,35 @@ Plain English works too:
 **Claude Code** also provides `/wiki-ingest`, `/wiki-query`, `/wiki-lint`, `/wiki-graph` as slash commands (via `.claude/commands/`). These are Claude Code-specific — other agents use the natural language triggers above, which work identically.
 
 Works with markdown, PDF, DOCX, PPTX, XLSX, HTML, TXT, CSV, JSON, XML, RST, EPUB, and more. Non-markdown files are auto-converted via [markitdown](https://github.com/microsoft/markitdown) at ingest time — no separate step needed.
+
+### Backend Ingest Source Origins
+
+When this repository is used with the companion backend, ingest runtime files
+are backend-managed under `raw/uploads/` and are not committed:
+
+```text
+raw/uploads/
+├── manual/       # UI-uploaded original files; optional conversion work files
+└── scheduled/    # scheduler-submitted parsed Markdown files, such as A.md
+```
+
+Manual and scheduled tasks share a global document-name namespace. The backend
+rejects duplicate names before task creation; this repository does not apply a
+separate deduplication rule.
+
+Every generated Source page records one, and only one, user-facing origin:
+
+```yaml
+# manual upload: always point to the uploaded original file
+source_file: raw/uploads/manual/report.pdf
+
+# scheduled ingest: URL extracted from the scheduler-side readme.txt `Source URL:` line
+source_url: "https://example.com/article"
+```
+
+`source_file` and `source_url` are mutually exclusive. A scheduler's parsed
+`A.md` is an ingest input rather than the original document shown to the user;
+its `readme.txt`, HTML, images, and videos are not copied into this repository.
 
 ## What You Get
 

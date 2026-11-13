@@ -8,6 +8,14 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) — living synthesis across all sources
 
 ## Sources
+- [为什么新增35kV小电源后要上光差保护 | 干货分享](sources/why-add-optical-differential-protection-for-35kv-small-power-sources.md) - 分析分布式小电源并网对继电保护的影响，推荐光差保护为主、距离保护为后备，并阐述故障解列装置在保障系统稳定中的关键作用。
+- [RM6 SeT 中压开关柜技术规格与配置指南](sources/rm6-set-medium-voltage-switchgear.md) - 本文档详细描述了施耐德电气RM6 SeT中压开关柜的技术规格、功能模块、安全联锁机制及数字化解决方案。RM6 SeT采用SF6气体绝缘，具有40年以上免维护寿命，支持12kV/24kV电压等级和630A额定电流。文档涵盖了C（三工位负荷开关）、F（负荷开关-熔断器组合）、V（真空断路器）及D（提升柜）等核心功能模块的电气与机械参数，包括短路耐受电流、开断能力及机械寿命。此外，文档规定了操作环境条件（温度、湿度、海拔）、安全联锁要求（如带电闭锁、接地联锁）以及现场扩展能力（最大6单元共箱）。数字化方面，支持通过Easergy P1保护继电器、Easergy T300智能终端及EcoStruxure平台实现状态监测与资产管理。最后，提供了详细的柜体尺寸、安装间距、电缆连接方案及土建工程要求，确保设备在户内或户外环境下的安全、高效运行。
+- [MQTT Client Device User Manual Rev 1.1](sources/mqtt-client-device-user-manual-rev-1-1.md) - Rev 1.1 manual for MQTT Client Device plugin in Easergy Builder, updating software versions to 01.07.49/01.00.05.
+- [MQTT Client Device User Manual](sources/mqtt-client-device-user-manual.md) - Configuration guide for MQTT Client Device plugin in Easergy Builder, covering coreDb mapping, broker settings, and hardware compatibility for Saitel DR and T300 platforms.
+- [360°透视主变压器](sources/360-perspective-main-transformer.md) - 图文详解电力变压器结构、铁芯接地、套管、油枕、瓦斯保护及冷却系统。
+- [AI数据中心800V高压直流供电架构选型分析](sources/ai-data-center-800v-hvdc-analysis.md) - 分析AI数据中心选择800V HVDC而非700V/900V的工程原因，涵盖器件耐压、监管红线与供应链因素。
+- [10kV开关柜智能化改造，到底值不值？论文、案例、经济性一次说清](sources/10kv-kuaiguan-gui-zhinenghua-gaizao-dao-di-zhi-bu-zhi-lunwen-anli-jingjixing-yici-shuoqing.md) — 从论文、案例与ROI分析评估10kV开关柜智能化改造的经济性与实施梯队
+- [一文吃透真空断路器：合闸、分闸与事故跳闸回路全解析](sources/yiwenchitou-zhenkong-duanluqi-hefen-shichangongzuo-huilu-quanjie-xi.md) — 详解VCB合闸、分闸及事故跳闸的二次控制回路逻辑与状态指示
 - [Smart HVX 智能中压断路器 产品简介](sources/2-smart-hvx-intelligent-medium-voltage-circuit-breaker.md) — 介绍 Smart HVX 的三类配置、监测能力与 PMB Easy 主动运维单元
 - [Smart HVX 智能中压断路器 方案总览](sources/3-smart-hvx-intelligent-medium-voltage-circuit-breaker-solution-overview-single-page.md) — 从单页视角总结 Smart HVX 的分层配置、显示终端和通信链路
 - [HVX 中压真空断路器系列 说明书](sources/hvx-manual.md) — 提供 HVX 平台的标准、结构、二次装置、选型与订货信息
@@ -78,6 +86,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Premset 产品手册](sources/premset-product-brochure-2012.md) — 2012 手册补充 Premset 的 `2SIS` 起源、智能电网叙事、无 `SF6`、`50%` 占地缩减和三工位一体卖点
 
 ## Entities
+- [SE系列电缆附件与避雷器](entities/se-series-cable-accessories.md) - 介绍施耐德SE系列可分离式电缆附件及T型后插避雷器的技术参数、15kV/20kV电压等级下的电缆截面选型规则及关键电气指标。
+- [Easergy P1 保护继电器](entities/easergy-p1.md) - Easergy P1 是 RM6 SeT 中的核心保护继电器，提供 ANSI 50/51/50N/51N/49 等保护功能，支持 Modbus/IEC60870-103 通信及 IP54 防护。
+- [SST (固态变压器)](entities/SST.md) - 利用电力电子变换器替代工频变压器的未来技术，与800V HVDC为接力关系。
+- [Sidecar (电源边柜)](entities/Sidecar.md) - 800V HVDC架构下紧贴AI机柜的降压分配硬件，大量使用SiC器件。
 - [施耐德电气](entities/施耐德电气.md) — Smart HVX 与 EcoStruxure 方案所属厂商
 - [WSG](entities/WSG.md) — 施耐德 WS-G/KGN23 交流气体绝缘金属封闭开关设备，已有 2015 与 2024 企业标准口径
 - [FBX](entities/FBX.md) — 施耐德 `24kV` 及以下 `630A/20kA` 二次配电气体绝缘开关柜产品线
@@ -123,6 +135,15 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Link150](entities/Link150.md) — Smart HVX 接入链路中的智能网关
 
 ## Concepts
+- [故障解列装置](concepts/故障解列装置.md) - 安全自动装置，用于在故障时将系统解列，保障重合闸、变压器绝缘和重要用户供电。
+- [光差保护](concepts/光差保护.md) - 光纤电流差动保护，推荐作为分布式小电源并网线路的主保护，实现全线速动。
+- [RM6 SeT 安装与土建要求](concepts/rm6-set-installation-requirements.md) - 汇总RM6 SeT柜体尺寸、重量、安装间距（后墙≥20mm、房顶≥100mm、侧面≥30/450mm）及电缆弯曲半径（≤150mm²时R=500mm）等土建与安装规范。
+- [三工位开关与机械联锁](concepts/three-position-switch-and-interlocks.md) - 解释RM6 SeT中三工位开关的工作原理及其与电缆室、熔断器室、隔离开关之间的机械联锁逻辑，确保操作安全。
+- [coreDb](concepts/coreDb.md) - Real-time database central to the Baseline Software Platform, storing Status, Analog, Command, and Setpoint points for RTU applications.
+- [MQTT](concepts/MQTT.md) - Publish/subscribe communication protocol used by the MQTT Client Device for RTU data exchange, supporting QoS, TLS, and Sparkplug.
+- [电力变压器](concepts/电力变压器.md) - 电力变压器基本结构、铁芯接地、套管、油枕、瓦斯保护及冷却系统详解。
+- [SiC功率器件 (碳化硅)](concepts/SiC-Power-Devices.md) - 800V HVDC核心器件，1200V等级为当前性价比最优解。
+- [800V HVDC (高压直流)](concepts/800V-HVDC.md) - AI数据中心选型的标称母线电压，平衡器件耐压、监管红线与供应链成本。
 - [IVIS](concepts/IVIS.md) — GHA 集成电压检测、零电压确认和相位比较系统
 - [ILIS](concepts/ILIS.md) — GHA 内部故障电弧检测、分析和快速切除系统
 - [IDIS](concepts/IDIS.md) — GHA 气体密度信息和交通灯式显示系统

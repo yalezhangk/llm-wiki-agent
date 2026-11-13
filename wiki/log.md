@@ -8,6 +8,38 @@ Parse recent entries: `grep "^## \[" wiki/log.md | head -10`
 
 ---
 
+## [2026-11-13] ingest | 为什么新增35kV小电源后要上光差保护 | 干货分享
+
+Added source. Key claims: 分布式小电源并网需配置纵联差动保护（光差）为主保护，距离保护为后备；故障解列装置在保障系统重合闸、保护变压器绝缘和确保重要用户供电方面发挥关键作用；母差和自切保护需增加联跳小电源线路出口回路。
+
+## [2026-10-20] ingest | RM6 SeT 中压开关柜技术规格与配置指南
+
+Added source. Key claims: RM6 SeT主回路具有40年以上使用寿命，寿命期内免维护且无需补气。; 开关柜采用3mm 304不锈钢气箱，保证极低的气体泄漏率，并配备后部安全阀防止气体过压。; 额定电压为12kV或24kV，额定电流630A，短时耐受电流20kA（部分配置25kA）。; 支持最大6单元共箱自由组合，但PT柜和M柜不能共箱。; C功能为三工位负荷开关，机械寿命M2为5000次；V功能为真空断路器，机械寿命M2为10000次。; F功能为负荷开关-熔断器组合，转移电流1750A(12kV)/1000A(24kV)，开断能力31.5kA。; 操作环境温度需在-25℃至40℃之间，海拔≤1000m，湿度≤95%(24h)/90%(1月)。; 具备多重安全联锁：三工位开关天然互锁、带电电缆联锁(LCI)、熔断器室与接地开关联锁、隔离开关操作限制。; 支持数字化状态监测，通过物联网连接EcoStruxure资产管理软件。; Easergy P1保护继电器提供过电流、接地故障、热过载及自动重合闸保护，支持Modbus/IEC60870-103通信。; 前面板防护等级IP54，继电保护外壳IP40，接线端子IP20。; 单功能柜体尺寸宽375/420mm，深750mm，高1950mm（含350mm低压室）；6功能柜长2170mm。; 安装要求：单元到后墙距离≥20mm，到房顶距离≥100mm，可扩展侧面到墙距离≥450mm。; 配备630A套管，提供短、中、长三种规格可选，支持单/双/三电缆安装。; SE系列电缆附件最高系统电压24kV，持续额定电流630A，适用电缆截面25~400mm²(15kV)。; 17kV后插式避雷器持续运行电压Uc为13.6kV，标称放电电流下残压≤50kV。; 真空断路器分闸时间<40ms，合闸时间<60ms，支持自动重合闸(O-0.3s-CO-3min-CO)。; Easergy P1前面板IP54，工作温度-40℃到+70℃，提供8种操作语言。; PD110系列局放监测装置测量范围0-30000pC，可识别局放类型。; Easergy TH110/TH110-R无线智能传感器用于关键电源连接的连续性温度监视。
+
+## [2026-08-28] ingest | MQTT Client Device User Manual Rev 1.1
+
+Added source. Key claims: Updated software versions to Easergy Builder 01.07.49 and MQTT Client Plugin 01.00.05; confirmed hardware compatibility for Saitel DR and PowerLogic T300; detailed MQTT broker connection parameters and coreDb mapping rules.
+
+## [2026-08-28] ingest | MQTT Client Device User Manual
+
+Added source. Key claims: MQTT Client Device plugin configuration in Easergy Builder, coreDb point mapping rules, broker connection parameters (QoS, TLS, Sparkplug), and hardware compatibility limited to Saitel DR and PowerLogic T300 platforms.
+
+## [2026-08-27] ingest | 360°透视主变压器
+
+Added source. Key claims: 电力变压器由铁芯、绕组、绝缘、外壳组成；铁芯需单点接地（电流≤300mA）；套管用于引线和绝缘；油枕调节油量并防湿气；气体继电器分轻瓦斯（报警）和重瓦斯（跳闸）；防爆管和压力释放阀用于泄压保护；冷却方式包括自然对流和强制风冷。
+
+## [2026-08-25] ingest | AI数据中心800V高压直流供电架构选型分析
+
+Added source. Key claims: AI数据中心选择800V HVDC而非700V/900V是工程最优解；800V峰值电压约1100V，完美适配1200V SiC器件且处于低压监管红线内；Sidecar边柜为全新增量硬件；SST固态变压器为未来接力技术。
+
+## [2026-08-19] ingest | 10kV开关柜智能化改造，到底值不值？论文、案例、经济性一次说清
+
+Added source. Key claims: 存量设备改造市场规模预计2026年达210亿元；实际案例验证触头测温与局放监测ROI显著（如2.3年回本）；实施需分梯队推进并规避重硬件轻软件、通信无冗余等五大坑。该来源从行业实践角度补充了数字化中压运维的商业落地路径，与现有Smart HVX/PMB Easy方案叙事高度互补。
+
+## [2026-08-13] ingest | 一文吃透真空断路器：合闸、分闸与事故跳闸回路全解析
+
+Added source. Key claims: Detailed secondary control circuit logic for VCBs including closing, opening, and fault trip paths; clarified roles of anti-trip relay (KCF), auxiliary contacts (QF1-6), and microcomputer protection devices in pulse cutting and status feedback. Updated concept pages for 防跳继电器, 微机测控保护装置, and 真空断路器二次回路. No contradictions found.
+
 ## [2026-06-23] report | Graph health report generated
 
 142 nodes analyzed.

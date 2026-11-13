@@ -8,6 +8,11 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) — living synthesis across all sources
 
 ## Sources
+- [配电室运维困局怎么破？云平台系统才是治本之策](sources/peidian-shi-yunwei-kunju-zhenme-po-yunpingtai-xitong-caishi-zhiben-zhi-ce.md) - 分析传统配电室运维困局，提出基于云平台系统的数字化主动预防解决方案。
+- [断路器操作机构全解析：原理、类型与选型要点](sources/circuit-breaker-operating-mechanism-analysis.md) - 系统介绍断路器操作机构类型、原理、优缺点及 VD4/VS1 典型机构详解
+- [电力专网也有等级保护，而且比互联网等保要求更高](sources/power-dedicated-network-classified-protection.md) - 阐述电力调度数据网在等级保护中的高定级标准、16字安全方针及区别于互联网等保的特殊防护手段与监管机制。
+- [扬长避短：ABB继保优势在哪](sources/yangchangbichuan-abb-jibao-advantage.md) - 剖析 ABB REF615 系列如何通过可编程逻辑实现复杂备自投场景下的“一机统管”及 GOOSE/硬接线灵活通信。
+- [破局电网运维：数字孪生+AI打造区域型变电站智能巡视新范式](sources/po-ju-dian-wang-yun-wei-shu-zi-tong-sheng-ai-da-zao-qu-yu-xing-bian-dian-zhan-zhi-neng-xun-shi-xin-fan-shi.md) - 介绍基于数字孪生和AI的区域型变电站智能巡视平台，展示其在降低运维成本、提升巡检效率和实现预测性维护方面的应用效益。
 - [为什么新增35kV小电源后要上光差保护 | 干货分享](sources/why-add-optical-differential-protection-for-35kv-small-power-sources.md) - 分析分布式小电源并网对继电保护的影响，推荐光差保护为主、距离保护为后备，并阐述故障解列装置在保障系统稳定中的关键作用。
 - [RM6 SeT 中压开关柜技术规格与配置指南](sources/rm6-set-medium-voltage-switchgear.md) - 本文档详细描述了施耐德电气RM6 SeT中压开关柜的技术规格、功能模块、安全联锁机制及数字化解决方案。RM6 SeT采用SF6气体绝缘，具有40年以上免维护寿命，支持12kV/24kV电压等级和630A额定电流。文档涵盖了C（三工位负荷开关）、F（负荷开关-熔断器组合）、V（真空断路器）及D（提升柜）等核心功能模块的电气与机械参数，包括短路耐受电流、开断能力及机械寿命。此外，文档规定了操作环境条件（温度、湿度、海拔）、安全联锁要求（如带电闭锁、接地联锁）以及现场扩展能力（最大6单元共箱）。数字化方面，支持通过Easergy P1保护继电器、Easergy T300智能终端及EcoStruxure平台实现状态监测与资产管理。最后，提供了详细的柜体尺寸、安装间距、电缆连接方案及土建工程要求，确保设备在户内或户外环境下的安全、高效运行。
 - [MQTT Client Device User Manual Rev 1.1](sources/mqtt-client-device-user-manual-rev-1-1.md) - Rev 1.1 manual for MQTT Client Device plugin in Easergy Builder, updating software versions to 01.07.49/01.00.05.
@@ -135,6 +140,10 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Link150](entities/Link150.md) — Smart HVX 接入链路中的智能网关
 
 ## Concepts
+- [断路器操作机构](concepts/断路器操作机构.md) - 介绍断路器操作机构的主要类型、原理、优缺点及典型应用
+- [电力行业等级保护](concepts/电力行业等级保护.md) - 阐述电力调度数据网的高定级标准、16字安全方针、国密算法要求及国家能源局监管机制。
+- [备自投逻辑集成](concepts/备自投逻辑集成.md) - 利用继保装置内置可编程逻辑实现复杂电源切换，简化架构并支持 GOOSE/硬接线通信。
+- [数字孪生变电站](concepts/数字孪生变电站.md) - 利用数字孪生和AI技术实现变电站全景可视化、跨站数据研判和业务联动的智能运维模式。
 - [故障解列装置](concepts/故障解列装置.md) - 安全自动装置，用于在故障时将系统解列，保障重合闸、变压器绝缘和重要用户供电。
 - [光差保护](concepts/光差保护.md) - 光纤电流差动保护，推荐作为分布式小电源并网线路的主保护，实现全线速动。
 - [RM6 SeT 安装与土建要求](concepts/rm6-set-installation-requirements.md) - 汇总RM6 SeT柜体尺寸、重量、安装间距（后墙≥20mm、房顶≥100mm、侧面≥30/450mm）及电缆弯曲半径（≤150mm²时R=500mm）等土建与安装规范。

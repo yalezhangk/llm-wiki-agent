@@ -8,6 +8,146 @@ Parse recent entries: `grep "^## \[" wiki/log.md | head -10`
 
 ---
 
+## [2026-11-18] ingest | 220kV/110kV/10kV变电站设计计算公式大全
+
+Added source. Key claims: 短路计算基准容量S_b为100MVA，基准电压选平均额定电压（220kV对应30kV，110kV对应115kV，10kV对应10.5kV）。; 220kV侧K1点三相对称短路电流为2.22kA，冲击短路电流为5.56kA。; 110kV侧K2点三相对称短路电流为4.17kA，冲击短路电流为10.62kA。; 10kV侧K3点未加装电抗器时短路电流为35.96kA，加装XKGKL-10-1500-8限流电抗器后降至23.54kA，满足小于25kA的要求。; 220kV侧母线选择LGJ-300/25钢芯铝绞线，110kV侧母线选择LGJ-800/55钢芯铝绞线，10kV侧母线选择每相2条100mm×1.3mm矩形铝导体。; 220kV侧断路器选择LW2-220，110kV侧母线断路器选择LW-110 I/2500，10kV侧母线断路器选择ZN12-10/1250。; 220kV侧电流互感器选择LCWB2-220，110kV侧电流互感器选择LCWB6-110W2，10kV侧电流互感器选择LBJ-10。; 220kV侧避雷器选用YH10WZ-192/500，110kV侧选用YH10WX-108/289，10kV侧选用YH5WZ-17/45。; 变压器轻瓦斯保护整定气体容积为280cm³，重瓦斯保护整定油流速度为1.1m/s。; 变压器纵差动保护选择110kV侧为基本侧，使用BCH-1型继电器，比率制动系数Kres为0.556。; 10kV侧母线电流互感器额定一次电流需大于1342.767A，环境温度修正系数K约为0.8498。; 当计算电抗X_ca*大于3.45时，系统被视为无限大系统。; 10kV侧K3点单相接地短路电流为0kA，因零序等值电抗为无穷大。; 10kV侧K3点两相短路及两相短路接地总短路电流均为19.075kA。; 高压开关柜选用KYN28-12，额定电流2500A，动稳定电流100kA。; 无功补偿装置选用KWWB-400B，合计容量1602kvar，满足功率因数从0.85补偿到0.91的需求。; 变压器过负荷保护动作电流整定值为558.155A，基于高压侧额定电流451.84A计算。; 220kV侧复合电压闭锁过电流保护电流整定值为637.89A，灵敏度Ksen为2.96。; 110kV侧复合电压闭锁过电流保护电流整定值为1275.780A，灵敏度Ksen为2.78。; 10kV侧复合电压闭锁过电流保护电流整定值为13972.85A，灵敏度Ksen为1.68。
+
+## [2026-11-18] ingest | 工业机器人健康监测与智能维护系统RobotAgent
+
+Added source. Key claims: RobotAgent is a web-based prototype for UR5 robot maintenance, integrating JLSTM, LLM-Gra, HMM-TCN, IASTGN, and Particle Filtering for degradation prediction, diagnosis, health assessment, pose error prediction, and lifetime estimation.
+
+## [2026-11-18] ingest | RCA根因分析：设备故障为什么不能只停留在5Why—WCM实战工具箱：专业维护PM、可靠性与维修管理工具篇
+
+Added source. Key claims: RCA is a systematic root cause analysis method, not just 5Why. It requires fact collection, process reconstruction, mechanism analysis, evidence verification, and preventive measures. It distinguishes technical, detection, and management causes. It provides a 9-step implementation process and a checklist for quality assurance.
+
+## [2026-11-18] ingest | 中低压成套设备存量业务机会见解
+
+Added source. Key claims: 国内服役超15年老旧配电柜占存量总量35%以上，设备进入集中淘汰、改造周期。; 低压成套存量规模超2400亿元，中压开关柜存量超1400亿元。; 存量业务毛利率普遍高于整机销售，硬件毛利率为15%-22%，改造/运维服务毛利率为25%-40%。; 政策明确淘汰运行超25年、能效不达标配电设备，2025年前全面淘汰S7/S8老旧配变。; 工业存量替换年均超600亿元，增速12%以上。; 柜体利旧+内部元器件智能化升级的改造成本仅为新设备采购的40%-60%。; 智能改造在存量升级中占比从2023年27%提升至2026年超40%。; 70%存量项目优先选择柜体保留、内部智能化升级。; 2024-2027年全面推进输配电老旧设备更新改造，中央预算内资金支持老旧变电站、配电房改造。; 2026年前地市级配网自愈化覆盖率需达到95%以上。; 新版GB/T 7251.1-2023标准提高了成套设备电弧防护、热稳定、智能化监测硬性标准。; 存量业务市场增速为10%-15%高速增长，而传统增量设备销售为平稳个位数增长。
+
+## [2026-11-18] ingest | 预测性维修（PdM）概念解读报告
+
+Added source. Key claims: PdM 是建立在 CBM 基础上的预测性维修策略，核心是 RUL 估计和数据闭环；RCM 是策略选择的顶层框架；PdM 不适用于无退化过程或数据基础薄弱的场景；轨道交通中典型应用包括轮对、牵引电机、制动系统等。
+
+## [2026-11-18] ingest | 基于 LLM-WIKI 构建可追溯的中压产品知识库
+
+Added source. Key claims: 介绍了中压市场部利用 LLM-Wiki 架构构建可追溯产品知识库的实践，包括入库流程、问答溯源机制及系统架构（llm-wiki-agent, wiki-backend, quartz）。
+
+## [2026-11-18] ingest | 10kV开关操作机构维护不到位=定时炸弹？这份清单请收好
+
+Added source. Key claims: 10kV 开关操作机构维护四步法（拆卸、清洗、润滑、安装），安全风险控制措施（触电、机械夹伤），作业前准备及终结验收标准。
+
+## [2026-11-18] ingest | 断路器到底怎么"断"的？一文讲透原理、机构与操作
+
+Added source. Key claims: 断路器定义与五大部分组成；SF6单压气吹与真空介质强度恢复灭弧原理；电磁、弹簧、液压操动机构优缺点对比；SF6断路器瓷柱/落地罐/手车式结构；遥控/远控/近控三种操作方法。
+
+## [2026-11-18] ingest | “十五五”解读②：主配微协同，为什么不是建设三个独立的智能系统？
+
+Added source. Key claims: 主配微协同的核心是决策权分配而非简单数字化；主网管目标、配网管边界、微网管资源；配电网角色重构为资源协调网络；AI用于跨层级认知压缩；建设顺序应先定规则后建智能。
+
+## [2026-11-18] ingest | 报文数据中的大端和小端字节序解析
+
+Added source. Key claims: 详细解析了 IEC 60870-5-104、DL/T 645、Modbus 和 IEC 61850 等主流电力规约的字节序定义（104/645 为小端，Modbus/61850 为大端），并提供了短浮点、BCD 码和 CP56Time2a 时标的典型解析错误案例与工程实践建议。
+
+## [2026-11-18] ingest | 中压系统智能化开关设备
+
+Added source. Key claims: GE iVB 智能断路器通过集成传感与保护单元取代传统分立元件，降低成本并简化设计；GE iPV-Dual 智能开关柜采用双层回路设计，通过 HMI 实现 IEC61850/Modbus 通讯，提供高集成度的中压配电解决方案。
+
+## [2026-11-18] synthesis | PIX 和 DNF 7柜型有什么区别？若是高海拔的场景我该选用什么柜子？
+
+Saved chat answer 38 from chat 19 to syntheses/pix-和-dnf-7柜型有什么区别若是高海拔的场景我该选用什么柜子.md.
+
+## [2026-11-18] ingest | 四级配电，颠覆数据中心直流供电方案
+
+Added source. Key claims: VoltServer的Digital Electricity技术通过数字校验式电力数据包传输和毫秒级故障切断，解决数据中心高压直流配电的安全与能效问题。该技术与800V HVDC架构互补，适用于集装箱式、预制模块化和边缘数据中心。
+
+## [2026-11-18] ingest | 小知识：10kV真空断路器的合分闸原理
+
+Added source. Key claims: 10kV 真空断路器依靠高真空腔体灭弧；核心设备包括真空灭弧室、弹簧/永磁操动机构及支撑绝缘件；详细阐述了弹簧机构的合分闸储能释放过程；解释了真空灭弧原理（电流过零点熄灭、金属蒸气凝聚恢复绝缘）；补充了永磁机构寿命（>30000次）和分闸速度（≤30ms）数据。
+
+## [2026-11-18] ingest | 2026预测性维护完整解决方案：业务价值牵引+数据+知识图谱+AI模型+闭环+智能体六维一体化体系
+
+Added source. Key claims: 提出以业务价值为顶层牵引的六维一体化预测性维护方案，强调设备ABC分级、高质量数据治理（过滤95%无效数据）、知识图谱用于故障根因解释、分层AI模型（含GNN）以及多工业智能体协同执行，解决“AI好看不落地”的行业痛点。
+
+## [2026-11-18] ingest | 开关柜环网应用
+
+Added source. Key claims: Clarified RMU as an application topology rather than a specific cabinet type; identified expanding ring main applications in data centers and wind farms requiring higher currents (4000A) and short-circuit capacities (40kA); recommended eco-friendly gas-insulated switchgear for space-constrained high-current scenarios and outdoor switchgear for cost-sensitive applications.
+
+## [2026-11-18] ingest | 小知识：10kV开关柜和断路器的基础操作
+
+Added source. Key claims: 介绍了 ABB UniGear ZS1 开关柜和 VD4 断路器的基础操作，包括小车摇进摇出（约 20 圈）、手动储能（New VD4 内置/CL VD4 外置手柄）、接地开关操作（竖直插入手柄，180° 旋转）及 PT 小车拉出步骤。
+
+## [2026-11-18] ingest | 能源管理系统开源！几百万研发的强大系统现免费开源！
+
+Added source. Key claims: Introduction of Deep-EMS, an open-source enterprise energy management system based on Ruoyi and MQTT. It covers energy monitoring, carbon asset management, and EV charging scenarios, claiming to reduce energy costs by 8-18% and support compliance with 2026 energy regulations.
+
+## [2026-11-18] ingest | 绿电直连项目如何倒算储能配置？
+
+Added source. Key claims: 提出绿电直连项目储能配置应基于自发自用目标和接网容量目标反向倒算，而非按装机比例正向配置；详细阐述了功率与容量的倒算公式及经济性校验逻辑，强调容量压降收益的结算认可度对投资回收期的关键影响。
+
+## [2026-11-18] ingest | 算力中心的几种典型负荷曲线
+
+Added source. Key claims: AIDC IT 负荷由 GPU、网络、存储和管理柜构成；区分了底座、训练、推理和微调四种负荷特征；训练负荷具有调度价值，推理负荷实时性强；负荷曲线影响接入容量、绿电匹配和储能价值；区域算力布局应基于电价、绿电和客户密度进行差异化定位。
+
+## [2026-11-18] ingest | 大型AIDC供电架构：2N、分层冗余与绿电直连
+
+Added source. Key claims: 大型AIDC供电架构正从全负荷2N向分层冗余（DR/RR）及绿电直连转型；2N、DR、RR是三种不同的供配电系统组织方式，分别适用于不同可靠性需求的负荷；内部冗余配置与外部电网接网容量是两个独立的逻辑维度；绿电直连可通过新能源专线、储能和柔性调度解决电网容量瓶颈并降低投资成本；未来趋势是按业务价值分层、按故障影响配置、按能源条件调节的混合供电体系。
+
+## [2026-11-18] ingest | 小知识（5）数据中心柴发并机特点
+
+Added source. Key claims: IDC柴发采用N+1/N+2冗余配置；并机需满足电压(±5%)、频率(<0.2Hz/0.5Hz)、相位同步条件；接维前需进行稳态、带载、瞬态及并机逻辑等三方测试。
+
+## [2026-11-18] ingest | 小知识：IDC中压配电室（五）10kV母线PT柜
+
+Added source. Key claims: 10kV 母线 PT 柜作为电压信号总源头，服务于综保、BZT 及测控；详细阐述了 PT 自动并列逻辑、零序过电压保护（绝缘监察）；明确了一次消谐器（LXQ）与微机消谐装置在区分单相接地与铁磁谐振、抑制振荡能量方面的配合机制。
+
+## [2026-11-18] ingest | 西门子智能电气数字化云展厅直流专区正式开放！
+
+Added source. Key claims: Siemens launched a digital cloud showroom for its DC zone, featuring an HVDC 800V architecture aligned with NVIDIA's technology roadmap. Detailed specs for DC breakers (1000V/2000A), contactors (3VA platform), and isolators were provided, highlighting applications in data centers, solar, and storage.
+
+## [2026-11-18] ingest | 教你三分钟读懂典型故障波形数据
+
+Added source. Key claims: 高频保护动作的五项判据；变压器故障波形分析方法；结合系统接地方式判断故障类型。
+
+## [2026-11-18] ingest | 预测性维护为什么越做越不准
+
+Added source. Key claims: 预测性维护失准的六大断点（目标、标签、工艺、决策等）；强调事件账本和决策链的重要性；提出四层评估体系（模型、时间、维护、经营）；建议从单设备单失效模式入手，采用影子模式验证。
+
+## [2026-11-18] ingest | 断路器装进开关柜后，温升限值就变高了？
+
+Added source. Key claims: 解释了低压断路器在自由空气与开关柜内温升限值差异的原因，列出了 IEC 60439-1 和 IEC 60947-2 中不同部件的温升限值，并澄清了 70K、80K 和 85K 的关系。
+
+## [2026-11-18] ingest | 预测性维护：从报警到预测的最后一公里
+
+Added source. Key claims: 预测性维护落地面临数据质量、算法适配和业务流程重构三大障碍；GE、西门子、美的、三一、宁德时代等案例说明成功依赖于数据、算法和流程的协同优化；适用条件为故障代价高且有足够历史故障数据的设备。
+
+## [2026-11-18] ingest | 小知识：数据中心常规中压系统逻辑（四）故障叠加
+
+Added source. Key claims: 定义了中压系统故障叠加时的四种核心逻辑：手动分闸闭锁 BZT、PT 断线闭锁 BZT、多路保护动作后逻辑终止需人工干预、以及特殊失电下柴发自投但母联不自投。创建了概念页 [[故障叠加逻辑]]。
+
+## [2026-11-18] ingest | FTA 故障树分析基础知识
+
+Added source. Key claims: Defined Fault Tree Analysis (FTA) as a top-down deductive reliability tool; detailed standard symbols (events and logic gates); outlined the 5-step analysis method including minimal cut set identification; provided a conveyor belt failure example; and listed common field pitfalls.
+
+## [2026-11-18] ingest | 工业设备故障监测进入深水区：为什么深度学习还绕不开数据、边缘和可信诊断？
+
+Added source. Key claims: 1. 资源受限环境下的故障诊断需关注数据稀缺、边缘算力和误报成本。 2. 云边协同架构是解决高频数据上传和实时检测矛盾的关键。 3. 模型选型（CNN/Transformer/LSTM）需结合具体任务（局部模式/长程依赖/寿命预测）。 4. 现场部署需重视数据闭环和可信诊断，而非仅追求离线指标。
+
+## [2026-11-18] ingest | 设备预测性维护及整机看护方案：重塑工业设备运维管理模式
+
+Added source. Key claims: 介绍了基于 GB/T 40571-21 标准的工业设备预测性维护方案，涵盖五层架构、AI 故障知识图谱、三级预测能力（告警-寿命-整机）及 EAM/ERP/MES 业务闭环。量化效益包括非计划停机降低 40-60%，运维成本下降 20-35%，设备寿命提升 10-18%。
+
+## [2026-11-18] ingest | 风机异常提前预警：1D-CNN 如何从 SCADA 时间序列数据里抓住故障苗头？
+
+Added source. Key claims: 1D-CNN 是风机 SCADA 数据异常检测的稳健基线（85% 准确率，94% AUC）；CNN-LSTM Attention Fusion 可进一步提升性能；核心在于数据窗口切分、时间特征工程和运维闭环，而非单纯追求复杂模型。
+
+## [2026-11-18] ingest | 小知识：IDC中压配电室（九）10kV分段开关柜
+
+Added source. Key claims: 10kV 分段开关柜用于单母线分段系统，实现电源互通和故障转供电；核心作用包括正常分列运行、故障 BZT 合闸、故障保护和短路开断；A 级数据中心选用集成母联保护和 BZT 的一体化微机保护装置；母联保护包括限时速断、过电流、充电保护、零序过流和过负荷保护。
+
+## [2026-11-18] ingest | 小知识：IDC中压配电室（八）10kV分段隔离柜
+
+Added source. Key claims: 10kV 分段隔离柜配置隔离手车，无灭弧能力，用于在母联断路器检修时提供可视隔离断口；通过电气联锁强制“先投隔离后合闸、先分闸后拉隔离”的操作顺序；备自投（BZT）合闸出口受隔离手车工作位置接点闭锁，确保物理安全。
+
 ## [2026-11-13] ingest | 配电室运维困局怎么破？云平台系统才是治本之策
 
 Added source. Key claims: 传统配电室存在“人工巡检、事后抢修”困局；云平台系统通过接入综保、温感、局放及环境传感器，实现远程监控和主动预防；该方案有助于消除隐患、减少无效停电并快速定位故障。

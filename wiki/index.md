@@ -8,6 +8,40 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Overview](overview.md) — living synthesis across all sources
 
 ## Sources
+- [220kV/110kV/10kV变电站设计计算公式大全](sources/220kv-110kv-10kv-substation-design-calculation-formula-collection.md) - 本文档为《220kV/110kV/10kV变电站设计计算公式大全》的结构化知识提取，涵盖短路电流计算、电气设备选择及主变压器保护整定运算。内容基于基准容量100MVA，详细计算了220kV、110kV及10kV母线侧的三相对称及不对称短路电流，并针对10kV侧短路电流过大的情况设计了限流电抗器方案（型号XKGKL-10-1500-8）。文档还规定了母线、断路器、隔离开关、互感器、避雷器等设备的选型参数及热/动稳定校验结果，并提供了变压器瓦斯保护、纵差动保护及过负荷保护的整定计算依据。
+- [工业机器人健康监测与智能维护系统RobotAgent](sources/robot-agent-industrial-robot-health-monitoring-system.md) - 基于微信元数据摘要的 RobotAgent 系统介绍，涵盖 UR5 机械臂的 JLSTM、LLM-Gra 等核心预测与诊断模块。
+- [RCA根因分析：设备故障为什么不能只停留在5Why—WCM实战工具箱：专业维护PM、可靠性与维修管理工具篇](sources/rca-root-cause-analysis-wcm-toolbox.md) - 详细阐述RCA在设备故障管理中的应用，强调系统性根因分析和防再发措施设计。
+- [中低压成套设备存量业务机会见解](sources/zhong-di-ya-cheng-tao-she-bei-cun-liang-ye-wu-ji-hui-jian-jie.md) - 本文档深入分析中低压成套设备存量市场的六大核心业务机会，涵盖老旧设备替换、智能化升级、分布式能源配套、全生命周期运维、能效节能改造及数字化合规改造。数据显示，国内服役超15年老旧配电柜占存量总量35%以上，低压成套存量规模超2400亿元，中压开关柜存量超1400亿元。存量业务毛利率显著高于整机销售，硬件毛利率为15%-22%，而改造/运维服务毛利率达25%-40%。政策层面，国家明确淘汰运行超25年及能效不达标的配电设备，并规定2025年前全面淘汰S7/S8老旧配变；2024-2027年全面推进输配电老旧设备更新改造，中央预算内资金予以支持。市场趋势显示，工业存量替换年均超600亿元，增速超12%；智能改造在存量升级中占比预计从2023年的27%提升至2026年的40%以上。70%的存量项目优先选择柜体保留、内部智能化升级，其改造成本仅为新设备采购的40%-60%。此外，新版GB/T 7251.1-2023标准提高了电弧防护、热稳定及智能化监测的硬性要求，2026年前地市级配网自愈化覆盖率需达95%以上。文档建议企业从硬件销售向全生命周期服务转型，抓住政策红利与市场增长机遇。
+- [预测性维修（PdM）概念解读报告](sources/predictive-maintenance-pdm-concept-report.md) - 系统解读 PdM 概念、数据闭环五步、与 CBM/RCM 的关系及轨道交通应用场景，强调数据基础与适用边界。
+- [基于 LLM-WIKI 构建可追溯的中压产品知识库](sources/llm-wiki-traceable-medium-voltage-knowledge-base.md) - 介绍中压市场部利用 LLM-WIKI 架构构建可追溯产品知识库的实践，涵盖入库流程、问答溯源及系统架构。
+- [10kV开关操作机构维护不到位=定时炸弹？这份清单请收好](sources/10kv-switch-operating-mechanism-maintenance-checklist.md) - 10kV 开关操作机构维护作业标准流程、安全风险控制及工器具清单。
+- [断路器到底怎么"断"的？一文讲透原理、机构与操作](sources/circuit-breaker-principle-mechanism-operation.md) - 系统介绍断路器定义、结构、SF6/真空灭弧原理、操动机构对比及操作方法的培训材料。
+- [“十五五”解读②：主配微协同，为什么不是建设三个独立的智能系统？](sources/shiwuwu-jiedu-2-zhu-pei-wei-xietong.md) - 解析主配微协同的本质是决策权分配与能力抽象，而非简单的三层数字化，强调配电网作为资源协调层的角色重构。
+- [报文数据中的大端和小端字节序解析](sources/big-endian-little-endian-protocol-parsing.md) - 解析电力规约（104/645/Modbus/61850）中字节序差异及典型解析错误案例
+- [中压系统智能化开关设备](sources/zhongya-xitong-zhinenghua-kaiguan-shebei.md) - 介绍 GE 公司 iVB 智能断路器和 iPV-Dual 智能开关柜，强调一次二次设备融合与系统集成优势。
+- [四级配电，颠覆数据中心直流供电方案](sources/four-level-distribution-digital-electricity-data-center.md) - 介绍VoltServer的Digital Electricity技术，通过数字校验式电力数据包传输和毫秒级故障切断，解决数据中心高压直流配电的安全与能效问题。
+- [小知识：10kV真空断路器的合分闸原理](sources/idc-10kv-vcb-closing-opening-principle.md) - 介绍 10kV 真空断路器的核心设备、合分闸原理及真空灭弧机制。
+- [2026预测性维护完整解决方案：业务价值牵引+数据+知识图谱+AI模型+闭环+智能体六维一体化体系](sources/predictive-maintenance-six-dimensional-integrated-system.md) - 提出以业务价值为牵引，结合数据治理、知识图谱、分层AI、运维闭环及多智能体协同的六维一体化预测性维护落地方案。
+- [开关柜环网应用](sources/switchgear-ring-network-application.md) - 综述RMU应用定义、新能源/数据中心高电流环网需求及环保气体绝缘/户外开关柜的适用性对比
+- [小知识：10kV开关柜和断路器的基础操作](sources/idc-10kv-switchgear-breaker-basic-operations.md) - 介绍 ABB UniGear ZS1 开关柜及 VD4 断路器的小车摇进摇出、手动储能、接地开关及 PT 小车操作规范。
+- [能源管理系统开源！几百万研发的强大系统现免费开源！](sources/energy-management-system-open-source-deep-ems.md) - 介绍基于 Ruoyi 和 MQTT 的开源企业级能源管理系统 Deep-EMS，涵盖能耗监控、碳管理及光储充场景。
+- [绿电直连项目如何倒算储能配置？](sources/lv-dian-zhi-lian-xiang-mu-ru-he-dao-suan-chu-neng-pei-zhi.md) - 阐述绿电直连项目中基于自发自用目标和接网容量目标反向倒算储能功率与容量的方法论及经济性校验逻辑。
+- [算力中心的几种典型负荷曲线](sources/typical-load-curves-of-computing-power-centers.md) - 分析 AIDC 中 GPU、网络、存储等机柜负荷构成，区分训练、推理、微调及底座负荷特征，探讨负荷曲线对绿电匹配、储能价值及区域算力布局的影响。
+- [大型AIDC供电架构：2N、分层冗余与绿电直连](sources/large-aidc-power-architecture-2n-tiered-redundancy-green-power.md) - 探讨大型AIDC从全负荷2N向分层冗余（DR/RR）及绿电直连转型的供电架构设计。
+- [小知识（5）数据中心柴发并机特点](sources/idc-dc-diesel-generator-parallel-operation.md) - 阐述数据中心柴发 N+1 冗余配置、并机同期条件（电压/频率/相位）及接维前三方测试内容。
+- [小知识：IDC中压配电室（五）10kV母线PT柜](sources/idc-mv-distribution-room-5-10kv-bus-pt-cabinet.md) - 介绍 10kV 母线 PT 柜的电压信号源定位、PT 自动并列逻辑及一次/微机消谐装置在抑制铁磁谐振中的配合机制。
+- [西门子智能电气数字化云展厅直流专区正式开放！](sources/siemens-digital-cloud-showroom-dc-zone.md) - 介绍西门子 800V HVDC 直流配电产品矩阵及与英伟达技术路线的匹配性。
+- [教你三分钟读懂典型故障波形数据](sources/teach-you-to-read-typical-fault-waveform-data-in-three-minutes.md) - 通过案例演示如何分析典型故障波形，包括高频保护判据和变压器故障诊断。
+- [预测性维护为什么越做越不准](sources/why-predictive-maintenance-gets-less-accurate.md) - 剖析预测性维护落地失准的六大断点，强调事件定义、标签质量和决策链的重要性。
+- [断路器装进开关柜后，温升限值就变高了？](sources/circuit-breaker-temperature-rise-limits-in-switchgear.md) - 解析低压断路器在自由空气与开关柜内温升限值差异及 IEC 标准对应关系
+- [预测性维护：从报警到预测的最后一公里](sources/predictive-maintenance-from-alarm-to-prediction.md) - 分析预测性维护落地的三大障碍：数据质量、算法适配和业务流程重构，并引用GE、西门子、美的、三一、宁德时代等案例说明成功要素。
+- [小知识：数据中心常规中压系统逻辑（四）故障叠加](sources/idc-mv-system-logic-4-fault-superposition.md) - 阐述数据中心中压系统在故障叠加场景下的备自投闭锁逻辑、柴发自投条件及馈线合闸控制策略。
+- [FTA 故障树分析基础知识](sources/fta-fault-tree-analysis-basics.md) - 介绍故障树分析（FTA）的定义、符号、五步分析法及最小割集求解，用于可靠性与风险分析。
+- [工业设备故障监测进入深水区：为什么深度学习还绕不开数据、边缘和可信诊断？](sources/industrial-equipment-fault-monitoring-deep-learning-data-edge-trustworthy-diagnosis.md) - 分析资源受限环境下工业机械故障诊断的挑战，强调云边协同、数据治理及可信诊断闭环的重要性。
+- [设备预测性维护及整机看护方案：重塑工业设备运维管理模式](sources/equipment-predictive-maintenance-and-whole-machine-care-solution.md) - 介绍基于 GB/T 40571-21 和 AI 大模型的工业设备预测性维护方案，涵盖五层架构、三级预测能力及量化运维效益。
+- [风机异常提前预警：1D-CNN 如何从 SCADA 时间序列数据里抓住故障苗头？](sources/wind-turbine-anomaly-early-prediction-1d-cnn-scada.md) - 分析 1D-CNN 和 CNN-LSTM 融合模型在风机 SCADA 数据异常检测中的表现，强调 1D-CNN 作为稳健基线的价值及工程闭环的重要性。
+- [小知识：IDC中压配电室（九）10kV分段开关柜](sources/idc-mv-distribution-room-9-10kv-section-switchgear.md) - 介绍 10kV 分段开关柜的功能、核心作用及母联保护配置，强调 BZT 备自投和一体化保护装置在 IDC 中的应用。
+- [小知识：IDC中压配电室（八）10kV分段隔离柜](sources/idc-mv-distribution-room-8-10kv-section-isolation-cabinet.md) - 解析 10kV 分段隔离柜在 IDC 配电室中的电气断开点功能、五防联锁逻辑及与备自投（BZT）的闭锁关系。
 - [配电室运维困局怎么破？云平台系统才是治本之策](sources/peidian-shi-yunwei-kunju-zhenme-po-yunpingtai-xitong-caishi-zhiben-zhi-ce.md) - 分析传统配电室运维困局，提出基于云平台系统的数字化主动预防解决方案。
 - [断路器操作机构全解析：原理、类型与选型要点](sources/circuit-breaker-operating-mechanism-analysis.md) - 系统介绍断路器操作机构类型、原理、优缺点及 VD4/VS1 典型机构详解
 - [电力专网也有等级保护，而且比互联网等保要求更高](sources/power-dedicated-network-classified-protection.md) - 阐述电力调度数据网在等级保护中的高定级标准、16字安全方针及区别于互联网等保的特殊防护手段与监管机制。
@@ -91,6 +125,13 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Premset 产品手册](sources/premset-product-brochure-2012.md) — 2012 手册补充 Premset 的 `2SIS` 起源、智能电网叙事、无 `SF6`、`50%` 占地缩减和三工位一体卖点
 
 ## Entities
+- [XKGKL-10-1500-8限流电抗器](entities/xkgkl-10-1500-8-current-limiting-reactor.md) - 描述XKGKL-10-1500-8限流电抗器的10kV/1500A/8%参数及其将K3点短路电流降至23.54kA的应用效果。
+- [RobotAgent](entities/RobotAgent.md) - 面向 UR5 机械臂的 Web 化健康监测与智能维护原型系统，集成多种预测与诊断算法。
+- [GB/T 7251.1-2023](entities/gb-t-7251-1-2023.md) - 记录新版国家标准 GB/T 7251.1-2023 对成套设备电弧防护、热稳定及智能化监测的硬性要求。
+- [GE iPV-Dual](entities/GE-iPV-Dual.md) - GE 公司研发的中压智能双层开关柜，基于 iVB 断路器，提供低成本、高集成的配电解决方案。
+- [GE iVB](entities/GE-iVB.md) - GE 公司研发的中压智能真空断路器，集成传感、保护与通讯功能，实现一次二次设备融合。
+- [VoltServer](entities/VoltServer.md) - 提出Digital Electricity技术，通过数字校验式电力数据包传输和毫秒级故障切断，解决数据中心高压直流配电的安全与能效问题。
+- [Deep-EMS](entities/Deep-EMS.md) - 基于 Ruoyi 和 MQTT 的开源企业级能源管理系统，支持能耗监控、碳管理及光储充场景。
 - [SE系列电缆附件与避雷器](entities/se-series-cable-accessories.md) - 介绍施耐德SE系列可分离式电缆附件及T型后插避雷器的技术参数、15kV/20kV电压等级下的电缆截面选型规则及关键电气指标。
 - [Easergy P1 保护继电器](entities/easergy-p1.md) - Easergy P1 是 RM6 SeT 中的核心保护继电器，提供 ANSI 50/51/50N/51N/49 等保护功能，支持 Modbus/IEC60870-103 通信及 IP54 防护。
 - [SST (固态变压器)](entities/SST.md) - 利用电力电子变换器替代工频变压器的未来技术，与800V HVDC为接力关系。
@@ -140,6 +181,45 @@ This file is maintained by the LLM. Updated on every ingest.
 - [Link150](entities/Link150.md) — Smart HVX 接入链路中的智能网关
 
 ## Concepts
+- [主变压器保护整定](concepts/main-transformer-protection-setting.md) - 记录主变压器轻/重瓦斯、纵差动（BCH-1继电器）、接地短路及过负荷保护的整定值计算与灵敏度校验。
+- [电气设备选择与校验](concepts/electrical-equipment-selection-and-verification.md) - 汇总220kV、110kV及10kV侧母线、断路器、互感器及避雷器的选型型号、额定参数及热稳定校验标准。
+- [短路电流计算](concepts/short-circuit-current-calculation.md) - 阐述短路电流计算的基准参数（100 MVA）、公式及K1/K2/K3故障点在对称与不对称条件下的具体电流值。
+- [ParticleFiltering](concepts/ParticleFiltering.md) - RobotAgent 中用于寿命预测的算法模块。
+- [IASTGN](concepts/IASTGN.md) - RobotAgent 中用于位姿误差预测的算法模块。
+- [HMM-TCN](concepts/HMM-TCN.md) - RobotAgent 中用于健康评估与预测的算法模块。
+- [LLM-Gra](concepts/LLM-Gra.md) - RobotAgent 中用于图增强诊断的算法模块。
+- [JLSTM](concepts/JLSTM.md) - RobotAgent 中用于误差退化预测的算法模块。
+- [RCA根因分析](concepts/RCA根因分析.md) - 系统性根因分析方法，包含事实收集、过程还原、机理分析、证据验证和防再发措施设计。
+- [智能化升级](concepts/zhi-neng-hua-sheng-ji.md) - 阐述中低压成套设备智能化升级的成本优势（新购成本40%-60%）、客户偏好（70%项目选择）及市场占比趋势（2023年27%至2026年超40%）。
+- [存量业务](concepts/cun-liang-ye-wu.md) - 定义中低压成套设备领域的存量业务，涵盖老旧设备改造市场规模、10%-15%的高增速特征及高于整机销售的毛利率优势。
+- [以可靠性为中心的维修](concepts/以可靠性为中心的维修.md) - RCM 是维修策略选择的顶层框架，根据功能、故障模式与后果选择 RTF/TBM/CBM/PdM，是 PdM 实施的前提。
+- [LLM-Wiki](concepts/LLM-Wiki.md) - 一种结合 LLM 与 Wiki 结构的知识库构建方法，支持资料结构化入库与问答溯源。
+- [10kV开关柜](concepts/10kV开关柜.md) - 10kV 金属封闭成套配电装置，包含真空断路器及保护附件，用于中压配电。
+- [主配微协同](concepts/主配微协同.md) - 主网、配网、微网之间的决策权分配与能力抽象机制，强调配电网作为资源协调层的角色重构。
+- [字节序解析](concepts/字节序解析.md) - 解析电力规约（104/645/Modbus/61850）中字节序差异及典型解析错误案例
+- [Digital Electricity](concepts/Digital-Electricity.md) - 一种融合实时故障管控与柔性数字化配电的技术，通过分组式电力传输和毫秒级故障切断，提升数据中心高压直流配电的安全性和能效。
+- [工业智能体](concepts/工业智能体.md) - 在预测性维护中作为执行终端，通过数据采集、诊断、调度、库存等专用智能体协同，实现自主运维闭环。
+- [环网应用](concepts/环网应用.md) - 定义RMU为应用方式而非柜型，分析新能源/数据中心高电流环网需求及环保气体绝缘/户外开关柜的适用性
+- [储能配置倒算](concepts/储能配置倒算.md) - 基于自发自用目标和接网容量目标反向推导储能功率与容量的方法论，强调经济性校验。
+- [AIDC负荷曲线](concepts/AIDC负荷曲线.md) - 定义 AIDC 中由不同机柜类型和任务类型（训练、推理、微调）叠加形成的电力消耗特征，及其对供电、绿电和储能配置的影响。
+- [算电协同](concepts/算电协同.md) - 算力负荷参与能源调节，适应绿电出力波动，提高新能源直接供给算力的空间。
+- [绿电直连](concepts/绿电直连.md) - 通过新能源专线、储能和柔性调度，解决电网容量瓶颈并降低投资成本。
+- [RR供电架构](concepts/RR供电架构.md) - 后备式冗余供电模式，多套主用链+一套公共备用链，利用率可达80%。
+- [DR供电架构](concepts/DR供电架构.md) - 分布式冗余供电模式，多套电力链交叉供电，利用率高。
+- [2N供电架构](concepts/2N供电架构.md) - 高可靠性供电模式，两套独立完整电力链，利用率50%。
+- [AIDC供电架构](concepts/AIDC供电架构.md) - 大型AI数据中心供电系统设计，涵盖2N、DR、RR冗余模式及绿电直连策略。
+- [柴发并机同期](concepts/柴发并机同期.md) - 定义柴发并机需满足的电压、频率、相位同步条件及在 IDC 冗余配置中的应用。
+- [铁磁谐振](concepts/铁磁谐振.md) - 中压系统中 PT 与系统电容谐振导致的过电压现象，需通过一次消谐器和微机消谐装置抑制。
+- [故障录波](concepts/故障录波.md) - 记录故障期间电气量变化的技术，用于故障分析和保护调试。
+- [高频保护](concepts/高频保护.md) - 利用高频信号通信的线路保护方式，动作需满足五项判据。
+- [预测性维护实施断点](concepts/预测性维护实施断点.md) - 定义预测性维护落地中导致失准的六大关键断点，涵盖目标、标签、工艺、决策等维度。
+- [温升限值](concepts/温升限值.md) - 低压开关设备和断路器在不同连接条件下的温升限值标准及 IEC 对应关系
+- [故障叠加逻辑](concepts/故障叠加逻辑.md) - 定义数据中心中压系统在多重故障下的备自投闭锁、柴发自投及人工干预规则。
+- [故障树分析](concepts/故障树分析.md) - 一种自上而下的演绎式可靠性分析工具，通过逻辑门拆解故障原因并求解最小割集以识别风险。
+- [云边协同架构](concepts/云边协同架构.md) - 在工业故障监测中平衡边缘实时检测与云端模型更新的系统架构，适用于资源受限场景。
+- [风机异常检测](concepts/风机异常检测.md) - 基于 SCADA 时间序列的风机早期故障预警方法，强调 1D-CNN 基线、时间特征工程及工程闭环的重要性。
+- [母联保护](concepts/母联保护.md) - 介绍 10kV 分段开关柜的母联保护功能，包括限时速断、过电流、充电保护、零序过流和过负荷保护。
+- [分段隔离柜](concepts/分段隔离柜.md) - 中压配电系统中提供明显电气断开点、强制规范操作顺序并配合备自投闭锁的关键柜型。
 - [断路器操作机构](concepts/断路器操作机构.md) - 介绍断路器操作机构的主要类型、原理、优缺点及典型应用
 - [电力行业等级保护](concepts/电力行业等级保护.md) - 阐述电力调度数据网的高定级标准、16字安全方针、国密算法要求及国家能源局监管机制。
 - [备自投逻辑集成](concepts/备自投逻辑集成.md) - 利用继保装置内置可编程逻辑实现复杂电源切换，简化架构并支持 GOOSE/硬接线通信。
@@ -184,6 +264,7 @@ This file is maintained by the LLM. Updated on every ingest.
 
 ## Syntheses
 
+- [PIX 和 DNF 7柜型有什么区别？若是高海拔的场景我该选用什么柜子？](syntheses/pix-和-dnf-7柜型有什么区别若是高海拔的场景我该选用什么柜子.md) - synthesis
 - [PIX和DNF7有何区别？](syntheses/pix和dnf7有何区别.md) - synthesis
 ## Reports
 - [Health Report](health-report.md) — 最近一次保存的结构健康检查结果
